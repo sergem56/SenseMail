@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SenseMail - FAQ</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	
+</head>
+
+<body id="page-top">
+
+	<nav id="mainNav" class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+      			<li class="active"><a href="blog01.html">Back to blog</a></li> 
+    		</ul>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+	<section id="sensemail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                	<!--img src="../img/portfolio/logo-180.png" class="img-responsive center-block" alt=""-->
+                    <h2 class="section-heading">Frequently Asked Questions</h2>
+                    <hr class="primary">
+                    <a href="#addAccount">How to add your e-mail account?</a><br>
+                    <a href="#howToUseCert">How to use a certificate?</a><br>
+                    <a href="#howToExchangeCert">How to exchange a certificate?</a><br>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="addAccount">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<h3>How to add your e-mail account?</h3>
+                	<div class="col-lg-4 text-left"><br>
+                	<img src="img/how to-account settings.png" class="img-responsive center-block" alt=""></div>
+                	<p>1. Add settings name — this is for you to identify an account from which you got a mail message, if you have several ones</p>
+<p>2. Add user name — full e-mail address. After setting the user name the application will try to detect server settings — IMAP server, SMTP server and SMTP port.</p>
+<p>3. Add the password you use to login to the e-mail account.<br><i>If you use GMAIL service, SenseMail will ask you to login to GMAIL then you save the settings. There is no need to enter password here and it won't be stored by SenseMail.</i></p>
+<p>4. Add nick — a name that your recipients will see in their message list</p>
+<p>5. If mail server settings are not found, enter them manually — consult your e-mail service provider to get those settings</p>
+<p>6. Hit "Save" button</p>
+<p>7. Do additional account setup, if you use two factor authentication:</p>
+                	<p>Login to you e-mail account via a web browser.</p>
+                	<p>If you use two factor authentication you need to get an application-specific password and replace the password mentioned in p.3 above. Every e-mail provider has its own way to get an app-specific password. Please, refer to you e-mail service provider for exact instructions.<br>For example, Yahoo explains it here - <a href="https://help.yahoo.com/kb/generate-separate-password-sln15241.html"> https://help.yahoo.com/kb/generate-separate-password-sln15241.html</a><br>for Outlook mail read instructions here - <a href="https://support.microsoft.com/en-us/help/12409/microsoft-account-app-passwords-two-step-verification">https://support.microsoft.com/en-us/help/12409/microsoft-account-app-passwords-two-step-verification</a>.<br>For AOL mail read it here - <a href="https://help.aol.com/articles/2-factor-authentication-stronger-than-your-password-alone">https://help.aol.com/articles/2-factor-authentication-stronger-than-your-password-alone</a></p>
+                	<p>For GMAIL service you don't need to do it - we use OAuth 2.0 authentication that asks you to login to GMAIL and handles all of these.</p>
+                	
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="howToUseCert">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<h3>How to use a certificate?</h3><br>
+                	<div class="col-lg-4 text-left">
+                	<img src="img/how to-cert01.png" class="img-responsive center-block" alt=""></div>
+                	<p>Certificate is a powerful tool to protect your messages. It allows using a full power of a 256-bit key.</p>
+                	<p>For every of your contacts you can set up a certificate. This certificate is stored locally on your device. To store it safe, it is encrypted with a password, so when you send or receive a message from a person on your contact list, you need to enter that password, decrypt a certificate and use it to access a message.</p>
+                	<p>To be on a safe side we suggest that you use a unique password for every contact you have, so in case it gets compromised, the other certificates are not.</p>
+                	<p>You can easily change a password for a certificate, just re-save it and enter a new password.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="howToExchangeCert">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<h3>How to exchange a certificate?</h3><br>
+                	<p>Setting up a certificate is quite straightforward.</p>
+                	<p>On a device A:</p>
+                	<p>1a. Add a person to your contact list.</p>
+                	<p>2a. Tap "View or add a new certificate"</p>
+                	<p>3a. Generate a new certificate.</p>
+                	<p>4a. Save the certificate with a password. Remember that password, you will need it to send and receive messages from that contact!</p>
+                	<p>Now you have a certificate and you need the other party to scan it. The QR-presentation of a certificate is protected with a random password. Every time you open it, the password is different. You cannot view a QR-code and a password at a same time for security reasons.<br>On a device B:</p>
+                	<p>1b. The other party should add your address to the address book.</p>
+                	<p>2b. Tap "View or add a new certificate"</p>
+                	<p>3b. Tap "Scan QR" and scan the code.</p>
+                	<p>4b. Enter the password from the device A (field Pwd).</p>
+                	<p>5b. Save the certificate with a password</p>
+                	<p> Now you both have the same certificate, but saved with the different passwords. You can send a new message and SenseMail will try to get a certificate first. If the password is not correct, it asks you to enter it again or use that password instead of your certificate.</p>
+                	<p></p>
+                	<p></p>
+                </div>
+            </div>
+        </div>
+        
+    </section>    
+    <section class="no-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h4 class="section-heading">Contacts</h4>
+                    <hr class="primary">
+                    <p>Should you have any questions or need any further information, do not hesitate to contact us.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>CreepyTwo Labs Ltd. <a href="mailto:info@creepytwolabs.com">info@creepytwolabs.com</a></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">&copy; <script>document.write(new Date().getFullYear());</script> 
+      <a href="http://www.creepytwolabs.com" target="_blank">CreepyTwo Labs Ltd.</a> 
+      <h5><small>Developed by CreepyTwo Labs.</small></h5>
+       			</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

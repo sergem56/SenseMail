@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SenseMail - CreepyTwo Labs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	
+	
+</head>
+
+<body id="page-top">
+
+	<section id="sensemail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                	<img src="img/portfolio/logo-180.png" class="img-responsive center-block" alt="">
+                    <h2 class="section-heading">SenseMail Application for iOS</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Technical details</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<h2>Encryption, keys and security</h2>
+                    <p>SenseMail is a secure mail application. It uses user-supplied passwords to protect the data. An encryption key is derived from a password with a "slow hash" function. There are three types of passwords:</p>
+                    <ul>
+                    <li>Password to launch the application. With this password the app encrypts all local data, such as settings, local image gallery, notes and the address book. The encryption key is derived from the password using 88.888 rounds of PBKDF2-SHA512 algorithm. 256 bytes is used for salt, 256 bytes for a key. The number 88.888 has been chosen so that it takes about 2 seconds on iPhone 4S to get the key. So, set your password 8-9 characters long and there should be a really serious reason to brute force it. In case you entered a wrong password the app wouldn't tell you anything - it will just start with an empty database. You can fill it with data and use two or more configs.<br></li>
+                    <li>Password to protect a message leaving your device. This password can be a unique string for every message, you just need to tell it to the recipient of the message. Again, the encryption key is derived from the password in 88.888 rounds. But the salt here is generated randomly in 88 rounds and is transmitted in the message subject. The message subject is encrypted with a key, derived from the receivers e-mail address, so you'd better consider it insecure and don't write any sensitive information there.<br></li>
+                    <li>Password to protect a certificate. Every user can exchange certificates with another party and use it instead of a password. Use of a certificate drastically improves the security since it uses a full 256-bit key of random data whereas a password can't reach that degree of randomness. Each certificate is stored locally and is protected with a password. The encryption key is derived from the password in 3x88.888 rounds of PBKDF2.</li>
+                    </ul>
+                    <p>All the data being encrypted are GZIP-deflated first (except for image attachments - they are already compressed and another compression will just consume time and won't give anything to security). After that the data is encrypted with AES-256, HMAC-SHA256 is added and everything is converted to BASE64.</p>
+                    <h2>E-mail service provider</h2>
+                    <p>You can use any e-mail service provider that supports IMAP protocol. The connection is limited to TLS connections on port 993. The app will try to detect server settings once you entered your e-mail address.</p>
+                    <p>For better user experience use GMAIL service since it has the most complete features such as message starring, IMAP folders detection and some others.</p>
+                    <p>You can use several e-mail accounts, messages from every account will be shown in one list, sorted by date. You can access individual account through a menu.</p>
+                    <h2>Known limitations</h2>
+                    <p>Some information the app cannot hide. This is the data in message header, such as the IP-address from which the message is sent, time stamps, sender's and receiver's e-mail addresses. There might be some other data the e-mail service provider collects, but this is out of our control anyway. We do our best to protect the content of your message. If you really need a total control of your data you should consider running your own mail server.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <p>Visit <a href="http://www.creepytwolabs.com">www.creepytwolabs.com</a> for more information.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="no-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contacts</h2>
+                    <hr class="primary">
+                    <p>Should you have any questions about the application or need any further information, do not hesitate to contact us.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p>CreepyTwo Labs Ltd. <a href="mailto:info@creepytwolabs.com">info@creepytwolabs.com</a></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">&copy; <script>document.write(new Date().getFullYear());</script> 
+      <a href="http://www.creepytwolabs.com" target="_blank">CreepyTwo Labs Ltd.</a> 
+      <h5><small>Developed by CreepyTwo Labs.</small></h5>
+       			</div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
