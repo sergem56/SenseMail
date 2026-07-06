@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Finally, you need to add your mail box settings. You can always do it later by going to settings page and tapping a \"+\" button at the bottom of the page.\nDo you want to do it now?"; ObjectID = "6cO-wd-3hf"; */
+"6cO-wd-3hf.text" = "Finalmente, necesita agregar la configuración de su casilla de correo. Siempre puedes hacerlo más tarde yendo a la página de configuración y tocando el botón \"Añadir Cuenta\".\n¿Quieres hacerlo ahora?";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Aqh-N6-iJT"; */
+"Aqh-N6-iJT.normalTitle" = "Siguiente";
+
+/* Class = "UILabel"; text = "Welcome to SenseMail"; ObjectID = "Lnk-81-RwV"; */
+"Lnk-81-RwV.text" = "Welcome to SenseMail";
+
+/* Class = "UILabel"; text = "Welcome to SenseMail"; ObjectID = "NUr-Qf-XUs"; */
+"NUr-Qf-XUs.text" = "Welcome to SenseMail";
+
+/* Class = "UIButton"; normalTitle = "Yes, open the settings page"; ObjectID = "UQC-tv-FqO"; */
+"UQC-tv-FqO.normalTitle" = "Sí, abre la página de configuración";
+
+/* Class = "UILabel"; text = "To start using the App you need to create a password. This password is used to protect your settings, notes, images and the address book.\nYou'll need to enter this password every time you start the app."; ObjectID = "Xkz-xv-8Gd"; */
+"Xkz-xv-8Gd.text" = "Para comenzar a utilizar la aplicación, necesita crear una contraseña. Esta contraseña se usa para proteger sus configuraciones, notas, imágenes y la libreta de direcciones.\nTendrá que ingresar esta contraseña cada vez que inicie la aplicación.";
+
+/* Class = "UITextField"; placeholder = "Your password"; ObjectID = "aW0-Xb-4we"; */
+"aW0-Xb-4we.placeholder" = "contraseña";
+
+/* Class = "UIButton"; normalTitle = "No, thanks, I'll do it later"; ObjectID = "gPw-1M-R2w"; */
+"gPw-1M-R2w.normalTitle" = "No, gracias, lo haré más tarde";
+
+/* Class = "UILabel"; text = "Create a password:"; ObjectID = "jry-xi-QAa"; */
+"jry-xi-QAa.text" = "Crea una contraseña:";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "qZJ-LD-VdL"; */
+"qZJ-LD-VdL.normalTitle" = "Salida";

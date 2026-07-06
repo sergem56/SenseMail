@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Nickname:"; ObjectID = "5C7-BL-DJT"; */
+"5C7-BL-DJT.text" = "Nickname:";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "K8A-JV-eYR"; */
+"K8A-JV-eYR.text" = "Settings";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "Pi2-oE-AzZ"; */
+"Pi2-oE-AzZ.text" = "Password:";
+
+/* Class = "UILabel"; text = "SMTP Server:"; ObjectID = "RRj-l3-jwE"; */
+"RRj-l3-jwE.text" = "SMTP Server:";
+
+/* Class = "UILabel"; text = "IMAP Server:"; ObjectID = "UfK-Bi-XQN"; */
+"UfK-Bi-XQN.text" = "IMAP Server:";
+
+/* Class = "UILabel"; text = "Settings Name:"; ObjectID = "hf2-tT-4uX"; */
+"hf2-tT-4uX.text" = "Settings Name:";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "nAT-go-JNL"; */
+"nAT-go-JNL.text" = "User Name:";
+
+/* Class = "UILabel"; text = "SMTP port:"; ObjectID = "pjo-HM-HfH"; */
+"pjo-HM-HfH.text" = "SMTP port:";
+
+/* Class = "UILabel"; text = "465 or 587"; ObjectID = "t70-5B-PFv"; */
+"t70-5B-PFv.text" = "465 or 587";

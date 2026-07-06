@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Finally, you need to add your mail box settings. You can always do it later by going to settings page and tapping a \"+\" button at the bottom of the page.\nDo you want to do it now?"; ObjectID = "6cO-wd-3hf"; */
+"6cO-wd-3hf.text" = "Enfin, vous devez ajouter vos paramètres de boîte aux lettres. Vous pouvez toujours le faire plus tard en accédant à la page des paramètres et en appuyant sur un bouton \"Ajouter Compte\".\nVoulez-vous le faire maintenant?";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Aqh-N6-iJT"; */
+"Aqh-N6-iJT.normalTitle" = "Suivant";
+
+/* Class = "UILabel"; text = "Welcome to SenseMail"; ObjectID = "Lnk-81-RwV"; */
+"Lnk-81-RwV.text" = "Bienvenue à SenseMail";
+
+/* Class = "UILabel"; text = "Welcome to SenseMail"; ObjectID = "NUr-Qf-XUs"; */
+"NUr-Qf-XUs.text" = "Bienvenue à SenseMail";
+
+/* Class = "UIButton"; normalTitle = "Yes, open the settings page"; ObjectID = "UQC-tv-FqO"; */
+"UQC-tv-FqO.normalTitle" = "Oui, ouvrez la page des paramètres";
+
+/* Class = "UILabel"; text = "To start using the App you need to create a password. This password is used to protect your settings, notes, images and the address book.\nYou'll need to enter this password every time you start the app."; ObjectID = "Xkz-xv-8Gd"; */
+"Xkz-xv-8Gd.text" = "Pour commencer à utiliser l'application, vous devez créer un mot de passe. Ce mot de passe est utilisé pour protéger vos paramètres, notes, images et le carnet d'adresses.\nVous devez entrer ce mot de passe à chaque démarrage de l'application.";
+
+/* Class = "UITextField"; placeholder = "Your password"; ObjectID = "aW0-Xb-4we"; */
+"aW0-Xb-4we.placeholder" = "mot de passe";
+
+/* Class = "UIButton"; normalTitle = "No, thanks, I'll do it later"; ObjectID = "gPw-1M-R2w"; */
+"gPw-1M-R2w.normalTitle" = "Non merci, je le ferai plus tard";
+
+/* Class = "UILabel"; text = "Create a password:"; ObjectID = "jry-xi-QAa"; */
+"jry-xi-QAa.text" = "Créer un mot de passe:";
+
+/* Class = "UIButton"; normalTitle = "Exit"; ObjectID = "qZJ-LD-VdL"; */
+"qZJ-LD-VdL.normalTitle" = "Sortie";

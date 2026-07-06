@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "ALb-2J-gbV"; */
+"ALb-2J-gbV.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Text2"; ObjectID = "JB6-q0-Qo0"; */
+"JB6-q0-Qo0.text" = "Text2";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "SBz-At-wit"; */
+"SBz-At-wit.text" = "Text";
+
+/* Class = "UIButton"; normalTitle = "   Cancel   "; ObjectID = "kSD-FV-Gsd"; */
+"kSD-FV-Gsd.normalTitle" = "   Cancelar   ";
+
+/* Class = "UILabel"; text = "Header"; ObjectID = "r5h-sC-lES"; */
+"r5h-sC-lES.text" = "Header";

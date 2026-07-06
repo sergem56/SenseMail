@@ -1,0 +1,48 @@
+/* Class = "UIButton"; normalTitle = "More..."; ObjectID = "3sj-Bo-tsb"; */
+"3sj-Bo-tsb.normalTitle" = "Plus...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "66I-TA-GFw"; */
+"66I-TA-GFw.text" = "Étiquette";
+
+/* Class = "UINavigationController"; title = "INBOX"; ObjectID = "G35-0c-6ZR"; */
+"G35-0c-6ZR.title" = "BOÎTE DE RÉCEPTION";
+
+/* Class = "UIViewController"; title = "Messages"; ObjectID = "Hzm-Km-1Hb"; */
+"Hzm-Km-1Hb.title" = "Messages";
+
+/* Class = "UILabel"; text = "(22)"; ObjectID = "PsD-BM-n0J"; */
+"PsD-BM-n0J.text" = "(22)";
+
+/* Class = "UILabel"; text = "22.22.22 22.22"; ObjectID = "Tp7-sB-0gO"; */
+"Tp7-sB-0gO.text" = "22.22.22 22.22";
+
+/* Class = "UILabel"; text = "Load messages..."; ObjectID = "aqn-Ej-rWc"; */
+"aqn-Ej-rWc.text" = "Chargement des messages...";
+
+/* Class = "UILabel"; text = "222M"; ObjectID = "bmq-yu-BE5"; */
+"bmq-yu-BE5.text" = "222M";
+
+/* Class = "UILabel"; text = "Label@label.com"; ObjectID = "grf-sM-Jdi"; */
+"grf-sM-Jdi.text" = "Label@label.com";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "lIP-jJ-RYq"; */
+"lIP-jJ-RYq.text" = "Objet";
+
+/* Class = "UILabel"; text = "22.22.2222 22:22"; ObjectID = "mz8-Ly-fg4"; */
+"mz8-Ly-fg4.text" = "22.22.2222 22:22";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "u56-T6-HAu"; */
+"u56-T6-HAu.text" = "Nom";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "x20-Fw-Ehf"; */
+"x20-Fw-Ehf.text" = "Adresse";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "x37-AJ-ltu"; */
+"x37-AJ-ltu.normalTitle" = "Supprimer";
+
+/* Class = "UILabel"; text = "Subject"; ObjectID = "yEC-5e-kO9"; */
+"yEC-5e-kO9.text" = "Objet";
+
+/* Class = "UILabel"; text = "From:"; ObjectID = "z18-ku-euF"; */
+"z18-ku-euF.text" = "De :";
+

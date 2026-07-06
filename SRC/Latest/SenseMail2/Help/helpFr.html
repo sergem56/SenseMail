@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="Content-Style-Type" content="text/css">
+                <title></title>
+                <meta name="Generator" content="Cocoa HTML Writer">
+                    <meta name="CocoaVersion" content="1138.47">
+                        <style type="text/css">
+                            p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica}
+                            p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+                            li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            ul.ul1 {list-style-type: disc}
+                            img {vertical-align: middle}
+                            
+                            @media (prefers-color-scheme: dark) {
+                                body {
+                                    background-color: rgb(20,20,20);
+                                    color: white;
+                                }
+                                a:link {
+                                    color: #0096e2;
+                                }
+                                a:visited {
+                                    color: #9d57df;
+                                }
+                            }
+                            </style>
+    </head>
+    <body>
+        <!-- Images are absent in simulator, but on device are OK. But not on iOS 9. -->
+        <!--img src="logo.png" width=50 height=50 halign=center/-->
+        <p class="p1"><b>Qu'est-ce que SenseMail?</b></p>
+        <p class="p2">SenseMail est une application qui peut se connecter à votre fournisseur de services de messagerie préféré et protéger vos communications.</p><p class="p3"><br></p>
+        <p class="p2">Tout d'abord, la protection est la combinaison de pointe de compression, de cryptage et de signature - l'algorithme AES-256 standard pour le cryptage, gzip pour la compression, HMAC et AONT pour la signature et la vérification.</p><p class="p3"><br></p>
+        <p class="p2">Deuxièmement, nous utilisons PBKDF-SHA512 pour dériver la clé de chiffrement des données initiales. Le nombre de tours varie au hasard de près de 300K à près de 800K pour être sûr qu'il est suffisamment grand pour rendre le forçage brut impossible.</p><p class="p3"><br></p>
+        <p class="p2">Le dernier mais non le moindre est le moyen d'obtenir les données initiales pour la clé de chiffrement. Il y a trois possibilités:</p>
+        <p class="p3"><br></p>
+        <p class="p2">1. Un mot de passe. Les options les plus faibles, qui présentent cependant plusieurs avantages distincts: une communication sans effort et une flexibilité extrême. Il existe de nombreuses façons de dire un mot de passe en toute sécurité à votre homologue. Vous pouvez définir un mot de passe différent pour chaque message si vous le souhaitez.</p>
+        <p class="p3"><br></p>
+        <p class="p2">2. Une clé fixe. L'option forte. Une clé 256 bits complète qui est en outre mutée pour être différente pour chaque message envoyé. Générez un certificat fixe sur un appareil et scannez un QR-code par l'autre.</p>
+        <p class="p3"><br></p>
+        <p class="p2">3. Un certificat unique. L'option la plus solide. Il s'agit d'une clé 256 bits complète à usage unique uniquement. De plus, une clé a un délai d'expiration. L'inconvénient est que pour échanger les certificats uniques dont vous avez besoin pour collecter deux appareils ensemble, il n'y a aucun moyen de le faire à distance.</p><br>
+        <p class="p1"><b>Alerte nouveaux messages</b></p><br>
+        <p class="p2">Il existe une option pour être averti lorsqu'un nouveau message arrive. Cependant, cette fonctionnalité a certaines limites. Nous utilisons une mécanique fournie par le système pour déclencher une vérification du courrier. Par conséquent, nous ne pouvons pas contrôler la fréquence à laquelle il est vérifié, car le système le décide en fonction du modèle d'utilisation de l'application. Si vous lancez régulièrement l'application, le délai est d'environ une à deux heures.</b></p><p class="p3"><br></p>
+        <p class="p1"><b>Autres caractéristiques</b></p>
+        <ul class="ul1">
+            <li class="li2">Aucun message électronique n'est conservé sur l'appareil</li>
+            <li class="li2">Non se plaint qu'un mot de passe est incorrect - chaque mot de passe vous connecte à un environnement de travail</li>
+            <li class="li2">Plusieurs comptes de messagerie avec une boîte de réception combinée</li>
+            <li class="li2">Stockage crypté local pour le carnet d'adresses, la galerie et les notes</li>
+            <li class="li2">Aucune connexion non sécurisée. Pas de TLS / SSL = pas de connexion</li>
+            <li class="li2">Bien que l'objet du message soit crypté, il n'est pas sécurisé, ne mettez pas d'informations sensibles là-bas</li>
+        </ul>
+        <p class="p2"></p>
+    </body>
+</html>

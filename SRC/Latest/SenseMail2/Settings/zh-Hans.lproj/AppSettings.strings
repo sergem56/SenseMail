@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dru-cj-7dZ"; */
+"Dru-cj-7dZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Keeping the app active in backgroud allows checking mail, but brings a security issue since it is possible to open the app without a password."; ObjectID = "Fts-oc-jUZ"; */
+"Fts-oc-jUZ.text" = "Keeping the app active in backgroud allows checking mail, but brings a security issue since it is possible to open the app without a password.";
+
+/* Class = "UILabel"; text = "0.6"; ObjectID = "MqN-F8-Fq6"; */
+"MqN-F8-Fq6.text" = "0.6";
+
+/* Class = "UILabel"; text = "Check period:"; ObjectID = "X9A-xo-xg9"; */
+"X9A-xo-xg9.text" = "Check period:";
+
+/* Class = "UIButton"; normalTitle = "Change PIN"; ObjectID = "bxe-o6-TqJ"; */
+"bxe-o6-TqJ.normalTitle" = "Change PIN";
+
+/* Class = "UILabel"; text = "General settings"; ObjectID = "fqN-A0-uhi"; */
+"fqN-A0-uhi.text" = "General settings";
+
+/* Class = "UILabel"; text = "Keep active:"; ObjectID = "h4m-Ud-P48"; */
+"h4m-Ud-P48.text" = "Keep active:";
+
+/* Class = "UILabel"; text = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it."; ObjectID = "jsS-rD-XaI"; */
+"jsS-rD-XaI.text" = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it.";
+
+/* Class = "UILabel"; text = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger.  Recommended value is 0.6"; ObjectID = "kjG-pM-Pns"; */
+"kjG-pM-Pns.text" = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger.  Recommended value is 0.6";

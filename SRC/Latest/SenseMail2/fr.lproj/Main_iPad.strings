@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "SenseMail"; ObjectID = "Fy5-OH-eD5"; */
+"Fy5-OH-eD5.text" = "SenseMail";
+
+/* Class = "UIButton"; normalTitle = "  Compose a message"; ObjectID = "Qz9-HX-GJE"; */
+"Qz9-HX-GJE.normalTitle" = "  Composer un message";
+
+/* Class = "UILabel"; text = "No message selected. \nSwipe right to show message list OR"; ObjectID = "WtT-lr-2Td"; */
+"WtT-lr-2Td.text" = "Aucun message sélectionné. \nBalayez droite pour afficher la liste des messages OU";
+
+/* Class = "UIButton"; normalTitle = "  Show Inbox"; ObjectID = "bYM-YL-bE9"; */
+"bYM-YL-bE9.normalTitle" = "  Afficher INBOX";
+
+/* Class = "UIButton"; normalTitle = "   Show Settings"; ObjectID = "tju-R4-xf8"; */
+"tju-R4-xf8.normalTitle" = "   Afficher les paramètres";

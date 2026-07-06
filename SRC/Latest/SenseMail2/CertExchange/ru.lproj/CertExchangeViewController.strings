@@ -1,0 +1,21 @@
+
+/* Class = "UITextView"; text = "200-201-102-103-104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131-132"; ObjectID = "Lzt-J6-39E"; */
+"Lzt-J6-39E.text" = "200-201-102-103-104-105-106-107-108-109-110-111-112-113-114-115-116-117-118-119-120-121-122-123-124-125-126-127-128-129-130-131-132";
+
+/* Class = "UILabel"; text = "Sending a certificate by email is strongly unadvisable! It is insecure!"; ObjectID = "bUj-ae-ijn"; */
+"bUj-ae-ijn.text" = "Sending a certificate by email is strongly unadvisable! It is insecure!";
+
+/* Class = "UIButton"; normalTitle = "Generate"; ObjectID = "bnL-fg-V4v"; */
+"bnL-fg-V4v.normalTitle" = "Создать";
+
+/* Class = "UILabel"; text = "Numeric view"; ObjectID = "bxq-Pg-9t6"; */
+"bxq-Pg-9t6.text" = "Дата";
+
+/* Class = "UIButton"; normalTitle = "Scan QR"; ObjectID = "dtd-6e-ixr"; */
+"dtd-6e-ixr.normalTitle" = "Сканировать QR";
+
+/* Class = "UILabel"; text = "Certificate"; ObjectID = "gJj-ck-Phh"; */
+"gJj-ck-Phh.text" = "Сертификат";
+
+/* Class = "UIButton"; normalTitle = "Send by email"; ObjectID = "hHM-CH-Ogd"; */
+"hHM-CH-Ogd.normalTitle" = "Send by email";

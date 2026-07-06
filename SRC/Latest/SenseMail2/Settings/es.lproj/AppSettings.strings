@@ -1,0 +1,35 @@
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dru-cj-7dZ"; */
+"Dru-cj-7dZ.normalTitle" = "Borrar todo";
+
+/* Class = "UILabel"; text = "Keeping the app active in backgroud allows checking mail, but brings a security issue since it is possible to open the app without a password."; ObjectID = "Fts-oc-jUZ"; */
+"Fts-oc-jUZ.text" = "Mantener la aplicación activa en el fondo permite comprobar el correo, pero tiene un problema de seguridad dado que es posible abrir la aplicación sin contraseña\nNOTA: El sistema establece el intervalo de recuperación de correo y puede ser demasiado largo. Depende del uso de la aplicación.";
+
+/* Class = "UILabel"; text = "0.6"; ObjectID = "MqN-F8-Fq6"; */
+"MqN-F8-Fq6.text" = "0.6";
+
+/* Class = "UILabel"; text = "Check period:"; ObjectID = "X9A-xo-xg9"; */
+"X9A-xo-xg9.text" = "Periodo de comprobación:";
+
+/* Class = "UIButton"; normalTitle = "Change PIN"; ObjectID = "bxe-o6-TqJ"; */
+"bxe-o6-TqJ.normalTitle" = "Cambiar PIN";
+
+/* Class = "UILabel"; text = "General settings"; ObjectID = "fqN-A0-uhi"; */
+"fqN-A0-uhi.text" = "Ajustes generales";
+
+/* Class = "UILabel"; text = "Keep active:"; ObjectID = "h4m-Ud-P48"; */
+"h4m-Ud-P48.text" = "Mantener activo:";
+
+/* Class = "UILabel"; text = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it."; ObjectID = "jsS-rD-XaI"; */
+"jsS-rD-XaI.text" = "El Bloqueo PIN es un código para proteger los datos de usuario. Nunca se almacena y no puede recuperarse si lo olvida";
+
+/* Class = "UILabel"; text = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger.
+ Recommended value is 0.6"; ObjectID = "kjG-pM-Pns"; */
+"kjG-pM-Pns.text" = "Compresión JPEG. Define un nivel de compresión de un archivo adjunto. Cuanto más cerca esté de 1, mejor es la calidad pero más grande el tamaño. ?El valor recomendado es de 0,6";
+"LgP-qC-yZP.text" = "Letra grande:";
+"Dy3-qM-u6x.text" = "Cuando se carga la siguiente parte de los mensajes, la lista completa puede ordenarse por fecha y los nuevos mensajes pueden aumentar en la lista y es posible que deba retroceder para verlos. De lo contrario, solo esa nueva parte puede ordenarse por fecha dentro de la cuenta y agregarse después de los mensajes ya cargados";
+"Rmx-Lu-c0u.text" = "Ordenar todo:";
+"4Om-Oh-MjP.text" = "Permitir autenticación biométrica solo para esta cuenta";
+"ixB-KR-YJS.text" = "PIN para borrar todo:";
+"4mq-oN-y3K.text" = "Erase all PIN es un código PIN que destruye todos los datos del usuario si lo ingresa al inicio. Es como el botón \"Borrar todo\" arriba, pero se puede ingresar en el cuadro de diálogo PIN. Todo se borrará sin pedir confirmación.";
+"QPj-Nx-X60.text" = "El botón \"Borrar todo\" borrará todos los datos, incluidos los ajustes, las notas, la galería segura, los certificados, la libreta de direcciones, etc., sin dejar datos de usuario en la aplicación. Los datos borrados no se pueden recuperar. La aplicación se cerrará al finalizar. Borrar la galería segura puede llevar algún tiempo.";
+"Dru-cj-7dZ.normalTitle" = "Borrar todo";

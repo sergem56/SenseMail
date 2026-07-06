@@ -1,0 +1,687 @@
+/* No comment provided by engineer. */
+" Find sender...*" = " Trouver l'émetteur...*";
+
+/* No comment provided by engineer. */
+"\"no\"" = "\"non\"";
+
+/* No comment provided by engineer. */
+"*Search can only find a whole word in a sender's address - me@mymail.com will be found for 'me', 'mymail', 'mymail.com' but not for 'mail'" = "*La recherche ne peut trouver qu'un mot entier dans l'adresse d'un émetteur - me@mymail.com sera trouvé pour 'me', 'mymail', 'mymail.com' mais pas pour 'mail'";
+
+/* No comment provided by engineer. */
+"8 years" = "8 ans";
+
+/* No comment provided by engineer. */
+"10 days" = "10 jours";
+
+/* No comment provided by engineer. */
+"150 million years" = "150 millions d'années";
+
+/* No comment provided by engineer. */
+"500.000 years" = "500 000 ans";
+
+/* No comment provided by engineer. */
+"2000 years" = "2000 ans";
+
+"Boxes & folders" = "Boites et dossiers";
+
+"Add account" = "Ajouter Compte";
+
+/* No comment provided by engineer. */
+"Add folder..." = "Ajouter un dossier...";
+
+/* No comment provided by engineer. */
+"Address book is empty" = "Le carnet d'adresse est vide";
+
+/* No comment provided by engineer. */
+"Address is empty" = "L'adresse";
+
+/* No comment provided by engineer. */
+"Address is invalid" = "Adresse non valide";
+
+"From address is invalid \n" = "L'adresse e-mail \"De\" n'est pas valide \n";
+"To address is invalid" = "L'adresse e-mail \"À\" n'est pas valide";
+
+/* No comment provided by engineer. */
+"Application PIN is time-outed" = "Le NIP de l'application a expiré, veuillez le ressaisir.";//"Le PIN de l'application ne fonctionne pas";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete image?" = "Êtes-vous sur de vouloir supprimer l'image?";
+
+/* No comment provided by engineer. */
+"Are you sure?" = "Êtes-vous sur?";
+
+/* No comment provided by engineer. */
+"Attachments %lu" = "Pièces jointes %lu";
+
+/* No comment provided by engineer. */
+"Attachments saved" = "Pièces jointes enregistrées";
+
+/* No comment provided by engineer. */
+"Back" = "Retour";
+
+/* No comment provided by engineer. */
+"Bytes collected: %d%@" = "Octets collectés : %d\n%@";
+
+/* No comment provided by engineer. */
+"Cancel" = "Annuler";
+
+/* No comment provided by engineer. */
+"Cancelled" = "Annulé";
+
+/* No comment provided by engineer. */
+"Certificate for %@" = "Certificat pour %@";
+
+/* No comment provided by engineer. */
+"Cleaning up..." = "Nettoyage...";
+
+/* No comment provided by engineer. */
+"Close" = "Fermer";
+
+/* No comment provided by engineer. */
+"Connecting..." = "Connexion en cours...";
+"Connecting" = "Connexion en cours";
+
+/* No comment provided by engineer. */
+"Contact has been deleted from this group only" = "Le contact n'a été supprimé que pour ce groupe";
+
+/* No comment provided by engineer. */
+"Copy to folder" = "Copier vers le dossier";
+
+/* No comment provided by engineer. */
+"Copying..." = "Copie en cours...";
+"Moving..." = "Déplacement en cours...";
+
+/* No comment provided by engineer. */
+"Create a PIN-code for the application" = "Créer un code NIP pour l'application";
+
+/* No comment provided by engineer. */
+"Decrypting..." = "Décryptage...";
+
+/* No comment provided by engineer. */
+"Delete certificate?" = "Supprimer le certificat?";
+
+/* No comment provided by engineer. */
+"Deleting..." = "Supression en cours...";
+
+/* No comment provided by engineer. */
+"Done" = "Effectué";
+
+/* No comment provided by engineer. */
+"E-mail is empty" = "Le courriel est vide";
+
+/* No comment provided by engineer. */
+"Enter PIN" = "Saisir le NIP :";
+
+/* No comment provided by engineer. */
+"Enter PIN for a message FROM this address" = "Saisir un NIP pour un message À PARTIR de cette adresse";
+
+/* No comment provided by engineer. */
+"Enter PIN set to send a message TO the address" = "Saisir le NIP défini pour envoyer un message À l'adresse";
+
+/* No comment provided by engineer. */
+"Enter group name" = "Saisir le nom du groupe";
+
+/* No comment provided by engineer. */
+"Enter password to create the key file" = "Saisir le mot de passe pour créer le fichier de la clé";
+
+/* No comment provided by engineer. */
+"Enter pins" = "Saisir les nips";
+
+/* No comment provided by engineer. */
+"Enter sender address" = "Saisir l'adresse de l'émetteur";
+
+/* No comment provided by engineer. */
+"Error" = "Erreur";
+
+/* No comment provided by engineer. */
+"Error decoding certificate" = "Erreur lors du décodage du certificat";
+
+/* No comment provided by engineer. */
+"Error loading message" = "Erreur lors du chargement du message";
+
+/* No comment provided by engineer. */
+"Error loading messages" = "Erreur lors du chargement des messages";
+
+/* No comment provided by engineer. */
+"Error reading certificate" = "Erreur lors de la lecture du certificat";
+
+/* No comment provided by engineer. */
+"Error saving certificate" = "Erreur lors de l'enregistrement du certificat";
+
+/* No comment provided by engineer. */
+"Error saving image" = "Erreur lors de l'enregistrement de l'image";
+
+/* No comment provided by engineer. */
+"Error saving note" = "Erreur lors de l'enregistrement de la note";
+
+/* No comment provided by engineer. */
+"Error saving settings" = "Erreur lors de l'enregistrement des paramètres";
+
+/* No comment provided by engineer. */
+"Error sending message" = "Erreur lors de l'envoi du message";
+
+/* No comment provided by engineer. */
+"Find messages" = "Trouver les messages";
+
+/* No comment provided by engineer. */
+"Folder name" = "Nom du dossier";
+
+/* No comment provided by engineer. */
+"Forward" = "Transférer";
+
+/* No comment provided by engineer. */
+"Group" = "Groupe";
+
+/* No comment provided by engineer. */
+"Image saved" = "Image enregistrée";
+
+/* No comment provided by engineer. */
+"Image saved to secure storage" = "Image enregistrée dans un stockage sécurisé";
+
+/* No comment provided by engineer. */
+"Image will be permanently deleted" = "L'image sera définitivement supprimée";
+
+/* No comment provided by engineer. */
+"Images: %i" = "Images: %i";
+
+/* No comment provided by engineer. */
+"Inbox" = "Boîte de réception";
+
+/* No comment provided by engineer. */
+"Info" = "Info";
+
+/* No comment provided by engineer. */
+"It remains in the address book" = "Elle reste dans le carnet d'adresses";
+
+/* No comment provided by engineer. */
+"Item changed" = "Élément changé";
+
+/* No comment provided by engineer. */
+"Last update: %@" = "Dernière mise à jour : %@";
+
+/* No comment provided by engineer. */
+"Load messages" = "Chargement des messages";
+
+/* No comment provided by engineer. */
+"Load more messages" = "Charger plus de messages";
+
+/* No comment provided by engineer. */
+"Loading key..." = "Chargement de la clé...";
+
+/* No comment provided by engineer. */
+"Loading..." = "Chargement en cours...";
+"Loading" = "Chargement en cours";
+
+/* No comment provided by engineer. */
+"Make key file" = "Créer le fichier de la clé";
+
+/* No comment provided by engineer. */
+"Mark as read" = "Marquer comme lu";
+"Mark as read only" = "Marquer comme lu";
+"Mark as unread" = "Marquer comme non lu";
+
+/* No comment provided by engineer. */
+"Me" = "Moi";
+
+/* No comment provided by engineer. */
+"Message from %@ is password-protected" = "Le message de %@ est protégé par un mot de passe";
+
+/* No comment provided by engineer. */
+"Message not available" = "Message non disponible";
+
+/* No comment provided by engineer. */
+"Move to folder" = "Déplacer vers le dossier...";
+
+/* No comment provided by engineer. */
+"NO" = "NON";
+
+/* No comment provided by engineer. */
+"Need pin for received messages FROM this address" = "Nip nécessaire pour les messages reçus À PARTIR de cette adresse";
+
+/* No comment provided by engineer. */
+"Need pin for your sent messages TO this address" = "Nip nécessaire pour les messages VERS cette à adresse";
+
+/* No comment provided by engineer. */
+"No" = "Non";
+
+/* No comment provided by engineer. */
+"No certificate. Please, enter one here, generate new or read QR-code from %@" = "Pas de certificat. Veuillez en saisir un ici, générer ou lire le code QR à partir de %@";
+
+/* No comment provided by engineer. */
+"No images here" = "Pas d'images ici";
+
+/* No comment provided by engineer. */
+"No messages" = "Pas de messages";
+
+/* No comment provided by engineer. */
+"No more messages" = "Plus de messages";
+
+/* No comment provided by engineer. */
+"No settings" = "Pas de paramètres";
+
+/* No comment provided by engineer. */
+"Not loaded yet" = "Pas encore chargé";
+
+/* No comment provided by engineer. */
+"Not loaded yet. Please, come back later." = "Pas encore chargé. Veuillez essayer ultérieurement";
+
+/* No comment provided by engineer. */
+"Note saved" = "Note enregistrée";
+
+/* No comment provided by engineer. */
+"Nothing to add" = "Rien à ajouter";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"PIN" = "NIP";
+
+/* No comment provided by engineer. */
+"PIN-code is never stored anywhere, so REMEMBER IT!" = "Le code NIP n'est enregistré nulle part, alors MÉMORISEZ LE!";
+
+/* No comment provided by engineer. */
+"PINs do not match" = "Les NIP ne correspondent pas";
+
+/* No comment provided by engineer. */
+"Password:" = "Mot de passe :";
+
+/* No comment provided by engineer. */
+"Passwords do not match" = "Les mots de passe ne correspondent pas";
+
+/* No comment provided by engineer. */
+"Privacy policy" = "Politique de confidentialité";
+
+/* No comment provided by engineer. */
+"PrivacyPolicy" = "PrivacyPolicyFr";
+
+/* No comment provided by engineer. */
+"Processing..." = "Traitement en cours...";
+
+/* No comment provided by engineer. */
+"Protection is needed for the settings" = "Une protection est nécessaire pour les paramètres";
+
+/* No comment provided by engineer. */
+"Re-enter PIN to confirm" = "Ressaisir le NIP pour confirmer";
+
+/* No comment provided by engineer. */
+"Remove" = "Supprimer";
+
+/* No comment provided by engineer. */
+"Repeat password:" = "Répéter le mot de passe :";
+
+/* No comment provided by engineer. */
+"Reset all" = "Tout réinitialiser";
+
+/* No comment provided by engineer. */
+"Save" = "Enregistrer";
+
+/* No comment provided by engineer. */
+"Save and close" = "Enregistrer et fermer";
+
+/* No comment provided by engineer. */
+"Save changes?" = "Enregistrer les modifications ?";
+
+/* No comment provided by engineer. */
+"Save secure" = "Enregistrement sécurisé";
+
+/* No comment provided by engineer. */
+"Saving attachment" = "Enregistrement de la pièce jointe";
+
+/* No comment provided by engineer. */
+"Saving certificate..." = "Enregistrement du certificat...";
+
+/* No comment provided by engineer. */
+"Saving..." = "Enregistrement en cours...";
+
+/* No comment provided by engineer. */
+"Search messages" = "Rechercher dans les messages";
+
+/* No comment provided by engineer. */
+"Secure Notes" = "Notes sécurisées";
+
+/* No comment provided by engineer. */
+"Security alert title" = "Avertissement";
+
+/* No comment provided by engineer. */
+"Select action" = "Sélectionner l'action";
+
+/* No comment provided by engineer. */
+"Send" = "Envoyer";
+
+/* No comment provided by engineer. */
+"Sending..." = "Envoi en cours...";
+
+/* No comment provided by engineer. */
+"Sent" = "Envoyé";
+
+/* No comment provided by engineer. */
+"Session for %@ not found" = "Session pour %@ introuvable";
+
+/* No comment provided by engineer. */
+"Set PIN-code for the message" = "Définir le code NIP pour le message ou taper un mot \"non\" pour envoyer un message décrypté";
+
+/* No comment provided by engineer. */
+"Setting background mode on makes it possible to reverse-engineer the app's pin-code if an adversary gains a physical access to your device. Are you sure you want to turn it on?" = "Le mode arrière-plan rend possible l'ingénierie inverse du code NIP de l'application si une menace parvient à accéder physiquement à votre appareil. Êtes-vous sûr de vouloir l'activer?";
+
+/* No comment provided by engineer. */
+"Settings" = "Paramètres";
+
+/* No comment provided by engineer. */
+"Settings & other" = "Paramètres et autres";
+
+/* No comment provided by engineer. */
+"Settings will be permanently deleted" = "Les paramètres seront définitivement supprimés";
+
+/* No comment provided by engineer. */
+"Share" = "Partager";
+
+/* No comment provided by engineer. */
+"ShareMessage" = "Client de messagerie génial!";
+
+/* No comment provided by engineer. */
+"Sorting..." = "Tri en cours...";
+
+/* No comment provided by engineer. */
+"Spam" = "Pourriel";
+
+/* No comment provided by engineer. */
+"Starred" = "Marqué d'une étoile";
+
+/* No comment provided by engineer. */
+"Stop" = "Arrêter";
+
+/* No comment provided by engineer. */
+"Tell a friend" = "Informer un ami";
+
+/* No comment provided by engineer. */
+"The certificate has been changed. Save before closing?" = "Le certificat a été modifié. Enregistrer avant de fermer?";
+
+/* No comment provided by engineer. */
+"There are unsaved changes. Save before closing." = "Certaines modifications ne sont pas enregistrées. Enregistrer avant de fermer?";
+
+/* No comment provided by engineer. */
+"There is a certificate for this contact" = "Il existe un certificat pour ce contact";
+
+/* No comment provided by engineer. */
+"This contact has no certificate" = "Ce contact n'a pas de certificat";
+
+/* No comment provided by engineer. */
+"This is the first message" = "Il s'agit du premier message";
+
+/* No comment provided by engineer. */
+"This is the last loaded message" = "Il s'agit du dernier message chargé";
+
+/* No comment provided by engineer. */
+"This message contains certificate" = "Ce message contient un certificat";
+
+/* No comment provided by engineer. */
+"Time to crack: %@" = "Moment de briser le code : %@";
+
+/* No comment provided by engineer. */
+"Use %@ as a PIN-code to send this message instead of the certificate?" = "Utiliser %@ comme code NIP pour envoyer ce message à la place du certificat?";
+
+/* No comment provided by engineer. */
+"User name or password is empty" = "Le champ nom d'utilisateur ou mot de passe est vide";
+
+/* No comment provided by engineer. */
+"View" = "Afficher";
+
+/* No comment provided by engineer. */
+"Warning" = "Avertissement";
+
+/* No comment provided by engineer. */
+"We have enough data to make your key now! You may continue tapping if you wish." = "Nous avons assez de données pour fabriquer votre clé. Vous pouvez continuer à taper si vous le souhaitez.";
+
+/* No comment provided by engineer. */
+"Writing image..." = "Écriture de l'image... ";
+
+/* No comment provided by engineer. */
+"Wrong pin" = "Mauvais nip";
+
+/* No comment provided by engineer. */
+"YES" = "OUI";
+
+/* No comment provided by engineer. */
+"Yes" = "Oui";
+
+/* No comment provided by engineer. */
+"You haven't added any notes yet." = "Vous n'avez pas encore ajouté de notes.";
+
+/* No comment provided by engineer. */
+"about an hour" = "Environ une heure";
+
+/* No comment provided by engineer. */
+"eons" = "éons";
+
+/* No comment provided by engineer. */
+"eternity" = "éternité";
+
+/* No comment provided by engineer. */
+"helpFile" = "helpFr";
+
+/* No comment provided by engineer. */
+"instantly" = "Instantanément";
+
+/* No comment provided by engineer. */
+"less than a minute" = "moins d'une minute";
+
+/* No comment provided by engineer. */
+"never" = "jamais";
+
+/* No comment provided by engineer. */
+"never ever" = "vraiment jamais";
+
+/* No comment provided by engineer. */
+"no" = "non";
+
+"Use web-authorization" = "Autorisation Web";
+"Scan QR" = "Scanner QR";
+
+"Password to save this certificate" = "Mot de passe pour enregistrer ce certificat";
+"Repeat the password" = "Ré-entrez le mot de passe";
+"Certificate protection" = "Protection de certificat";
+"Open link in external browser?" = "Ouvrir le lien dans le navigateur externe?";
+
+"Error saving file" = "Erreur lors de l'enregistrement du fichier";
+"File saved to Documents" = "Fichier enregistré dans Documents";
+"Don't save" = "Ne pas enregistrer";
+"Feature %@ is unavailable" = "%@ est disponible en version complète uniquement";
+
+"Get the full version?" = "Pour obtenir la version complète, vous devez faire un paiement unique. Il n'y a pas d'abonnements ou de frais réguliers. Vous payez une fois et pour de bon.";
+"Get full version!" = "Acheter la version complète!";
+"Message moved" = "Message déplacé";
+"Message copied" = "Message copié";
+"Cannot preview file" = "Impossible de prévisualiser le fichier";
+"%i messages moved" = "%i messages déplacés";
+"%i messages copied" = "%i messages copiés";
+"Set star" = "Marquer";
+"Add email" = "Ajouter Compte";
+"Invalid e-mail address" = "Adresse e-mail invalide";
+"Settings saved" = "Paramètres sauvegardés";
+"We could not find servers for %@ and we opened a settings page to enter them manually" = "Nous n'avons pas trouvé de serveurs pour %@ et nous avons ouvert une page de paramètres pour les entrer manuellement";
+"Settings for %@ already exist" = "Les paramètres pour %@ existent déjà";
+"No need to save" = "Pas besoin de sauver";
+"Will open web-authorization page" = "La page d'autorisation Web sera ouverte";
+"Find unread" = "Rechercher non lu";
+"Find answered" = "Trouver réponsée";
+"Find large messages" = "Rechercher des messages volumineux";
+"Find flagged" = "Trouver les favoris";
+"Find protected" = "Trouver protégé";
+"Find important" = "Trouver important";
+"Important" = "Important";
+"Select all" = "Tout sélectionner";
+"Delete" = "Effacer";
+"Select action for an item" = "Sélectionner une action pour un élément";
+"Select action for %i items" = "Sélectionner une action pour les %i éléments";
+"Are you sure you want to remove this item?" = "Êtes-vous sûr de vouloir supprimer cet élément?";
+"Are you sure you want to remove %i items?" = "Êtes-vous sûr de vouloir supprimer les %i éléments?";
+"Message info..." = "Informations sur le message...";
+"Setting star" = "Setting star";
+"WhatsNew" = "WhatsNewFR";
+"Resend" = "Renvoyer";
+"All the certificates from the list will be deleted. Do you want to continue?" = "Tous les certificats de la liste seront supprimés. Voulez-vous continuer?";
+"Delete them" = "Supprime-les";
+"To resend the OTCs you need to place both devices near each other and start the OTC exchange on the second device as a receiver. To do so go to the address book, choose the desired sender, tap \"Exchange OTC\" and tap \"I will be a receiver\".\nDo you want to continue?" = "Pour renvoyer les OTC, vous devez rapprocher les deux appareils et démarrer l'échange OTC sur le deuxième appareil en tant que récepteur. Pour ce faire, accédez au carnet d'adresses, choisissez l'expéditeur souhaité, appuyez sur \"Exchange OTC\", puis sur \"Je serai le récepteur\".\nVoulez-vous continuer?";
+"Started advertising..." = "Prêt à se connecter...";
+"Processing certificates..." = "Traitement des certificats...";
+"Transmission started..." = "La transmission a commencé...";
+"Data received" = "Donnée reçue";
+"ACK received-data sent successfully" = "Données envoyées avec succès";
+"Not enough data, tap at least %lu times" = "Pas assez de données, appuyez au moins %lu fois";
+"We are about to generate 100 certificates. We need lots of data - no less than 200 taps. The sane minimum number of taps is 700. The best is 3200.\nWe'll get the rest of data from the device's built-in secure RNG." = "Nous sommes sur le point de générer 100 certificats. Nous avons besoin de beaucoup de données - pas moins de 200 entailles. Le nombre minimum de prises saines est 700. Le meilleur est 3200.\nNous obtiendrons le reste des données à partir du générateur sécurisé intégré de l'appareil.";
+"We are about to generate a certificate. We need to collect 256 bits of random data. Please, tap the screen at least 32 times." = "Nous sommes sur le point de générer un certificat. Nous devons collecter 256 bits de données aléatoires. S'il vous plaît, appuyez sur l'écran au moins 32 fois.";
+"Create" = "Créer";
+"For %@\nnot used" = "Pour %@\nnon utilisé";
+"For %@\nused on %@" = "Pour %@\nutilisé le %@";
+"For %@\nused on %@\nexpires on %@" = "Pour %@\nutilisé le %@\nexpire le %@";
+"%@\nLast use on %@" = "%@\nDernière utilisation le %@";
+"Used %i of %lu" = "Utilisé %i de %lu";
+"Cannot find a One-Time Certificate for the message.\nMost likely it is expired and has been deleted." = "Impossible de trouver un certificat unique pour le message.\nIl est fort probable qu'il a expiré et a été supprimé.";
+"ReadQRTip" = "Pour ajouter un certificat avec un code QR, vous devez:\n1. Scanner le code\n2. Saisir le mot de passe de l'expéditeur sous le code QR\n3. Appuyer sur le bouton \"Enregistrer\"";
+"Start" = "Commencer";
+"Quick tip" = "Allusion";
+"Edit" = "Modifier";
+"Edit from and to addresses for the all listed OTCs" = "Modifier les adresses d'expéditeur et de destinataire pour tous les OTC répertoriés";
+"Are you sure?" = "Êtes-vous sûr?";
+"All certificates for this recipient will be permanently deleted" = "Tous les certificats pour ce destinataire seront définitivement supprimés";
+"Expire OTC now" = "Supprimer le OTC maintenant";
+"The certificate will be wiped out and the message will be inaccessible any more" = "Le certificat sera effacé et le message ne sera plus accessible";
+"What's new?" = "Quoi de neuf?";
+"Save text to secure notes" = "Enregistrer le texte dans les notes sécurisées";
+"Send it" = "Envoyez-le";
+"The sender has requested a read receipt. Would you like to send it?" = "L'expéditeur a demandé un accusé de lecture. Souhaitez-vous l'envoyer?";
+"File saved to secure storage" = "Fichier enregistré dans un stockage sécurisé";
+"Set a PIN-code for the message\nMutable PIN will be randomly mutated to enhance security" = "Définir le code NIP pour le message ou taper \"Envoi non protégé\" pour envoyer un message décrypté";
+"Use simple PIN" = "Utiliser un code PIN simple (non recommandé)";
+"Use mutable PIN" = "Envoyer";
+"Send it anyway?" = "Envoyez-le quand même?";
+"The certificate for this server is invalid" = "Le certificat pour ce serveur n'est pas valide";
+"Enter PIN" = "SenseMail";
+"Encrypt message on a server..." = "Crypter un message sur un serveur ...";
+"HTML-Text view" = "HTML/Texte";
+"More..." = "Plus...";
+"Send unprotected" = "Envoi non protégé";
+"The user not found" = "Cette adresse email introuvable";
+"Move to spam" = "Passer au spam";
+"Cancelled" = "Annulé";
+"Print..." = "Imprimer...";
+"Log in" = " Se connecter";
+"Empty Folder" = "Effacer le dossier";
+"Are you sure you want to remove all items from the folder?" = "Êtes-vous sûr de vouloir supprimer tous les éléments du dossier?";
+"Passwords do not match" = "Les mots de passe ne correspondent pas";
+"Security" = "Sécurité";
+"Appearance" = "Apparence";
+"Clear all" = "Tout effacer";
+"PIN, Background mode, Bio ID" = "PIN, mode arrière-plan, Bio ID";
+"Sorting, Number of messages" = "Tri, nombre de messages, heures silencieuses";
+"Delete all user data" = "Effacer toutes les données de l'utilisateur";
+"General settings" = "Configuración general";
+"Account settings" = "Paramètres du compte";
+"Data Encryption" = "Cryptage des données";
+"PIN code is never stored and can’t be recovered if you forget it." = "Le code PIN n'est jamais enregistré et ne peut pas être récupéré si vous l'oubliez.";
+"Change PIN" = "Modifier le code PIN";
+"Emergency PIN" = "PIN d'urgence";
+"The PIN will permanently delete all user data once entered. The code is not shown here, set the new one if you forgot it." = "Le code PIN supprimera définitivement toutes les données utilisateur une fois entré. Le code n'est pas affiché ici, définissez le nouveau si vous l'avez oublié.";
+"Erase All Data Now" = "Effacer toutes maintenant";
+"Permanently delete all user data right now" = "Supprimer définitivement toutes les données utilisateur dès maintenant";
+"Erase all" = "Tout effacer";
+"Safe BG" = "Mode d'arrière-plan sécurisé";
+"Reset the app state when going to background, so that there's no user data remains loaded.\nIMPORTANT: if it is off, you can restore the app without a PIN, unless you quit it." = "Réinitialisez l'état de l'application lorsque vous passez en arrière-plan, afin qu'aucune donnée utilisateur ne soit chargée.\nIMPORTANT: si elle est désactivée, vous pouvez restaurer l'application sans code PIN, sauf si vous la quittez.";
+"Biometrics" = "Biométrie";
+"Set biometric authentication for this account only" = "Définir l'authentification biométrique uniquement pour ce compte";
+"Background mode" = "Mode arrière-plan";
+"The system will schedule a mail check depending on the app usage. You cannot set the check interval." = "Le système programmera un chèque de messagerie en fonction de l'utilisation de l'application. Vous ne pouvez pas définir l'intervalle de vérification. Le PIN actuel sera stocké dans le trousseau.";
+"Messages to load" = "Messages à charger";
+"Number of messages to load from each account for one set" = "Nombre de messages chargés depuis chaque compte pour un chargement";
+"Sort emails by date within the loaded set" = "Trier les e-mails par date dans l'ensemble chargé";
+"Date, Unread on top" = "Date, non lu en haut";
+"Sort emails by date within the loaded set. Bring unread on top" = "Triez les e-mails par date dans l'ensemble chargé. Apportez non lu sur le dessus";
+"Account, Date" = "Compte, Date";
+"Emails from one account go together, sorted by date" = "Les e-mails d'un compte vont de pair, triés par date";
+"Account, Date, Unread on top" = "Compte, Date, Non lu en haut";
+"Emails from one account go together, sorted by date, unread on top" = "Les e-mails d'un compte vont de pair, triés par date, non lus en haut";
+"Date, entire list" = "Date, la liste entière";
+"Sort emails by date withing the entire loaded list. May result in messages from a new set go up (offscreen) in the list." = "Triez les e-mails par date dans l'ensemble de la liste chargée. Peut entraîner la remontée des messages d'un nouvel ensemble (hors écran) dans la liste.";
+"Large font" = "Grande police";
+"Set large font in the message list" = "Définissez la grande police dans la liste des messages";
+"Compression" = "Compression";
+"Set the compression ratio for image attachments. No compression means large file size and the best image quality. Maximum compression makes the smallest file size but the lowest quality" = "Définissez le taux de compression pour les pièces jointes à l'image. Aucune compression signifie une grande taille de fichier et la meilleure qualité d'image. La compression maximale permet la taille de fichier la plus petite mais la qualité la plus faible";
+"Max compression" = "Compression max";
+"No compression" = "Pas de compression";
+"Low compression" = "Faible compression";
+"Medium compression" = "Compression moyenne";
+"High compression" = "Haute compression";
+"Sort order. This will be applied to every set of loaded messages." = "Ordre de tri. Cela sera appliqué à chaque ensemble de messages chargés.";
+"Date" = "Date";
+"%@ changed\n" = "%@ a changé\n";
+"Notifications will show the email account that is changed. Otherwise the notification won't disclose the email address, which is considered more secure." = "Les notifications indiqueront le compte de messagerie modifié. Sinon, la notification ne divulguera pas l'adresse e-mail, qui est considérée comme plus sécurisée.";
+"Show account" = "Afficher le compte";
+"Loading resources..." = "Chargement des ressources ...";
+
+// VPN Settings
+"Cannot connect to VPN" = "Impossible de se connecter au VPN";
+"Continue without VPN?" = "Continuer sans VPN?";
+"Connecting to VPN" = "Connexion au VPN";
+"Cannot find settings" = "Impossible de trouver les paramètres";
+"Error connecting to VPN" = "Erreur de connexion au VPN";
+"Cannot connect to VPN. Please, check the settings" = "Impossible de se connecter au VPN. Veuillez vérifier les paramètres";
+"Note" = "Remarque";
+"- VPN connection is not supported in the background mode, so if you use BG mail check, disable it first unless you are OK with a SSL connection without VPN to check the number of new messages." = "Une connexion VPN n'est pas prise en charge en mode arrière-plan, donc si vous utilisez la vérification du courrier BG, désactivez-la d'abord, sauf si vous êtes d'accord avec une connexion SSL sans VPN pour vérifier le nombre de nouveaux messages.";
+"Enable VPN" = "Activer VPN";
+"Connect to VPN before checking mail" = "Connectez-vous au VPN avant de vérifier le courrier";
+"Protocol" = "Protocole";
+"IKEv2 or IPSec are supported" = "IKEv2 ou IPSec sont pris en charge";
+"User name to login to the VPN Server" = "Nom d'utilisateur pour se connecter au serveur VPN";
+"Required" = "Obligatoire";
+"Password to login to the VPN Server" = "Le mot de passe pour se connecter au serveur VPN";
+"VPN Server" = "Serveur VPN";
+"Address of the VPN Server" = "Adresse du serveur VPN";
+"Remote identifier to login to the VPN Server" = "Identifiant distant pour se connecter au serveur VPN";
+"Local identifier to login to the VPN Server" = "Identifiant local pour se connecter au serveur VPN";
+"Authentication method to login to the VPN Server" = "Méthode d'authentification pour se connecter au serveur VPN";
+"Use extended authentication to authorise" = "Utiliser une authentification étendue pour autoriser";
+"Shared secret to login to the VPN Server" = "Secret partagé pour se connecter au serveur VPN";
+"Try to connect to the VPN server" = "Essayez de vous connecter au serveur VPN";
+"Check connection" = "Vérifier la connexion";
+"Check" = "Vérifier";
+"Connect to VPN first" = "Connectez-vous d'abord au VPN";
+"Settings empty" = "Paramètres vides";
+
+// Shortcuts
+"Command not selected" = "Commande non sélectionnée";
+"Name is empty" = "Le nom est vide";
+"Display name of the shortcut" = "Nom d'affichage du raccourci";
+"Select..." = "Sélectionner...";
+"Favs folder. Not every provider supports that." = "Dossier Favoris. Tous les fournisseurs ne le supportent pas.";
+"Unified Sent folder" = "Dossier envoyé unifié";
+"Unified Spam folder" = "Dossier de spam unifié";
+"Messages for the last week" = "Messages de la dernière semaine";
+"Messages for the last month" = "Messages du dernier mois";
+"Unread messages" = "Messages non lus";
+"Answered messages" = "Messages répondus";
+"Large messages (>200K)" = "Grands messages (> 200K)";
+"Flagged/Starred messages" = "Messages marqués / suivis";
+"SenseMail encrypted messages" = "Messages chiffrés SenseMail";
+"Important messages" = "Messages importants";
+"Search for the string" = "Recherchez la chaîne de texte";
+"Received on" = "Reçu le jour";
+"Received before date" = "Reçu avant la date";
+"Received after date" = "Reçu après la date";
+"Received between Date1-Date2" = "Reçu entre Date1-Date2";
+"Received in the month of the date, i.e. 1/12/2020 = December" = "Reçu au mois de la date, soit 1/12/2020 = décembre";
+"Sent to the address" = "Envoyé à l'adresse";
+"Received from the address" = "Reçu de l'adresse";
+"Message size is less than" = "La taille du message est inférieure à";
+"Message size is more than (i.e. 300K, 10M, etc)" = "La taille du message est supérieure à (par exemple 300K, 10M, etc.)";
+"Unrecognized command" = "Commande non reconnue";
+"Command type" = "Type de commande";
+"Error saving shortcuts" = "Erreur lors de l'enregistrement des raccourcis";
+"Enable Bar" = "Activer la barre";
+"Show the shortcuts bar above the message list" = "Afficher la barre de raccourcis au-dessus de la liste des messages";
+"Shortcut List" = "Liste de raccourcis";
+"Connect to VPN before checking mail" = "Connectez-vous au VPN avant de vérifier le courrier";
+"Shortcut bar settings" = "Paramètres de la barre de raccourcis";
+"Shortcuts" = "Raccourcis";
+"For security reasons we do not show the QR-code and its password at the same time" = "Pour des raisons de sécurité, nous ne montrons pas le QR-code et son mot de passe en même temps";
+"We have detected a problem launching the app that may corrupt the appearance settings, please run it again" = "Nous avons détecté un problème lors du lancement de l'application qui peut corrompre les paramètres d'apparence. Veuillez le relancer. Relancer ou ignorer et continuer?";

@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Search current box"; ObjectID = "B6Q-JB-VBl"; */
+"B6Q-JB-VBl.text" = "Search current box";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "PVS-wD-Rqj"; */
+"PVS-wD-Rqj.placeholder" = "Search";

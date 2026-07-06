@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="Content-Style-Type" content="text/css">
+                <title></title>
+                <meta name="Generator" content="Cocoa HTML Writer">
+                    <meta name="CocoaVersion" content="1138.47">
+                        <style type="text/css">
+                            p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica}
+                            p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+                            li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            ul.ul1 {list-style-type: disc}
+                            img {vertical-align: middle}
+                            
+                            @media (prefers-color-scheme: dark) {
+                                body {
+                                    background-color: rgb(20,20,20);
+                                    color: white;
+                                }
+                                a:link {
+                                    color: #0096e2;
+                                }
+                                a:visited {
+                                    color: #9d57df;
+                                }
+                            }
+                            </style>
+    </head>
+    <body>
+        <!-- Images are absent in simulator, but on device are OK. But not on iOS 9. -->
+        <!--img src="logo.png" width=50 height=50 halign=center/-->
+        <p class="p1"><b>What is SenseMail?</b></p><p class="p3"><br></p>
+        <p class="p2">SenseMail is an application that can connect to your favourite email service provider and protect your communications.</p><p class="p3"><br></p>
+        <p class="p2">First of all, the protection is the state-of-the-art combination of compression, encryption and signing - the industry-standard AES-256 algorithm is for encryption, gzip is for compression, HMAC and AONT are for signing and verification.</p><p class="p3"><br></p>
+        <p class="p2">Secondly, we use PBKDF-SHA512 to derive the encryption key from the initial data. The number of rounds randomly varies from nearly 300K to almost 800K to be sure that it's large enough to make brute-forcing infeasible.</p><p class="p3"><br></p>
+        <p class="p2">Last but not least is the way to obtain the initial data for the encryption key. There are three possibilities:</p>
+        <p class="p3"><br></p>
+        <p class="p2">1. A password. The weakest options, which, however, has several distinct advantages – effortless communication and extreme flexibility. There are plenty of ways to safely tell a password to your counterpart. You can set a different password to every message if you wish.</p>
+        <p class="p3"><br></p>
+        <p class="p2">2. A fixed key. The strong option. A full 256-bit key which is additionally mutated to be different for every message sent. Generate a fixed certificate on one device and scan a QR-code by the other.</p>
+        <p class="p3"><br></p>
+        <p class="p2">3. A One-Time Certificate. The strongest option. It's a full 256-bit key for single use only. Moreover, a key has an expiration time. The drawback is that to exchange the One-Time Certificates you require to collect two devices together, there's no way to do it remotely.</p><br>
+        <p class="p1"><b>New messages alert</b></p><br>
+        <p class="p2">There's an option to get notified when a new message arrives. However, that feature has some limitations. We use a system-provided mechanics to fire a mail check. Therefore we cannot control how often it is checked as the system decides that based on the app's usage pattern. If you launch the app regularly, the delay is about one-two hours.</b></p><p class="p3"><br></p>
+        <p class="p1"><b>Other features</b></p>
+        <ul class="ul1">
+            <li class="li2">No mail messages are stored on the device</li>
+            <li class="li2">No complains that a password is incorrect – every password logs you into a working environment</li>
+            <li class="li2">Multiple email accounts with a combined inbox</li>
+            <li class="li2">Local encrypted storage for address book, gallery and notes</li>
+            <li class="li2">No insecure connections. No TLS/SSL = no connection</li>
+            <li class="li2">Although message subject is encrypted it is insecure, do not put sensitive information there</li>
+        </ul>
+        <p class="p2"></p>
+    </body>
+</html>

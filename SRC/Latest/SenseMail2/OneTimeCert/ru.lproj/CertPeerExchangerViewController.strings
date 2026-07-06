@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Delete all certs"; ObjectID = "3cD-kB-TB2"; */
+"3cD-kB-TB2.normalTitle" = "Delete all certs";
+
+/* Class = "UIButton"; normalTitle = "GetNextCert"; ObjectID = "Fis-2n-pdx"; */
+"Fis-2n-pdx.normalTitle" = "GetNextCert";
+
+/* Class = "UIButton"; normalTitle = "Receive"; ObjectID = "RwK-g4-ijN"; */
+"RwK-g4-ijN.normalTitle" = "Receive";
+
+/* Class = "UILabel"; text = "To email address:"; ObjectID = "Y69-gz-ecx"; */
+"Y69-gz-ecx.text" = "Адресат:";
+
+/* Class = "UILabel"; text = "Your email address:"; ObjectID = "aHC-Ea-MVL"; */
+"aHC-Ea-MVL.text" = "Ваш адрес:";
+
+/* Class = "UIButton"; normalTitle = "Generate"; ObjectID = "sNC-97-dDg"; */
+"sNC-97-dDg.normalTitle" = "Создать";
+
+/* Class = "UILabel"; text = "Enter both email adresses of a sender and a receiver to identify the certificates later on.\nTo exchange the certificates you need to place both devices near each other.\nOne party should press Generate button and follow the instructions to make the certificates, the other should simply tap 'Receive'"; ObjectID = "zF0-uE-3R2"; */
+"zF0-uE-3R2.text" = "Введите оба адреса электронной почты отправителя и получателя для последующей идентификации сертификатов.\nДля обмена сертификатами вам необходимо разместить оба устройства рядом друг с другом.\nОдин участник должен нажать кнопку 'Создать' и следовать инструкциям для создания сертификатов, другому следует просто нажать 'Получить'";
+
+/* Class = "UILabel"; text = "One-time certificate exchange"; ObjectID = "zh2-9P-nbD"; */
+"zh2-9P-nbD.text" = "One-time certificate exchange";

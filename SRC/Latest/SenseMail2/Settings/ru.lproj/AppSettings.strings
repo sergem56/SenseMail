@@ -1,0 +1,37 @@
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dru-cj-7dZ"; */
+"Dru-cj-7dZ.normalTitle" = "Удалить все";
+
+/* Class = "UILabel"; text = "Keeping the app active in backgroud allows checking mail, but brings a security issue since it is possible to open the app without a password."; ObjectID = "Fts-oc-jUZ"; */
+"Fts-oc-jUZ.text" = "Работа в фоновом режиме позволяет автоматически проверять почту, но становится возможным запустить приложение без пароля.\nПРИМЕЧАНИЕ. Интервал получения почты устанавливается системой и может стать слишком длинным. Это зависит от использования приложения.";
+
+/* Class = "UILabel"; text = "0.6"; ObjectID = "MqN-F8-Fq6"; */
+"MqN-F8-Fq6.text" = "0.6";
+
+/* Class = "UILabel"; text = "Check period:"; ObjectID = "X9A-xo-xg9"; */
+"X9A-xo-xg9.text" = "Период проверки:";
+
+/* Class = "UIButton"; normalTitle = "Change PIN"; ObjectID = "bxe-o6-TqJ"; */
+"bxe-o6-TqJ.normalTitle" = "Сменить ПИН";
+
+/* Class = "UILabel"; text = "General settings"; ObjectID = "fqN-A0-uhi"; */
+"fqN-A0-uhi.text" = "Общие настройки";
+
+/* Class = "UILabel"; text = "Keep active:"; ObjectID = "h4m-Ud-P48"; */
+"h4m-Ud-P48.text" = "Фоновый режим:";
+
+/* Class = "UILabel"; text = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it."; ObjectID = "jsS-rD-XaI"; */
+"jsS-rD-XaI.text" = "ПИН-код защищает данные. Он нигде не хранится и не может быть восстановлен, если вы его забудете.";
+
+/* Class = "UILabel"; text = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger. 
+Recommended value is 0.6"; ObjectID = "kjG-pM-Pns"; */
+"kjG-pM-Pns.text" = "Сжатие JPEG. Как сильно сжимать вложения. Чем ближе значение к 1, тем лучше качество, но больше размер. Рекомендуемое значение - 0.6";
+
+"LgP-qC-yZP.text" = "Крупный шрифт:";
+
+"Dy3-qM-u6x.text" = "Когда следующая часть сообщений загружена, весь список может быть отсортирован по дате, а новые сообщения могут стать выше в списке, и вам может понадобиться прокрутить назад, чтобы увидеть их. В противном случае только эта новая часть может быть отсортирована по дате и аккаунту и добавлена после уже загруженных сообщений";
+"Rmx-Lu-c0u.text" = "Сортировать все:";
+"4Om-Oh-MjP.text" = "Разрешить биометрическую аутентификацию только для этой учетной записи";
+"ixB-KR-YJS.text" = "PIN чтобы стереть все:";
+"4mq-oN-y3K.text" = "Erase all PIN - это PIN-код, который уничтожает все пользовательские данные, если вы вводите его при запуске. Он похож на кнопку \"Очистить все\" выше, но его можно ввести в диалоговом окне PIN-кода. Все будет удалено без запроса подтверждения.";
+"QPj-Nx-X60.text" = "Кнопка \"Очистить все\" удалит все данные, включая настройки, заметки, защищенную галерею, сертификаты, адресную книгу и т.д., не оставив пользовательских данных в приложении. Удаленные данные не могут быть восстановлены. Приложение будет закрыто после завершения. Удаление защищенной галереи может занять некоторое время.";
+"Dru-cj-7dZ.normalTitle" = "Очистить все";

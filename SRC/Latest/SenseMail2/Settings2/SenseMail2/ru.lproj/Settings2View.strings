@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Nickname:"; ObjectID = "5C7-BL-DJT"; */
+"5C7-BL-DJT.text" = "Nickname:";
+
+/* Class = "UILabel"; text = "IMAP Security:"; ObjectID = "8P3-zy-7oC"; */
+"8P3-zy-7oC.text" = "IMAP Security:";
+
+/* Class = "UITextField"; placeholder = "Any name you wish"; ObjectID = "8ZM-bz-Swb"; */
+"8ZM-bz-Swb.placeholder" = "Any name you wish";
+
+/* Class = "UITextField"; placeholder = "Normally 993"; ObjectID = "J6z-qb-MAb"; */
+"J6z-qb-MAb.placeholder" = "Normally 993";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "K8A-JV-eYR"; */
+"K8A-JV-eYR.text" = "Settings";
+
+/* Class = "UITextField"; placeholder = "We'll try to detect that"; ObjectID = "MFs-Hp-MIk"; */
+"MFs-Hp-MIk.placeholder" = "We'll try to detect that";
+
+/* Class = "UITextField"; placeholder = "Name, others will see"; ObjectID = "MfC-Xb-JiG"; */
+"MfC-Xb-JiG.placeholder" = "Name, others will see";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "Pi2-oE-AzZ"; */
+"Pi2-oE-AzZ.text" = "Password:";
+
+/* Class = "UILabel"; text = "SMTP Server:"; ObjectID = "RRj-l3-jwE"; */
+"RRj-l3-jwE.text" = "SMTP Server:";
+
+/* Class = "UILabel"; text = "IMAP Server:"; ObjectID = "UfK-Bi-XQN"; */
+"UfK-Bi-XQN.text" = "IMAP Server:";
+
+/* Class = "UITextField"; placeholder = "yourname@mailserver.com"; ObjectID = "Wiq-sC-vKr"; */
+"Wiq-sC-vKr.placeholder" = "yourname@mailserver.com";
+
+/* Class = "UIButton"; normalTitle = " Log out"; ObjectID = "XZl-CL-fA8"; */
+"XZl-CL-fA8.normalTitle" = " Log out";
+
+/* Class = "UILabel"; text = "IMAP Port:"; ObjectID = "fdm-Ra-gbA"; */
+"fdm-Ra-gbA.text" = "IMAP Port:";
+
+/* Class = "UILabel"; text = "Settings Name:"; ObjectID = "hf2-tT-4uX"; */
+"hf2-tT-4uX.text" = "Settings Name:";
+
+/* Class = "UITextField"; placeholder = "and that"; ObjectID = "mNo-eu-HSm"; */
+"mNo-eu-HSm.placeholder" = "and that";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "nAT-go-JNL"; */
+"nAT-go-JNL.text" = "User Name:";
+
+/* Class = "UILabel"; text = "SMTP Port:"; ObjectID = "pjo-HM-HfH"; */
+"pjo-HM-HfH.text" = "SMTP Port:";
+
+/* Class = "UILabel"; text = "465 or 587"; ObjectID = "t70-5B-PFv"; */
+"t70-5B-PFv.text" = "465 or 587";
+
+/* Class = "UILabel"; text = "List BG Color:"; ObjectID = "wcx-Ap-Qh8"; */
+"wcx-Ap-Qh8.text" = "List BG Color:";
+
+/* Class = "UILabel"; text = "SMTP Security:"; ObjectID = "zvT-UX-L8U"; */
+"zvT-UX-L8U.text" = "SMTP Security:";

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Please, enter your e-mail address:"; ObjectID = "6JK-8C-NG2"; */
+"6JK-8C-NG2.text" = "Por favor, introduzca su dirección de correo electrónico:";
+
+/* Class = "UILabel"; text = "Checking incoming (IMAP) connection"; ObjectID = "HS1-7l-ogY"; */
+"HS1-7l-ogY.text" = "Comprobando la conexión entrante (IMAP)";
+
+/* Class = "UITextField"; placeholder = "your e-mail address"; ObjectID = "WDK-KH-H2x"; */
+"WDK-KH-H2x.placeholder" = "e-mail address";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "ZzE-2s-fWT"; */
+"ZzE-2s-fWT.placeholder" = "contraseña";
+
+/* Class = "UILabel"; text = "Checking outgoing (SMTP) connection"; ObjectID = "boq-FM-Utt"; */
+"boq-FM-Utt.text" = "Comprobando la conexión saliente (SMTP)";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "sgO-qI-rg7"; */
+"sgO-qI-rg7.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "tEI-fS-8n1"; */
+"tEI-fS-8n1.text" = "Contraseña:";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "vSD-T2-uw9"; */
+"vSD-T2-uw9.normalTitle" = "Siguiente";

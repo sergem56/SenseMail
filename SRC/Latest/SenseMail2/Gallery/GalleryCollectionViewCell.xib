@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="GalleryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oWr-y0-mgG">
+                        <rect key="frame" x="5" y="5" width="80" height="80"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✅" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19X-Ma-Qex">
+                        <rect key="frame" x="8" y="61" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="EER-Md-FZJ"/>
+                            <constraint firstAttribute="width" constant="30" id="NdK-8F-B8j"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="u0w-kX-A4P"/>
+                            <constraint firstAttribute="height" constant="21" id="wW4-QY-4yx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="19X-Ma-Qex" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="4eM-t8-b2C"/>
+                <constraint firstItem="19X-Ma-Qex" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="61" id="DKr-Sw-Zaa"/>
+                <constraint firstItem="oWr-y0-mgG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="FkY-L9-IHU"/>
+                <constraint firstItem="oWr-y0-mgG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="cKK-ke-1VA"/>
+                <constraint firstAttribute="trailing" secondItem="oWr-y0-mgG" secondAttribute="trailing" constant="5" id="lGp-a3-WvY"/>
+                <constraint firstAttribute="bottom" secondItem="oWr-y0-mgG" secondAttribute="bottom" constant="5" id="xDZ-v6-gHs"/>
+            </constraints>
+            <connections>
+                <outlet property="image" destination="oWr-y0-mgG" id="i1c-9g-UlT"/>
+                <outlet property="markLabel" destination="19X-Ma-Qex" id="zaB-Q8-Boc"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

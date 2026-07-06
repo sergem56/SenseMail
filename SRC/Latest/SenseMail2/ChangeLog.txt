@@ -1,0 +1,365 @@
+Ver 1.3
+- Fixed number of loaded messages when a message was deleted
+- "Invalid subject" instead of empty one then cannot decrypt it
+- Improved "Add account" location - it is now easier to find (added item to empty folders list + asks at start)
+- Fixed message view width with a long subject
+
+Ver 1.4
+- Added an updated auth20 method without an embedded web view to conform latest Google requirements
+- Fixed addressbook's search field overlapping the first row in iOS 8
+- Fixed app lock - sessions and folders are cleared on lock
+- Documents attachments are available now!
+- Secure gallery is moved to subfolder in Documents
+- Save secure button is removed from secure gallery
+- Check account on leaving a settings page
+- Reload mail on returning from BG mode
+- Periodic mail check on push from our server
+- PIN for bg check moved to keychain
+- Interface improvements in address book
+- Added mailserver's SSL certificate check. You cannot connect to a server with an invalid certificate
+
+Ver 1.41
+- changed dataReady:nil to dataReady:[[NSArray alloc]init]
+- check smtp connection before sending and use LOGIN Auth if fails (i.e. zoho mail fails)
+
+Ver 1.5
+- Apps files are hidden from docs attachments
+- Advanced mail server settings
+- Message info
+- Recipient auto-completion (based on the loaded messages, no address book since it's locked)
+- Save text of the message to secure notes. Cannot save attachments.
+- Copy/Move bug fixed
+- Empty account name fix
+- Added a 3D-touch on message in the list
+- Fixed some main/bg thread issues
+- Info to empty doc attachments list
+
+Ver 1.6 rel
+- Added version number to the menu
+- Cancel downloading message crash fixed
+- Easy setup feature
+- Added auto-signature for a new message
+- Image preview zoom level fix
+- Use iOS's system doc viewer to preview attachments as it can handle more file types
+- Got rid of redundant checkAccountOperations
+- Fill-in user nick field
+- Made a background screenshot image to hide user data
+- Updated to the latest MailCore
+- Added a feature to minimize a compose message window to switch to other tasks
+- PIN button color fix
+- Fixed message size on the message info page
+- Fixed message view scrolling bug - viewInScroll was tied to the top layout guide, not to the superview and thus it appeared floating and not scrolling
+- Got rid of custom appQ in GlobalRouter (getQ)
+- Fixed empty signature
+- Autocomplete table decoration
+- Name field in a list is 2 lines and height is greater or equal 21 (was equal)
+- Fixed settings renaming bug
+- Fixed folder names retrieval - there was no inbox for some servers
+- Added new message counter
+- Added date/new message sorting on header click
+- Added answered mark
+- Added sort by date within sort by new
+- Added search page (by unread, answered, large, flagged and user input + date detection to search before/on/after)
+- Remove filter clicking on inbox icon
+- Autocomplete fixed
+- Added filter by date - before, after and on that date
+- Removed check of the returned value from startAccessingSecurityScopedResource while adding a doc from iCloud since it fails on the device, but the doc is accessible anyway
+- Fixed adding an attachment from camera
+- Removed square frame after taking a picture in attachments
+- Added html/text view of a secure note
+- Got rid of deprecated ALAsset
+- Delete from secure gallery bug fix
+- Save docs to secure gallery
+- Thumbnail images for secure gallery (for docs as well)
+- Sort gallery by creation date (newer first)
+- Added automatic note saving on going to BG
+- Added sort by sender's address to the title bar (sort by date-new-sender cycle)
+- Added icon to sender name in the list of messages
+- Settings for iPad opens in detail view, since there was too small space for buttons
+- Easy setup: password field is hidden initially
+- Indicator copying/moving a message
+- Fixed a bug sending plain message with attachments
+- Fixed setting answered flag
+- Large font option
+- Fixed toolbar for iOS 12
+- Video attachments
+- Fixed a bug with wiping a file, large files took too much time
+- Fixed adding attachment stop button
+- Fixed a bug while moving an app to bg. Bringing up the task manager not moving an app to bg, just "willGoToBG"
+- Removed notification com.apple.springboard.lockcomplete from appDelegate as it'a appeared to be private API
+
+Ver. 1.7rel
+- Fixed attachments temp files removal after sending a message
+- Fixed attachments temp files removal after cancelling a new message
+- Fixed message under the dim view sending an email with cert
+- Added "What's new" page showing on the first run + a button to the menu
+- Added fetch and send of a read receipt request. DONE. -Not implemented yet (in MessageViewInteractor).-
+- Fixed important mark (reading X-Priority header)
+- Added "search important"
+- Changed max subject length to 64 symbols
+- One-time certificates:
+    - Added cert exchange stuff
+    - Added fetch next spare cert // for sending a letter
+    - Added fetch cert with ID    // for receiving a letter
+    - Added saving expiration and used date
+    - Added delete expired - for the current pin
+    - Added decryption with the cert
+    - Added full send/recieve with cert
+    - Need to delete all expired certs, date expired should be encrypted with the pre-defined key? Done!
+    - Set the expiration date to the end of the day
+    - Added transmittion of the expiration date to set it on the receiver's side
+    - Added change PIN compliance
+- Fixed add address book scroll bug after dismissing a keyboard
+- Added high/normal priority for a message
+- Fixed new/important icon issue - new message's dot was replaced by important's dot
+- Fixed a bug if a from address was manually edited, not selected from the list. Issue with missing "()".
+- Fixed a subsequent read receipts sending. Now it is sent only if the message was unread before
+- Checked code against OWASP
+- Set OTC expiration date to nil if not used
+- Added a list of all OTCs
+- Added NSPersistentStoreFileProtectionKey:NSFileProtectionComplete
+- Changed OTC search by your=your and other=other email and your=other and other=your. There might be confusion exchanging OTPs where the addresses might be swopped
+- Added icons to the message list - expiring and expired OTC
+- Added delete and resend the OTCs from the list
+- Fixed save cert to overwrite before delete
+- Fixed new messages count retrieval for a folder
+- Added total messages count for a folder
+- Fixed unseen count change for a folder
+- Changed the colour and size of the list header to make it esier to tap
+- Added rename folder on long press
+- Forced change http to https while loading a full email
+- Added "Expire OTC now" button to the message actions
+
+Ver. 1.8rel
+- Added a setting for a number of messages to load from an account, was 10 before. New version of data model.
+- Fixed settings keyboard hide/show + inputAccessoryToolbar
+- Delete already expired OTC on setting the expiration date
+- Fixed zero "messages to load" in app settings
+- Fixed double OTC when resending the same certs
+- Expire OTC with past date after first read
+- Added "On read" time to live for OTC. It will be expired on first read of a message. The red lock icon.
+- Custom flags, but no search so far
+- Added mutable PIN - additional random number of PBKDF rounds to get the key
+- Added mutable cert
+- Need to check save cert - not to save cert for yourself as this breaks the logic of certs - separate certs for each corresponder, not the one for all. No need to check since it occurs on test devices only.
+- Fill in the PIN when opening a PIN dialog
+- Added input accessory view for viewing cert
+- Pre-fill the user name and pwd if server search's failed
+- Fixed number of unread change in a title
+- Fixed an address book delete bug
+
+Ver. 1.9rel
+- Added an option to send a message if an SMTP server cert is invalid
+- Autofill from the address book, fixed double add bug
+- Autofill shows name+email
+- Auto-load next messages
+- Added an option to sort the entire list by date or just add the newly loaded messages to the end of the existing messages
+- Added an option to connect to IMAP with invalid cert, but hasn't been tested in a real world
+- Fixed an autoload bug if everything is already on the screen and there's no need to load more
+- Fixed adding an empty list crush
+- Added BioID
+- Improved stability - checked nil values in addObject, etc.
+- Fixed autocomplete initialization
+- Fixed new features above pin on new devices
+- Fixed login with empty password on moving a pin dialog to bg
+- Added an option to encrypt a received message on the server. Make sure that the server actually deletes the message and does not put it to archive whatsoever (all types of encryption, including OTC)
+- Auto-return key for pin dialog
+- Fixed double initial pin creation request
+- Changed message view layout - subject is on top in bold
+- Redesigned message view header
+- Added from, to, reply-to and size info expansion on sender tap in message view
+- Replying to message, use reply-to header value
+- Detect html for encrypted messages to show them as html (before encrypted messages were treated as plain text and if you encrypt an existing message, its formatting messed up)
+- Got rid of "Save all attachments" button in a message view since it was corrupted and didn't save docs
+- HTML-Text switch to view a message
+- Added the email address to the box name in the menu
+- Changed a vague <MCO something> to settings' username in connection error alert box
+- Added check of the expired OTP before loading a message from a server
+- Changed next/prev message icons to make them clearer (up/down instead of left/right)
+- Changed "Add From Contacts" button from system's type to custom as it tap bounds overlapped other buttons in compose message view
+- 
+
+Ver. 2.00rel
+- DONE: cancelling attachment selection returns to a message, not to attachments
+- TODO: on iPad tapping on the address book opens a new window, instead of bringing an already opened one
+- DONE: Loading status is always on if there's no internet connection
+- TODO: mailing list unsibscribe option
+- DONE: add an attachment from the secure gallery
+- DONE: thumbnail image when adding an attachment to a letter (for example, for a video file there's no image, while there's an image in the secure gallery)
+- TODO: progress while changing PIN
+- alert if reply-to is not equal to from
+- DONE one PIN: emergency PIN that deletes everything. List of PINs.
+- Added a button to erase everything
+- total number of messages sometimes becomes less than loaded - one account out of 3 not loaded from time to time, for example. Fixed cancelling all operations from everything to the specified account that is used now. (used a condition that is used somewhere else and it was extra-triggered and loading for an account won't start - fixed)
+- Set the default value for image compression to 0.6 as it is recommended just above the switch
+- If an account is already loaded, it is not loaded any more to save traffic and time.
+- Changed a way the total message count is calculated
+- Fixed condition waiting in getting the current view (fast scrolling sometimes causes condition waiting while the current view is already there. Switched to a semaphore.)
+- Added an "already fetching" check before placing the other request for fetch so that the messages are not loading twice.
+- Fixed some grammar bugs in settings descriptions
+- Added a "last week" and "last month" searches
+- Added a frame aroung ChangePin button
+- Changed exit proc to graceful exit (exit(0) to suspend, then exit(0))
+- Clear (overwrite) encoder's keys on exit. Added wiping procs for NSString and NSData.
+- Changed pin type from NSString to NSMutableString to enable safe erasure. Mutable strings can be overwritten. When assigning another var to it, it is not get copied, the same address is used that is exactly what we need.
+- Ver 2.00 (with bg check)
+IMPORTANT! Made a cleaning proc that well resets everything on going to BG. That actually cause some bugs in accessing empty PIN, showing dialogs on empty routers/navs and so on. Need to test everything... For example, accessing an empty PIN will bring a main-thread blocking pin dialog.
+- Added a compiler flag PERIODIC_CHECK - =1 Remote notifications, =2 system BG check
+- Multiple fixes for the bg check to work
+- Got rid of a SwipeableCell as now this is supported by the system
+- Added storage of a highestModSecValue to alert for new messages
+- Fixed pin getter/resetter to detect a call from BG
+- Added a BG check to CommonProc's showMessage
+- DONE: migrate all show message dialogs to CommonProcs with a BG check
+- Fixed compose message minimizer going to BG
+- Fixed a system's call to UITableViewController from BG with a cleared GlobalRouter, causing it to init and block everything
+- Added a bg state check before cleaning in a bg fetch - not to call if active
+- Made a proc for returning a hash with a limited character set. It loses 60% of uniquety but who cares!
+- Fixed minimized icon position
+- Added a color setting for a table row
+- Added a mark read/unread button to the swipe menu
+- Added an emergency PIN that destoys all data
+- Added the user defaults erasure to emergency cleaning
+- Fixed an OTC list bug when selecting a row in the actual certs list switched certs to another list
+- Added a "Send unprotected" button to the PIN dialog window
+- Fixed startup bug with black screen when initialPush was not called
+- Fixed a black sreen on startup after poor wi-fi conditions
+- Fixed iOS13 full-screen PIN
+- Fixed dismissing a PIN request for a message that moved back from the list to nowhere
+- Adjusted for the dark mode
+- Fixed an authorisation issue with google if the account doesn't exist
+- Added "Move to spam" action
+- Fixed swipe on the cell in iOS 10 - editing style was none, it worked on iOS 12-13, but not on 10
+- Check if we are already showng the message list when calling to finishWithDetailView
+- New messages always go up on the first load, regardless the 'sort all' setting
+- Fixed "No settings" appearing on the first app run
+- Notification is not fired if the new messages count is the same as before since gmail updates modsec number without any visible reason
+- Added printing support for a message
+- Fixed a select attachment crash if you cancel it while the images were still scrolling
+- Added extra confirmation before setting no pin
+- Fixed a slow-motion attachment
+- Added Log out/Log in button rotation in the settings
+- Check connection proc now saves a session in the data storage class
+- Added sorting by date within unread
+- Fixed inner folders that were shown only one level deep
+- Added folder path as a smaaal subtitle
+- Fixed double message while encrypting a message on the server
+- Fixed connection handlers overwriting, now keep them not in a single var but in a dictionary
+- Added an option to empty spam/trash folder
+
+Ver. 2.01rel
+- Fixed a going to BG bug then an opened email was flickering underneath the PIN dialog
+- Changed UIWebView to WKWebView everywhere
+- Removed unused SessionConnector and OAuth classes
+- Adapted help to the dark mode
+- Added dark mode support to the html help, pp and whatsnew files
+- Changed a message info presentation to html for better readability
+- Fixed iPad add account master dismission
+- Fixed MessageView scrolling and resizing bug that was there for quite a while
+- Added a check for modsecval == 0. If it is zero, do not save and do not alert
+- Fixed dark search image
+- Set initial locked state to locked, get it unlocked in initialPush
+- Got rid of numeric cert view as it's useless
+- Fixed poor wifi start up bugs, double pin dialog
+- Fixed change pin bug when there are no OTC
+- Added a connection error check in connecting sessions to fail earlier
+- Added showVanishingMessage animation
+- Connection errors migrated to vanishing messages to be able to show them all
+- Fixed easy setup dismission
+- Got rid of deprecated UIAlerts
+
+Ver. 2.10rel
+- Added a BG image of the modal dialog
+- Added a search in a specified month
+- Added search between two dates
+- Redesigned the settings page
+- Added more sorting options
+- Fixed new messages count bug when the message count may become greater than total
+- Fixed cancelling docs attachments to return to the attachment selection
+- Fixed Oauth page not showing. Added a delay of 0.6 sec, still not found that causes it. Looks like I need to update AppAuth libraries
+- Added a safe BG option
+- More human-understandable SMTP error message
+- Changed SMTP authType to MCOAuthTypeSASLLogin, since outlook refused the connection
+
+Ver. 2.21rel
+- Added a new target without mail encryption (SenseMail Lite)
+- Got rid of the PIN button in the message composer since it's confusing
+- Added a tap gesture to remove the vanishing message
+- Fixed double PIN dialog on startup
+- Fixed extra condition wait on startup
+- Added NSAllowsArbitraryLoadsInWebContent and removed http to https change in updateMessageView
+- Added a setting to show/hide the account in notifications
+- Added keyboard dismiss in security settings
+- Fixed empty message list header on resuming from bg
+- Fixed account color selection dismiss bug
+- Fixed message width, although it may mess up the page height
+- Added predefined From and To searches
+- Closing PP, what's new etc returns to the menu
+- Right swipe in the list opens menu
+- Added a search button to the search accessory toolbar
+- Added black mode for own letters
+- Added a "Loading resources" label while loading external images
+- Fixed smallWheel for iOS 13 (style was depreciated and it was not shown)
+- Fixed highestModSecVal initial storage to keychain
+- Added forced clean up every other day regardless of safe BG setting
+- Fixed missing Loading&Stop button
+- Increased message size font, got rid of decimals in Kb
+- Added the silent hours setting
+- Fixed waitingForPin bug, causing not to load messages when restored with a message composer minimized
+- Fixed welcome page dark mode
+- Fixed a bug with predefined search that required a user input string
+- Added a search "Larger than size"
+- Added shortcut bar and its settings
+- Fixed a bug while re-encrypting a message on the server that was encrypted with a cert (password != cert password => the message is duplicated in plain-text)
+- Fixed a bug when not all accounts are shown in the menu after connection error
+- Fixed a bug when extra headers were not shown if they started with "<"
+- Added message expiry (only inbox and sent folders are cleaned)
+- Added a VPN connection
+- Added VPN settings
+- Removed "With Attachments" shortcut as it is not reliable
+- Fixed new line removal in message view
+- Fixed text view of the message to show the original text with no added html-code
+- Fixed settings row height for iOS 10
+- Fixed message re-encrypting bug?
+- Fixed sanity check sending a message - to address is checked as well
+- Added a password suggestion
+- Fixed welcome page pin request
+- Fixed initial general settings setup (if you add an email manually without a wizard, there's no general settings added)
+- Fixed readind settings to return general settings if email settings found
+- Fixed enableBar switch state reset
+- Added VPN useExtendedAuth setting on/off depending on the auth method selected
+- Fixed QR-code size on iPad
+- Moved all VPN stuff under a USESEC flag in debug mode, since Apple doesn't approve that use of VPN. I guess it may be used only for the system's web browsing.
+- Fixed notifications if timeout - do not show it
+
+Ver. 2.30
+- Added password suggestion with synthetic words. 2-3 words of 2-4 syllables ~8 symbol pwd
+- Tried to fix a rare imap operation crash, need to test - seems to be OK now
+- Limit minimum zoom in the secure gallery to 1
+- Added a double tap animation in the secure gallery
+- Changed easy setup connection images
+- Fixed sending unprotected bug - the confirmation didn't appear
+- Added a plain-text sending on a pin "no" in English, not in a local language only
+- Fixed reply html view - parse html in reply
+- Fixed reply subject dark mode
+- Fixed first responders on opening the composer
+- Fixed minimized-restored bug on iPad iOS 13+
+- Fixed new message zoom level - set it to 1
+- Fixed displaying an inline attachment
+- Changed UITextField to WKWebView in message composer - the html mails are shown correctly in reply, enabled rich text editor
+- Added a floating toolbar in the message composer. Can decorate font now
+- Fixed dark mode style for a new mail - apply dark mode not to the body, but to the :root tag. Also declared light & dark support for the page - without that apple mail won't use dark mode
+- Moved "emergency pin" and hasRunAppOnceKey to the keychain
+- Fixed emergency pin setting save - was under the bioID condition
+- Added a message with a number of deleted emails after deleting several emails
+- Fixed bg color selection
+- Fixed initial selected color in the bg color selection
+- Fixed to ignore zero lastmodseq and validity value
+- Added a check for null user defaults, might appear due to bg launch
+
+Ver.2.40
+- Fixed missing OTC bug
+- Fixed empty shortcut bar TODO: need to keep the setting for a shortcut enabled in the settings entity
+- Moved all settings except sortByDate, which I guess is not used any more, from the user defaults to the settings
+- Added expiration for non-encrypted emails
+-

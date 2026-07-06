@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="Content-Style-Type" content="text/css">
+                <title></title>
+                <meta name="Generator" content="Cocoa HTML Writer">
+                    <meta name="CocoaVersion" content="1138.47">
+                        <style type="text/css">
+                            p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica}
+                            p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+                            li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+                            ul.ul1 {list-style-type: disc}
+                            img {vertical-align: middle}
+                            
+                            @media (prefers-color-scheme: dark) {
+                                body {
+                                    background-color: rgb(20,20,20);
+                                    color: white;
+                                }
+                                a:link {
+                                    color: #0096e2;
+                                }
+                                a:visited {
+                                    color: #9d57df;
+                                }
+                            }
+                            </style>
+    </head>
+    <body>
+        <!-- Images are absent in simulator, but on device are OK. But not on iOS 9. -->
+        <!--img src="logo.png" width=50 height=50 halign=center/-->
+        <p class="p1"><b>¿Qué es SenseMail?</b></p><p class="p3"><br></p>
+        <p class="p2">SenseMail es una aplicación que puede conectarse a su proveedor de servicios de correo electrónico favorito y proteger sus comunicaciones.</p><p class="p3"><br></p>
+        <p class="p2">En primer lugar, la protección es la combinación más avanzada de compresión, cifrado y firma: el algoritmo AES-256 estándar de la industria es para cifrado, gzip es para compresión, HMAC y AONT son para firma y verificación.</p><p class="p3"><br></p>
+        <p class="p2">En segundo lugar, usamos PBKDF-SHA512 para derivar la clave de cifrado de los datos iniciales. El número de rondas varía aleatoriamente de casi 300K a casi 800K para asegurarse de que sea lo suficientemente grande como para que la fuerza bruta no sea factible.</p><p class="p3"><br></p>
+        <p class="p2">Por último, pero no menos importante, es la forma de obtener los datos iniciales para la clave de cifrado. Hay tres posibilidades:</p>
+        <p class="p3"><br></p>
+        <p class="p2">1. Una contraseña. Las opciones más débiles, que, sin embargo, tienen varias ventajas distintas: comunicación sin esfuerzo y flexibilidad extrema. Hay muchas maneras de decirle con seguridad una contraseña a su contraparte. Puede establecer una contraseña diferente para cada mensaje si lo desea.</p>
+        <p class="p3"><br></p>
+        <p class="p2">2. Una llave fija. La opción fuerte Una clave completa de 256 bits que además está mutada para que sea diferente para cada mensaje enviado. Genere un certificado fijo en un dispositivo y escanee un código QR por el otro.</p>
+        <p class="p3"><br></p>
+        <p class="p2">3. Un certificado de una sola vez. La opción más fuerte. Es una clave completa de 256 bits para un solo uso. Además, una clave tiene un tiempo de caducidad. El inconveniente es que para intercambiar los Certificados únicos que necesita para recopilar dos dispositivos juntos, no hay forma de hacerlo de forma remota.</p><br>
+        <p class="p1"><b>Alerta de mensajes nuevos</b></p><br>
+        <p class="p2">Hay una opción para recibir notificaciones cuando llegue un nuevo mensaje. Sin embargo, esa característica tiene algunas limitaciones. Utilizamos una mecánica proporcionada por el sistema para disparar un cheque por correo. Por lo tanto, no podemos controlar con qué frecuencia se verifica, ya que el sistema decide eso en función del patrón de uso de la aplicación. Si inicia la aplicación regularmente, el retraso es de aproximadamente una o dos horas.</b></p><p class="p3"><br></p>
+        <p class="p1"><b>Otras características</b></p>
+        <ul class="ul1">
+            <li class="li2">No hay mensajes de correo almacenados en el dispositivo</li>
+            <li class="li2">No se queja de que una contraseña es incorrecta: cada contraseña lo registra en un entorno de trabajo</li>
+            <li class="li2">Múltiples cuentas de correo electrónico con una bandeja de entrada combinada</li>
+            <li class="li2">Almacenamiento encriptado local para libreta de direcciones, galería y notas</li>
+            <li class="li2">No hay conexiones inseguras. Sin TLS / SSL = sin conexión</li>
+            <li class="li2">Aunque el asunto del mensaje está encriptado, es inseguro, no coloque allí información confidencial</li>
+        </ul>
+        <p class="p2"></p>
+    </body>
+</html>

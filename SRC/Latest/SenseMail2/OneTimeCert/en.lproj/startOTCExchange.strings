@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "IMPORTANT! To exchange certificates you need to place both devices near each other.\n\nOne device will generate the certificates, the other will simply receive them.\n\nWhat would you like to do?"; ObjectID = "0Kb-BL-mza"; */
+"0Kb-BL-mza.text" = "IMPORTANT! To exchange certificates you need to place both devices near each other.\n\nOne device will generate the certificates, the other will simply receive them.\n\nWhat would you like to do?";
+
+/* Class = "UIButton"; normalTitle = "I will be a generator!"; ObjectID = "HpU-0a-I7u"; */
+"HpU-0a-I7u.normalTitle" = "I will be a generator!";
+
+/* Class = "UILabel"; text = "One-time certificates"; ObjectID = "VlT-1u-FwD"; */
+"VlT-1u-FwD.text" = "One-time certificates";
+
+/* Class = "UIButton"; normalTitle = "I will be a receiver"; ObjectID = "mAw-4i-JJk"; */
+"mAw-4i-JJk.normalTitle" = "I will be a receiver";
+
+/* Class = "UILabel"; text = "One-Time Certificate (OTC) is a maximum-length key that is used to encrypt your message. \nIt is far better than a password since it is 256 bits in length, you don't need to remember it and it is used only once.\nMoreover, you can set an expiration time and it will be erased from the device and the message will be unreadable any more."; ObjectID = "snO-xl-buo"; */
+"snO-xl-buo.text" = "One-Time Certificate (OTC) is a maximum-length key that is used to encrypt your message. \nIt is far better than a password since it is 256 bits in length, you don't need to remember it and it is used only once.\nMoreover, you can set an expiration time and it will be erased from the device and the message will be unreadable any more.";

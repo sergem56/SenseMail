@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "From:"; ObjectID = "D2j-Q1-FlW"; */
+"D2j-Q1-FlW.text" = "De:";
+
+/* Class = "UILabel"; text = "Subj:"; ObjectID = "Xgn-1X-nR4"; */
+"Xgn-1X-nR4.text" = "Asunto:";
+
+/* Class = "UILabel"; text = "33 Attachments"; ObjectID = "nzw-hz-mpo"; */
+"nzw-hz-mpo.text" = "33 Attachments";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "yaj-Qg-FR6"; */
+"yaj-Qg-FR6.text" = "Para:";
+

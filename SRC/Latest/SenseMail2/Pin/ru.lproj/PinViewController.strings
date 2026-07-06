@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Login with Touch ID"; ObjectID = "Asd-N8-5P9"; */
+"Asd-N8-5P9.normalTitle" = "Вход с Touch ID";
+
+/* Class = "UITextField"; placeholder = "PIN Code"; ObjectID = "Cs5-Qe-dlx"; */
+"Cs5-Qe-dlx.placeholder" = "ПИН-код";
+
+/* Class = "UIButton"; normalTitle = "Quit"; ObjectID = "Iza-Vk-7Vw"; */
+"Iza-Vk-7Vw.normalTitle" = "Выйти";
+
+/* Class = "UILabel"; text = "Subtitle Label"; ObjectID = "htp-g9-OWA"; */
+"htp-g9-OWA.text" = "Subtitle Label";
+
+/* Class = "UILabel"; text = "Title Label"; ObjectID = "jCh-T8-Bhw"; */
+"jCh-T8-Bhw.text" = "Title Label";
+
+/* Class = "UIButton"; normalTitle = "Enter"; ObjectID = "wO5-dv-nNb"; */
+"wO5-dv-nNb.normalTitle" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xTS-KI-771"; */
+"xTS-KI-771.normalTitle" = "Button";

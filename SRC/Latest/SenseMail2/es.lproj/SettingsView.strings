@@ -1,0 +1,33 @@
+/* Class = "UILabel"; text = "Nickname:"; ObjectID = "5C7-BL-DJT"; */
+"5C7-BL-DJT.text" = "Apodo:";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "K8A-JV-eYR"; */
+"K8A-JV-eYR.text" = "Ajustes";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "Pi2-oE-AzZ"; */
+"Pi2-oE-AzZ.text" = "Contraseña:";
+
+/* Class = "UILabel"; text = "SMTP Server:"; ObjectID = "RRj-l3-jwE"; */
+"RRj-l3-jwE.text" = "Servidor SMTP:";
+
+/* Class = "UILabel"; text = "IMAP Server:"; ObjectID = "UfK-Bi-XQN"; */
+"UfK-Bi-XQN.text" = "Servidor IMAP:";
+
+/* Class = "UILabel"; text = "Settings Name:"; ObjectID = "hf2-tT-4uX"; */
+"hf2-tT-4uX.text" = "Nombre de ajustes:";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "nAT-go-JNL"; */
+"nAT-go-JNL.text" = "Nombre de usuario:";
+
+/* Class = "UILabel"; text = "SMTP port:"; ObjectID = "pjo-HM-HfH"; */
+"pjo-HM-HfH.text" = "Puerto SMTP:";
+
+"fdm-Ra-gbA.text" = "Puerto IMAP";
+
+/* Class = "UILabel"; text = "465 or 587"; ObjectID = "t70-5B-PFv"; */
+"t70-5B-PFv.text" = "465 or 587";
+
+"XZl-CL-fA8.normalTitle" = "Cerrar sesión";
+
+"8P3-zy-7oC.text" = "Seguridad IMAP:";
+"zvT-UX-L8U.text" = "Seguridad SMTP:";

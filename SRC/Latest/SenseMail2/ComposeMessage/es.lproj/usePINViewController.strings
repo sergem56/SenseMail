@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Send unprotected"; ObjectID = "8v7-bc-lqI"; */
+"8v7-bc-lqI.normalTitle" = "Enviar sin protección";
+
+/* Class = "UILabel"; text = "Expire message"; ObjectID = "GEz-oU-cCp"; */
+"GEz-oU-cCp.text" = "Borrar mensaje";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "HkA-Qh-RVb"; */
+"HkA-Qh-RVb.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "Sub label"; ObjectID = "KcY-jb-KbE"; */
+"KcY-jb-KbE.text" = "Sub label";
+
+/* Class = "UILabel"; text = "PIN-code"; ObjectID = "RYq-vZ-2Z6"; */
+"RYq-vZ-2Z6.text" = "PIN-code";
+
+/* Class = "UISegmentedControl"; ZO6-mI-zqo.segmentTitles[0] = "No"; ObjectID = "ZO6-mI-zqo"; */
+"ZO6-mI-zqo.segmentTitles[0]" = "No";
+
+/* Class = "UISegmentedControl"; ZO6-mI-zqo.segmentTitles[1] = "1 day"; ObjectID = "ZO6-mI-zqo"; */
+"ZO6-mI-zqo.segmentTitles[1]" = "1 día";
+
+/* Class = "UISegmentedControl"; ZO6-mI-zqo.segmentTitles[2] = "3 days"; ObjectID = "ZO6-mI-zqo"; */
+"ZO6-mI-zqo.segmentTitles[2]" = "3 días";
+
+/* Class = "UISegmentedControl"; ZO6-mI-zqo.segmentTitles[3] = "1 week"; ObjectID = "ZO6-mI-zqo"; */
+"ZO6-mI-zqo.segmentTitles[3]" = "7 días";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gPZ-9E-LK9"; */
+"gPZ-9E-LK9.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "t1m-Pe-ZAS"; */
+"t1m-Pe-ZAS.normalTitle" = "Enviar";

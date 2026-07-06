@@ -1,0 +1,35 @@
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dru-cj-7dZ"; */
+"Dru-cj-7dZ.normalTitle" = "Tout effacer";
+
+/* Class = "UILabel"; text = "Keeping the app active in backgroud allows checking mail, but brings a security issue since it is possible to open the app without a password."; ObjectID = "Fts-oc-jUZ"; */
+"Fts-oc-jUZ.text" = "Le fait de maintenir l'application active en arrière-plan permet de vérifier les courriels, mais cela comporte un risque lié à la sécurité, car il est possible d'ouvrir l'application sans mot de passe.\nREMARQUE: l'intervalle de récupération du courrier est défini par le système et peut devenir trop long. Cela dépend de l'utilisation de l'application.";
+
+/* Class = "UILabel"; text = "0.6"; ObjectID = "MqN-F8-Fq6"; */
+"MqN-F8-Fq6.text" = "0.6";
+
+/* Class = "UILabel"; text = "Check period:"; ObjectID = "X9A-xo-xg9"; */
+"X9A-xo-xg9.text" = "Vérifier la période :";
+
+/* Class = "UIButton"; normalTitle = "Change PIN"; ObjectID = "bxe-o6-TqJ"; */
+"bxe-o6-TqJ.normalTitle" = "Modifier le NIP";
+
+/* Class = "UILabel"; text = "General settings"; ObjectID = "fqN-A0-uhi"; */
+"fqN-A0-uhi.text" = "Paramètres généraux";
+
+/* Class = "UILabel"; text = "Keep active:"; ObjectID = "h4m-Ud-P48"; */
+"h4m-Ud-P48.text" = "Garder actif :";
+
+/* Class = "UILabel"; text = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it."; ObjectID = "jsS-rD-XaI"; */
+"jsS-rD-XaI.text" = "Le système de verrouillage par NIP est un code de protection des données de l'utilisateur. Celui-ci n'est jamais enregistré et ne peut pas être restauré si vous l'oubliez.";
+
+/* Class = "UILabel"; text = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger.
+ Recommended value is 0.6"; ObjectID = "kjG-pM-Pns"; */
+"kjG-pM-Pns.text" = "Compression JPEG. Définit le niveau de compression d'une pièce jointe. Plus celle-ci est proche de 1, meilleure est la qualité, mais la taille est plus grande. La valeur recommandée est 0.6";
+"LgP-qC-yZP.text" = "Gros caractères:";
+"Dy3-qM-u6x.text" = "Lorsque la partie suivante des messages est chargée, toute la liste peut être triée par date et les nouveaux messages peuvent devenir plus haut dans la liste et vous devrez peut-être faire défiler en arrière pour les voir. Sinon, seule cette nouvelle partie peut être triée par date avec le compte et ajoutée après les messages déjà chargés";
+"Rmx-Lu-c0u.text" = "Trier tout:";
+"4Om-Oh-MjP.text" = "Autoriser l'authentification biométrique pour ce compte uniquement";
+"ixB-KR-YJS.text" = "PIN pour tout effacer:";
+"4mq-oN-y3K.text" = "Effacer tout code PIN est un code PIN qui détruit toutes les données utilisateur si vous le saisissez au démarrage. C'est comme le bouton \"Tout effacer\" ci-dessus mais vous pouvez l'entrer dans la boîte de dialogue PIN. Tout sera effacé sans demander de confirmation.";
+"QPj-Nx-X60.text" = "Le bouton \"Tout effacer\" effacera toutes les données, y compris les paramètres, les notes, la galerie sécurisée, les certificats, le carnet d'adresses, etc., ne laissant aucune donnée utilisateur dans l'application. Les données effacées ne peuvent pas être récupérées. L'application sera fermée à la fin. L’effacement de la galerie sécurisée peut prendre un certain temps.";
+"Dru-cj-7dZ.normalTitle" = "Tout effacer";

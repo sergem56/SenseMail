@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CertPeerExchangerViewController">
+            <connections>
+                <outlet property="generateButton" destination="sNC-97-dDg" id="0fN-7c-7Q7"/>
+                <outlet property="otherEmail" destination="Hw3-wh-A9f" id="d18-Cz-wVE"/>
+                <outlet property="receiveButton" destination="RwK-g4-ijN" id="MdA-Bs-4Bl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="yourEmail" destination="SFG-JB-vLe" id="f1E-kq-4CL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One-time certificate exchange" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zh2-9P-nbD">
+                    <rect key="frame" x="16" y="10" width="343" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your email address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aHC-Ea-MVL">
+                    <rect key="frame" x="4" y="56" width="150" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="YBg-hX-uaX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="your@email.address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="SFG-JB-vLe">
+                    <rect key="frame" x="162" y="51" width="209" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To email address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y69-gz-ecx">
+                    <rect key="frame" x="20" y="93" width="134" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="to@email.address" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Hw3-wh-A9f">
+                    <rect key="frame" x="162" y="93" width="209" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zF0-uE-3R2">
+                    <rect key="frame" x="4" y="135" width="367" height="117"/>
+                    <string key="text">Enter both email adresses of a sender and a receiver to identify the certificates later on.
+To exchange the certificates you need to place both devices near each other.
+One party should press Generate button and follow the instructions to make the certificates, the other should simply tap 'Receive'</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwK-g4-ijN">
+                    <rect key="frame" x="230.5" y="259.5" width="54" height="30"/>
+                    <state key="normal" title="Receive"/>
+                    <connections>
+                        <action selector="receive:" destination="-1" eventType="touchUpInside" id="ar0-GW-dpj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNC-97-dDg">
+                    <rect key="frame" x="155.5" y="259.5" width="64" height="30"/>
+                    <state key="normal" title="Generate"/>
+                    <connections>
+                        <action selector="generate:" destination="-1" eventType="touchUpInside" id="f1R-9e-bcS"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fis-2n-pdx">
+                    <rect key="frame" x="144" y="306.5" width="87" height="30"/>
+                    <state key="normal" title="GetNextCert"/>
+                    <connections>
+                        <action selector="getNextCert:" destination="-1" eventType="touchUpInside" id="Xja-Wy-pLi"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cD-kB-TB2">
+                    <rect key="frame" x="136" y="344" width="103" height="30"/>
+                    <state key="normal" title="Delete all certs"/>
+                    <connections>
+                        <action selector="deleteAll:" destination="-1" eventType="touchUpInside" id="pei-aA-0bH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Hw3-wh-A9f" firstAttribute="top" secondItem="SFG-JB-vLe" secondAttribute="bottom" constant="8" id="2oD-OS-ogw"/>
+                <constraint firstItem="zh2-9P-nbD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="10" id="3rL-XD-wji"/>
+                <constraint firstItem="Y69-gz-ecx" firstAttribute="top" secondItem="aHC-Ea-MVL" secondAttribute="bottom" constant="16" id="44z-t4-P58"/>
+                <constraint firstItem="zh2-9P-nbD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="7Qa-ln-CwR"/>
+                <constraint firstItem="aHC-Ea-MVL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="4" id="Dfh-qv-Utj"/>
+                <constraint firstItem="sNC-97-dDg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HGw-0V-ikX"/>
+                <constraint firstItem="aHC-Ea-MVL" firstAttribute="top" secondItem="zh2-9P-nbD" secondAttribute="bottom" constant="25" id="IqY-q6-iKe"/>
+                <constraint firstItem="SFG-JB-vLe" firstAttribute="leading" secondItem="aHC-Ea-MVL" secondAttribute="trailing" constant="8" id="OAq-qh-ot5"/>
+                <constraint firstItem="SFG-JB-vLe" firstAttribute="top" secondItem="zh2-9P-nbD" secondAttribute="bottom" constant="20" id="Oh9-xG-Gg8"/>
+                <constraint firstAttribute="trailing" secondItem="zF0-uE-3R2" secondAttribute="trailing" constant="4" id="PsS-iB-oev"/>
+                <constraint firstItem="3cD-kB-TB2" firstAttribute="top" secondItem="Fis-2n-pdx" secondAttribute="bottom" constant="7.5" id="Ttn-Th-YOl"/>
+                <constraint firstItem="zF0-uE-3R2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="4" id="ULE-nq-eqP"/>
+                <constraint firstItem="Hw3-wh-A9f" firstAttribute="leading" secondItem="SFG-JB-vLe" secondAttribute="leading" id="Uck-Nh-7BF"/>
+                <constraint firstItem="Fis-2n-pdx" firstAttribute="top" secondItem="sNC-97-dDg" secondAttribute="bottom" constant="17" id="VUR-um-J6T"/>
+                <constraint firstItem="RwK-g4-ijN" firstAttribute="top" secondItem="zF0-uE-3R2" secondAttribute="bottom" constant="7.5" id="WD7-FE-uB2"/>
+                <constraint firstItem="Y69-gz-ecx" firstAttribute="trailing" secondItem="aHC-Ea-MVL" secondAttribute="trailing" id="Xbl-Y1-vyZ"/>
+                <constraint firstItem="Fis-2n-pdx" firstAttribute="centerX" secondItem="zF0-uE-3R2" secondAttribute="centerX" id="YzC-eY-Xgg"/>
+                <constraint firstItem="zF0-uE-3R2" firstAttribute="top" secondItem="Hw3-wh-A9f" secondAttribute="bottom" constant="8" id="ZQB-wa-o9v"/>
+                <constraint firstItem="zh2-9P-nbD" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="Zxd-Uu-vYv"/>
+                <constraint firstItem="aHC-Ea-MVL" firstAttribute="top" secondItem="zh2-9P-nbD" secondAttribute="bottom" constant="25" id="fLa-Pl-QIU"/>
+                <constraint firstAttribute="trailing" secondItem="Hw3-wh-A9f" secondAttribute="trailing" constant="4" id="fX1-uK-2f5"/>
+                <constraint firstItem="RwK-g4-ijN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="70" id="g7H-q7-LVW"/>
+                <constraint firstAttribute="trailing" secondItem="SFG-JB-vLe" secondAttribute="trailing" constant="4" id="hVp-01-x2D"/>
+                <constraint firstItem="3cD-kB-TB2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jQs-VY-l46"/>
+                <constraint firstItem="sNC-97-dDg" firstAttribute="top" secondItem="zF0-uE-3R2" secondAttribute="bottom" constant="7.5" id="rm2-4D-3Lt"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="86.5"/>
+        </view>
+    </objects>
+</document>

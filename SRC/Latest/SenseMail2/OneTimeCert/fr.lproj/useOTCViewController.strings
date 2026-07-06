@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Set expiration date"; ObjectID = "N4h-54-fTh"; */
+"N4h-54-fTh.text" = "Définir la date d'expiration";
+
+/* Class = "UILabel"; text = "Setting the expiration date will make a message unreadable after that date. The one-time certificate used to encrypt that message will be permanently deleted on a first launch of SenseMail app after the expiration date. Please, note that if you don't run the app, the OTC will not be deleted."; ObjectID = "SKB-lY-JfC"; */
+"SKB-lY-JfC.text" = "Définir la date d'expiration rendra un message illisible après cette date. Cependant, vous pouvez toujours lire le message non lu (mais une seule fois) après la date d'expiration. Le certificat à usage unique utilisé pour chiffrer ce message sera définitivement supprimé lors du premier lancement de l'application SenseMail après la date d'expiration. Veuillez noter que si vous n'exécutez pas l'application, l'OTC ne sera pas supprimé.";
+
+/* Class = "UILabel"; text = "One-Time Certificate is found"; ObjectID = "cOU-Yn-Gi4"; */
+"cOU-Yn-Gi4.text" = "Un certificat unique est trouvé";
+
+/* Class = "UISegmentedControl"; sOi-JP-lml.segmentTitles[0] = "1 day"; ObjectID = "sOi-JP-lml"; */
+"sOi-JP-lml.segmentTitles[0]" = "En lisant";
+
+/* Class = "UISegmentedControl"; sOi-JP-lml.segmentTitles[1] = "3 days"; ObjectID = "sOi-JP-lml"; */
+"sOi-JP-lml.segmentTitles[1]" = "1 jours";
+
+/* Class = "UISegmentedControl"; sOi-JP-lml.segmentTitles[2] = "7 days"; ObjectID = "sOi-JP-lml"; */
+"sOi-JP-lml.segmentTitles[2]" = "3 jours";
+
+/* Class = "UISegmentedControl"; sOi-JP-lml.segmentTitles[3] = "30 days"; ObjectID = "sOi-JP-lml"; */
+"sOi-JP-lml.segmentTitles[3]" = "7 jours";
+
+/* Class = "UISegmentedControl"; sOi-JP-lml.segmentTitles[4] = "Custom"; ObjectID = "sOi-JP-lml"; */
+"sOi-JP-lml.segmentTitles[4]" = "Autre";

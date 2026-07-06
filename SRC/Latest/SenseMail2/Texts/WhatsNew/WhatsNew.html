@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style type="text/css">
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: rgb(20,20,20);
+            color: white;
+        }
+        a:link {
+            color: #0096e2;
+        }
+        a:visited {
+            color: #9d57df;
+        }
+    }
+    </style>
+    
+    <title>New version is out!</title>
+</head>
+
+<body style="font-family:verdana;">
+    <p><h3>Ver.2.30</h3></p>
+    <lu>
+        <li>Fixed html view in replying to a message</li>
+        <li>Added a toolbar to "decorate" text in the message composer</li>
+        <li>Fixed the "Send unprotected" bug</li>
+        <li>Fixed the minimized message bug on iPad</li>
+        <li>Fixed the inline attachments that were not showing</li>
+        <li>Added a password suggestion with synthesized words</li>
+        <li>Other bug fixes and improvements</li>
+    </lu>
+    <p><h3>Ver.2.21</h3></p>
+    <lu>
+        <li>Added message expiry for the password-protected emails. This feature just deletes a message from the Inbox and Sent folders on the application launch. Please, note, that the email can stay on the server in Deleted/Archive folder, depending on the storage settings</li>
+        <li>Added a setting to show/hide the account in notifications</li>
+        <li>Added predefined From and To searches</li>
+        <li>Right swipe gesture opens the menu</li>
+        <li>Added forced clean up every other day regardless of the safe background mode setting</li>
+        <li>Added the silent hours setting</li>
+        <li>Added a search "Larger than size"</li>
+        <li>Added shortcut bar and its settings</li>
+        <li>Got rid of the PIN button in the message composer since it's confusing</li>
+        <li>Added a tap gesture to remove the vanishing message</li>
+        <li>Minor bug fixes and improvements</li>
+    </lu>
+    <p><h3>Ver.2.10</h3></p>
+    <lu>
+        <li>Added search in a specified month</li>
+        <li>Added search between two dates</li>
+        <li>Redesigned the settings menu</li>
+        <li>More sorting options</li>
+        <li>Fixed the SMTP connection bug</li>
+        <li>Added an option not to clean memory on putting the app into the background</li>
+        <li>Other bugfixes and improvements</li>
+    </lu>
+    <br>
+    <p><h3>Ver.2.01</h3></p>
+    <p>This is a mostly bug-fixes version. We improved stability and got rid of some deprecated code.</p>
+    <br>
+    <p><h3>Ver.2.00</h3></p>
+    <p>There are lots of changes in this version.<br>We added a background check for the new messages. But that is not a push message from the mail server. It is a system's background task that is fired from time to time, depending on the app usage. The more often you open the app, the more frequent is the check performed. The check period might be, for example, 10 minutes, might be half an hour, or might be even once a day. We cannot keep the active connection to your mail server to get the alert right away due to the operating system's limitation. At the same time, we do not want to keep that connection active from our servers as, in that case, we need to send your data to servers, other than your mail server, that is against our policy.</p>
+    <lu>
+        <li>Dark mode</li>
+        <li>Customizable background color for every account</li>
+        <li>Added a "Print" action</li>
+        <li>Added some more pre-defined search filters</li>
+        <li>Added an emergency clear-all PIN code</li>
+        <li>Added a "Clear all" button to the settings</li>
+        <li>Added memory overwriting and cleaning on exit</li>
+        <li>Fixed a slow-motion attachment</li>
+        <li>Optimized network usage</li>
+        <li>Numerous stability improvement</li>
+        <li>Other bugfixes and improvements</li>
+    </lu>
+    <br>
+    <p><h3>Ver.1.9</h3></p>
+    <lu>
+        <li>Added Biometric ID. You can login to one account with TouchID or FaceID.</li>
+        <li>Added message auto-load. When you scroll the list to the end, the next set of messages are loaded automatically.</li>
+        <li>Now you can encrypt a message on the server. If you received a plain-text message, you can leave it on the server in the encrypted format. Please, read our blog for more details on how to do it securely.</li>
+        <li>Added an option to send a message if an SSL certificate of a server is invalid.</li>
+        <li>Added a setting to sort the list with newly loaded messages. It can be sorted by date as a whole list or just a part being added. In other words, when you load the next part of messages from multiple email accounts, they can be mixed (sorted by date) with already shown messages or added to the end of that list to make it easier to spot them. This applies to the list of several email accounts. If there is only one account, all the messages will be sorted by date anyway.</li>
+        <li>Changed a message view layout for better readability - subject is on top in bold</li>
+        <li>Added from, to, reply-to and size info, expanding by a tap on a sender's address in message view</li>
+        <li>Detect html for encrypted messages to show them as html (before encrypted messages were treated as plain text and if you encrypt an existing message, its formatting messed up)</li>
+        <li>HTML-Text switch to view a message</li>
+        <li>Other minor bug fixes and improvements</li>
+    </lu>
+    <br>
+    <p><h3>Ver.1.8</h3></p>
+    <lu>
+        <li>To enhance security we introduced a mutable key. We add a random number of PBKDF2-SHA512 rounds to the key derivation function in a range between 250K and 700K iterations. For every message sent you'll have a different key derived from your password or a fixed certificate.</li>
+        <li>An option to set the number of messages to load from each account. Default is ten</li>
+        <li>Added “On read” expiration time for OTC. Now you can send a message that will vanish after first read. Such messages will have a red lock icon in the list</li>
+        <li>Fixed OTC exchange bug appearing if you send the same certificates twice</li>
+        <li>Other minor bug fixes and improvements</li>
+    </lu>
+    <br>
+    <p><h3>Ver.1.7. What's new?</h3></p>
+    <lu>
+        <li>One-Time Certificates. Exchange the certificates with your counterpart and get the highest level of protection for your messages. One key is used for one message. Each key used can be set to vanish at a specified day.</li>
+        <li>Added What's new page. You are reading it right now. You can call it any time later from the main menu.</li>
+        <li>Added high/normal priority for a message. A small blue/red dot to the right of the sender's address.</li>
+        <li>Added search important for messages with high priority</li>
+        <li>Added read receipt handling. A receipt's icon beside the subject line.</li>
+        <li>Changed icons of the messages in the list. Lock - encrypted with a password. Double lock - encrypted with a one-time certificate. "Burning" double lock - the cert is going to expire. "Cracked" double lock - the certificate has expired and the message is unreadable. Green sender - the message is encrypted with a certificate.</li>
+        <li>The source code was checked against the OWASP (The Mobile Application Security Verification Standard) requirements</li>
+        <li>Rename folder on long press on a folder in the list</li>
+        <li>No exceptions from the system's networking security rules - no more insecure loads over http</li>
+        <li>Various bug fixes and improvements</li>
+    </lu>
+    <br>
+    <p><h3>Ver.1.6</h3></p>
+<p>There are quite a lot of changes in this version. Lets start chronologically and list major fixes.<br></p>
+    <lu>
+        <li>We've added an easy setup feature. Now to add an account you need to enter your e-mail address and we'll try to figure out the server settings. For Gmail you'll be redirected to the web-authorisation form, for other accounts you'll need to enter a password.</p>
+        </li>
+        <li>Now you can enable an auto-signature for an e-mail account.</p>
+        </li>
+        <li>There was a bug – imagine that you compose a message and get a call. After finishing a call you notice that the letter has disappeared. Annoying. Now your letter will be hidden to an icon and won't be lost. The same was with a secure note. Fixed.</li>
+        <li>In the list of messages you can tap on the table header to sort the table by date, by unread and by the sender in a cycle
+        </li>
+        <li>Added message search. Since we cannot search message body as it is encrypted, we added search for unread, starred, large messages, protected and answered messages. Text search will look into sender and subject (for unprotected messages) fields. Also, when the date is detected, you can search messages before/on/after that date
+        </li>
+        <li>Added HTML or plain text view for a secure note
+        </li>
+        <li>Now you can save documents to the secure gallery
+        </li>
+        <li>There is an option for large font for list of the messages
+        </li>
+        <li>We've added a multiple selection in message list. Now you can select multiple messages and delete, copy, move or flag them all at once
+        </li>
+        <li>We fixed a number of other bugs
+        </li>
+    </lu>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "No One-Time Certificates"; ObjectID = "LK2-cj-Vqr"; */
+"LK2-cj-Vqr.text" = "Нет одноразовых сертификатов";
+
+/* Class = "UILabel"; text = "List of all One-Time Certificates"; ObjectID = "Z1q-aO-ueZ"; */
+"Z1q-aO-ueZ.text" = "Список всех одноразовых сертификатов";
+
+/* Class = "UILabel"; text = "List of all One-Time Certificates grouped by the addresses"; ObjectID = "lUb-qy-94v"; */
+"lUb-qy-94v.text" = "Список всех одноразовых сертификатов, сгруппированных по адресам";

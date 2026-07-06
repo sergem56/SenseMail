@@ -1,0 +1,9 @@
+/* Class = "UILabel"; text = "From:"; ObjectID = "D2j-Q1-FlW"; */
+"D2j-Q1-FlW.text" = "От:";
+
+/* Class = "UILabel"; text = "Subj:"; ObjectID = "Xgn-1X-nR4"; */
+"Xgn-1X-nR4.text" = "Тема:";
+
+/* Class = "UILabel"; text = "To:"; ObjectID = "yaj-Qg-FR6"; */
+"yaj-Qg-FR6.text" = "Кому:";
+

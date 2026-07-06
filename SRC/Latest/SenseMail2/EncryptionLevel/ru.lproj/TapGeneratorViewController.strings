@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Tap inside the box. Tap at least 32 times. Tapping more won't make your key practically stronger, however you may keep on tapping."; ObjectID = "9kv-W7-zJE"; */
+"9kv-W7-zJE.text" = "Нажимайте внутри прямоугольника как минимум 32 раза.";
+
+/* Class = "UILabel"; text = "Key Generator"; ObjectID = "BcX-JU-vNP"; */
+"BcX-JU-vNP.text" = "Генератор ключа";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "Vbq-7B-Z2M"; */
+"Vbq-7B-Z2M.normalTitle" = "Готово";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "xXf-lR-2NF"; */
+"xXf-lR-2NF.normalTitle" = "Отмена";
+
+/* Class = "UILabel"; text = "Tap to get your key"; ObjectID = "xxU-v1-dZZ"; */
+"xxU-v1-dZZ.text" = "Нажимайте, чтобы получить ключ";

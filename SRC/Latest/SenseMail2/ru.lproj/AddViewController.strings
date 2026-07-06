@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "You can generate 100 one-time certificates (OTC) to be used as a 256-bit key to protect a message sent. One certificate is used for one message only.\nOTC is a powerful tool to protect your data. With OTC you can use the full strength of AES-256 encryption.\nA message, protected with OTC can be expired."; ObjectID = "07F-xR-UI1"; */
+"07F-xR-UI1.text" = "Вы можете создать 100 одноразовых сертификатов (OTC) для использования в качестве 256-битного ключа для защиты отправленного сообщения. Один сертификат используется только для одного сообщения.\nOTC - это мощный инструмент для защиты ваших данных. С помощью OTC вы можете использовать шифрование AES-256 в полном объеме.\nСообщение, защищенное OTC, может быть просрочено.";
+
+/* Class = "UIButton"; normalTitle = "   Delete all OTCs for the contact"; ObjectID = "22J-Yi-CE2"; */
+"22J-Yi-CE2.normalTitle" = "   Удалить все OTC для контакта";
+
+/* Class = "UIButton"; normalTitle = "   Resend the certificate"; ObjectID = "2AE-fU-MZq"; */
+"2AE-fU-MZq.normalTitle" = "   Resend the certificate";
+
+/* Class = "UILabel"; text = "You can add a single 256-bit certificate that will be used instead of a password for a message. The other part should scan a generated QR-code to add a certificate to be able to read your mails. This certificate is protected by its own password."; ObjectID = "2q2-e8-ePr"; */
+"2q2-e8-ePr.text" = "Вы можете добавить один 256-битный сертификат, который будет использоваться вместо пароля для сообщения. Другая часть должна отсканировать сгенерированный QR-код, чтобы добавить сертификат, чтобы можно было читать ваши письма. Этот сертификат защищен собственным паролем.";
+
+/* Class = "UILabel"; text = "Note:"; ObjectID = "3Oy-Ps-VgK"; */
+"3Oy-Ps-VgK.text" = "Прим.:";
+
+/* Class = "UIButton"; normalTitle = "   Write an e-mail"; ObjectID = "DKY-eO-aJH"; */
+"DKY-eO-aJH.normalTitle" = "   Написать e-mail";
+
+/* Class = "UILabel"; text = "Groups:"; ObjectID = "Nk6-d5-4wr"; */
+"Nk6-d5-4wr.text" = "Группы:";
+
+/* Class = "UILabel"; text = "This contact has no certificate"; ObjectID = "PMz-lN-tdO"; */
+"PMz-lN-tdO.text" = "У контакта нет сертификата";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "b8N-Vc-wcU"; */
+"b8N-Vc-wcU.text" = "E-mail:";
+
+/* Class = "UIButton"; normalTitle = "   View OTCs"; ObjectID = "hfZ-0z-SNC"; */
+"hfZ-0z-SNC.normalTitle" = "   Просмотр OTC";
+
+/* Class = "UILabel"; text = "What would you like to do?"; ObjectID = "iYf-XV-xcS"; */
+"iYf-XV-xcS.text" = "Что вы хотите сделать?";
+
+/* Class = "UIButton"; normalTitle = "   Delete the certificate"; ObjectID = "n1S-ad-lA7"; */
+"n1S-ad-lA7.normalTitle" = "   Удалить сертификат";
+
+/* Class = "UIButton"; normalTitle = "   Exchange one-time certs"; ObjectID = "nOP-Se-dI6"; */
+"nOP-Se-dI6.normalTitle" = "   Обмен OTC";
+
+/* Class = "UIButton"; normalTitle = "   View or add a new certificate"; ObjectID = "xAo-4C-xZw"; */
+"xAo-4C-xZw.normalTitle" = "   Просмотр и добавление сертификата";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "zCe-JP-KcX"; */
+"zCe-JP-KcX.text" = "Имя:";

@@ -1,0 +1,577 @@
+/* No comment provided by engineer. */
+"\"no\"" = "\"нет\"";
+
+/* No comment provided by engineer. */
+"Address book is empty" = "Адресная книга пуста";
+
+/* No comment provided by engineer. */
+"Address is empty" = "Адрес не заполнен";
+
+/* No comment provided by engineer. */
+"Address is invalid" = "Неверный адрес";
+
+"From address is invalid \n" = "Адрес электронной почты \"От\" недействителен \n";
+"To address is invalid" = "Адрес электронной почты \"Кому\" недействителен";
+
+/* No comment provided by engineer. */
+"Application PIN is time-outed" = "Пин код приложения устарел, повторите ввод";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete image?" = "Вы действительно хотите удалить это изображение?";
+
+/* No comment provided by engineer. */
+"Attachments%lu" = "Вложений: %lu";
+
+/* No comment provided by engineer. */
+"Attachments saved" = "Вложения сохранены";
+
+/* No comment provided by engineer. */
+"Cancel" = "Отмена";
+
+/* No comment provided by engineer. */
+"Certificate saved. However, for security reasons" = "Сертификат сохранен. Однако, по соображениям безопасности, рекомендуется удалить это письмо с сервера. Хотите удалить его сейчас?";
+
+/* No comment provided by engineer. */
+"Cleaning up..." = "Очистка...";
+
+/* No comment provided by engineer. */
+"Connecting..." = "Соединение...";
+"Connecting" = "Подключение";
+
+/* No comment provided by engineer. */
+"Contact has been deleted from this group only" = "Контакт был удален только из группы";
+
+/* No comment provided by engineer. */
+"Copying..." = "Копирование...";
+"Moving..." = "Перемещение...";
+
+/* No comment provided by engineer. */
+"Decrypting..." = "Расшифровка...";
+
+/* No comment provided by engineer. */
+"Deleting..." = "Удаление...";
+
+/* No comment provided by engineer. */
+"Done" = "Готово";
+
+/* No comment provided by engineer. */
+"E-mail is empty" = "Адрес не заполнен";
+
+/* No comment provided by engineer. */
+"Enter PIN" = "Введите ПИН-код";
+
+/* No comment provided by engineer. */
+"Enter PIN set to send a message TO the address" = "Введите ПИН, установленный для отправки сообщений адресату";
+
+/* No comment provided by engineer. */
+"Enter group name" = "Введите имя группы";
+
+/* No comment provided by engineer. */
+"Enter password to create the key file" = "Введите пароль для создания ключевого файла";
+
+/* No comment provided by engineer. */
+"Enter pins" = "Создайте ПИН-коды";
+
+/* No comment provided by engineer. */
+"Enter sender address" = "Введите адрес отправителя или оставьте поле пустым чтобы сбросить фильтр";
+
+/* No comment provided by engineer. */
+"Error" = "Ошибка";
+
+/* No comment provided by engineer. */
+"Error decoding certificate" = "Ошибка при распаковке сертификата, проверьте пароль к письму";
+
+/* No comment provided by engineer. */
+"Error loading message" = "Ошибка при загрузке сообщения";
+
+/* No comment provided by engineer. */
+"Error loading messages" = "Ошибка при загрузке списка сообщений";
+
+/* No comment provided by engineer. */
+"Error reading certificate" = "Ошибка чтения сертификата";
+
+/* No comment provided by engineer. */
+"Error saving certificate" = "Ошибка записи сертификата";
+
+/* No comment provided by engineer. */
+"Error saving image" = "Ошибка при сохранении изображения";
+
+/* No comment provided by engineer. */
+"Error saving note" = "Ошибка при сохранении записи";
+
+/* No comment provided by engineer. */
+"Error saving settings" = "Ошибка при сохранении настроек";
+
+/* No comment provided by engineer. */
+"Error sending message" = "Ошибка при отправке сообщения";
+
+/* No comment provided by engineer. */
+"Find messages" = "Найти сообщения";
+
+/* No comment provided by engineer. */
+"Group" = "Группа";
+
+/* No comment provided by engineer. */
+"Image saved" = "Изображение сохранено";
+
+/* No comment provided by engineer. */
+"Image saved to secure storage" = "Изображение сохранено в безопасную галерею";
+
+/* No comment provided by engineer. */
+"Image will be permanently deleted" = "Изображение будет удалено без возможности восстановления";
+
+/* No comment provided by engineer. */
+"Images: %i" = "Изобр.: %i";
+
+/* No comment provided by engineer. */
+"Inbox" = "Входящие";
+
+/* No comment provided by engineer. */
+"It remains in the address book" = "Он остается в адресной книге";
+
+/* No comment provided by engineer. */
+"Item changed" = "Запись изменена";
+
+/* No comment provided by engineer. */
+"Last update: %@" = "Обновлено %@";
+
+/* No comment provided by engineer. */
+"Load messages" = "Загрузить сообщения";
+
+/* No comment provided by engineer. */
+"Load more messages" = "Загрузить еще";
+
+/* No comment provided by engineer. */
+"Loading key..." = "Загрузка ключа...";
+
+/* No comment provided by engineer. */
+"Loading..." = "Загрузка...";
+"Loading" = "Загрузка";
+
+/* No comment provided by engineer. */
+"Me" = "Я";
+
+/* No comment provided by engineer. */
+"Message not available" = "Сообщение недоступно";
+
+/* No comment provided by engineer. */
+"NO" = "Нет";
+
+/* No comment provided by engineer. */
+"Need pin for received messages FROM this address" = "ПИН-код для сообщений, которые вы получаете С этого адреса";
+
+/* No comment provided by engineer. */
+"Need pin for your sent messages TO this address" = "ПИН-код для сообщений, которые вы отправляете НА этот адрес";
+
+/* No comment provided by engineer. */
+"No" = "Нет";
+
+/* No comment provided by engineer. */
+"No images here" = "Сохраненных изображений нет";
+
+/* No comment provided by engineer. */
+"No messages" = "Сообщений нет";
+
+/* No comment provided by engineer. */
+"No more messages" = "Больше сообщений нет";
+
+/* No comment provided by engineer. */
+"Not loaded yet..." = "Еще не загружено...";
+
+/* No comment provided by engineer. */
+"Note saved" = "Запись сохранена";
+
+/* No comment provided by engineer. */
+"Nothing to add" = "Нечего добавить";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"PIN-code is never stored anywhere, so REMEMBER IT!" = "ПИН нигде не сохраняется, ЗАПОМНИТЕ ЕГО!";
+
+/* No comment provided by engineer. */
+"PINs do not match" = "Коды не совпадают";
+
+/* No comment provided by engineer. */
+"Password:" = "Пароль:";
+
+/* No comment provided by engineer. */
+"PrivacyPolicy" = "PrivacyPolicyRu";
+
+/* No comment provided by engineer. */
+"Protection is needed for the settings" = "Для настроек требуется защита";
+
+/* No comment provided by engineer. */
+"Re-enter PIN to confirm" = "Подтвердите ПИН";
+
+/* No comment provided by engineer. */
+"Remove" = "Удалить";
+
+/* No comment provided by engineer. */
+"Repeat password:" = "Повторите пароль:";
+
+/* No comment provided by engineer. */
+"Reset all" = "Сбросить все";
+
+/* No comment provided by engineer. */
+"Save" = "Сохранить";
+
+/* No comment provided by engineer. */
+"Save and close" = "Сохранить и закрыть";
+
+/* No comment provided by engineer. */
+"Save changes?" = "Сохранить изменения?";
+
+/* No comment provided by engineer. */
+"Save secure" = "Сохранить безопасно";
+
+/* No comment provided by engineer. */
+"Saving..." = "Сохранение...";
+
+/* No comment provided by engineer. */
+"Search messages" = "Найти"; //"Искать сообщения";
+
+/* No comment provided by engineer. */
+"Security alert" = "Ключ закончился. Обратитесь к поставщику приложения для замены ключа. Так же, вы и все ваши контакты можете обновить ключ одним и тем же паролем на странице настроек приложения. Или вы можете отправлять сообщения, выбирая сложный пароль (как минимум 10 символов). Однако, все эти альтернативные варианты гораздо менее безопасные, чем замена ключа.";
+
+/* No comment provided by engineer. */
+"Security alert title" = "Предупреждение";
+
+/* No comment provided by engineer. */
+"Select action" = "Выберите действие";
+
+/* No comment provided by engineer. */
+"Select folder" = "Выберите ящик";
+
+/* No comment provided by engineer. */
+"Send" = "Отпр.";
+
+/* No comment provided by engineer. */
+"Sending..." = "Отправка...";
+
+/* No comment provided by engineer. */
+"Sent" = "Отправленные";
+
+/* No comment provided by engineer. */
+"Set PIN-code for the message" = "Установите ПИН-код для сообщения или введите \"нет\" чтобы отправить его незашифрованным";
+
+/* No comment provided by engineer. */
+"Setting background mode on makes it possible to reverse-engineer the app's pin-code if an adversary gains a physical access to your device. Are you sure you want to turn it on?" = "Включение фонового режима может дать возможность восстановления пин-кода приложения, если ваше устройство попадет в руки злоумышленника. Вы уверены, что хотите включить этот режим?";
+
+/* No comment provided by engineer. */
+"Settings" = "Настройки";
+
+/* No comment provided by engineer. */
+"Spam" = "Спам";
+
+/* No comment provided by engineer. */
+"Starred" = "Помеченные";
+
+/* No comment provided by engineer. */
+"Stop" = "Остановить";
+
+/* No comment provided by engineer. */
+"There is a certificate for this contact" = "Для этого контакта установлен сертификат";
+
+/* No comment provided by engineer. */
+"This contact has no certificate" = "Этот контакт не имеет сертификата";
+
+/* No comment provided by engineer. */
+"This message contains certificate" = "Это сообщение содержит сертификат";
+
+/* No comment provided by engineer. */
+//"This message is password-protected" = "Это сообщение защищено паролем";
+"Message from %@ is password-protected" = "Сообщение от %@ защищено паролем";
+
+/* No comment provided by engineer. */
+"Use %@ as a PIN-code to send this message instead of the certificate?" = "Использовать ’%@’ как ПИН-код для отправки сообщения вместо сертификата?";
+
+/* No comment provided by engineer. */
+"User name or password is empty" = "Имя пользователя или пароль не заполнены";
+
+/* No comment provided by engineer. */
+"View" = "Просмотреть";
+
+/* No comment provided by engineer. */
+"Warning" = "Предупреждение";
+
+/* No comment provided by engineer. */
+"Wrong pin" = "Неверный ПИН-код";
+
+/* No comment provided by engineer. */
+"YES" = "Да";
+
+/* No comment provided by engineer. */
+"Yes" = "Да";
+
+/* No comment provided by engineer. */
+"You haven't added any notes yet." = "Вы еще не добавили ни одной заметки";
+
+/* No comment provided by engineer. */
+"helpFile" = "helpRu";
+
+/* No comment provided by engineer. */
+"no" = "нет";
+
+"Make key file" = "Создать ключ";
+"Create a PIN-code for the application" = "Задайте ПИН-код для приложения";
+"No settings" = "Настройки почты не заданы";
+"Privacy policy" = "Политика конфиденциальности";
+"Info" = "Информация";
+"Not loaded yet. Please, come back later." = "Еще не загружено. Заходите позже.";
+"Boxes & folders" = "Ящики & папки";
+"Not loaded yet" = "Еще не загружено";
+"Settings & other" = "Настройки & прочее";
+"Add folder..." = "Добавить папку...";
+"Folder name" = "Название папки";
+"Forward" = "Переслать";
+"Move to folder" = "Переместить в папку...";
+"Copy to folder" = "Копировать в папку...";
+"This is the last loaded message" = "Это последнее загруженное сообщение";
+"This is the first message" = "Это первое сообщение";
+"*Search can only find a whole word in a sender's address - me@mymail.com will be found for 'me', 'mymail', 'mymail.com' but not for 'mail'" = "*Найдет только целое слово в адресе - me@mymail.com можно найти по 'me', 'mymail', но не по 'mail'";
+" Find sender...*" = " Найти отправителя...*";
+"Mark as read" = "Пометить как (не)прочитанное";
+"Mark as read only" = "Пометить как прочитанное";
+"Mark as unread" = "Пометить как непрочитанное";
+"Back" = "Назад";
+"Tell a friend" = "Поделиться с друзьями";
+"ShareMessage" = "Хочу поделиться находкой - безопасный почтовый клиент!";
+"Session for %@ not found" = "Подключение к серверу для %@ не найдено";
+"There are unsaved changes. Save before closing." = "Настройки изменены. Сохранить их перед закрытием?";
+"Cleaning up..." = "Очистка";
+"Saving attachment" = "Запись...";
+"We have enough data to make your key now! You may continue tapping if you wish." = "Мы собрали достаточно данных для формирования ключа. Вы можете продолжить, если желаете.";
+"Bytes collected: %d" = "Собрано байт: %d";
+"Processing..." = "Обработка...";
+"No certificate. Please, enter one here, generate new or read QR-code from %@" = "Сертификат отсутствует. Пожалуйста, введите его здесь, создайте новый или просканируйте QR-код от %@";
+"Certificate for %@" = "Сертификат для %@";
+"The certificate has been changed. Save before closing?" = "Сертифика был изменен. Сохранить его перед закрытием?";
+"Secure Notes" = "Защищенные заметки";
+"Bytes collected: %d\n%@" = "Собрано байт: %d\n%@";
+"Time to crack: %@" = "Время на подбор: %@";
+"instantly" = "мнгновенно";
+"less than a minute" = "меньше минуты";
+"about an hour" = "около часа";
+"10 days" = "10 дней";
+"8 years" = "8 лет";
+"2000 years" = "2000 лет";
+"500.000 years" = "500.000 лет";
+"150 million years" = "150 миллионов лет";
+"eons" = "почти вечность";
+"eternity" = "вечность";
+"never" = "никогда";
+"never ever" = "больше, чем никогда";
+"Use web-authorization" = "Web-авторизация";
+"Scan QR" = "Сканировать QR";
+"Password to save this certificate" = "Пароль для хранения сертификата";
+"Repeat the password" = "Повторите пароль";
+"Certificate protection" = "Защита сертификата";
+"Open link in external browser?" = "Открыть ссылку в браузере?";
+"Add account" = "Добавить уч.запись";
+"Error saving file" = "Ошибка сохранения файла";
+"File saved to Documents" = "Файл сохранен в Документы";
+"Don't save" = "Не сохранять";
+"Feature %@ is unavailable" = "%@ доступно только в полной версии";
+"Get the full version?" = "Чтобы загрузить полную версию вам надо сделать единовременную покупку. Нет никаких подписок или периодических платежей. Вы платите один раз и навсегда.";
+"Get full version!" = "Купить полную версию!";
+"Message moved" = "Сообщение перемещено";
+"Message copied" = "Сообщение скопировано";
+"Cannot preview file" = "Предварительный просмотр невозможен";
+"%i messages moved" = "%i сообщений перемещено";
+"%i messages copied" = "%i сообщений скопировано";
+"Set star" = "Установить звезду";
+"Add email" = "Добавить уч.запись";
+"Invalid e-mail address" = "Неверный адрес почты";
+"Settings saved" = "Настройки сохранены";
+"We could not find servers for %@ and we opened a settings page to enter them manually" = "Мы не нашли настойки для %@ и открыли страницу настроек, чтобы ввести их вручную";
+"Settings for %@ already exist" = "Настройки для %@ уже существуют";
+"No need to save" = "Сохранение не требуется";
+"Will open web-authorization page" = "Откроется страница web-авторизации";
+"Find unread" = "Найти непрочитанные";
+"Find answered" = "Найти отвеченные";
+"Find large messages" = "Найти большие";
+"Find flagged" = "Найти с флажком";
+"Find protected" = "Найти защищенные";
+"Find important" = "Найти важные";
+"Important" = "Важные";
+"Select all" = "Выбрать все";
+"Delete" = "Удалить";
+"Select action for an item" = "Выберите действие для письма";
+"Select action for %i items" = "Выберите действие для %i писем";
+"Are you sure you want to remove this item?" = "Вы уверены, что хотите удалить этот элемент?";
+"Are you sure you want to remove %i items?" = "Вы уверены, что хотите удалить %i элементов?";
+"Message info..." = "Информация о письме...";
+"Setting star" = "Setting star";
+"WhatsNew" = "WhatsNewRU";
+
+"Resend" = "Отправить";
+"All the certificates from the list will be deleted. Do you want to continue?" = "Все сертификаты из списка будут удалены. Вы хотите продолжить?";
+"Delete them" = "Удалить их";
+"To resend the OTCs you need to place both devices near each other and start the OTC exchange on the second device as a receiver. To do so go to the address book, choose the desired sender, tap \"Exchange OTC\" and tap \"I will be a receiver\".\nDo you want to continue?" = "Для повторной отправки ОТС необходимо разместить оба устройства рядом друг с другом и запустить обмен ОТС на втором устройстве в качестве приемника. Для этого перейдите в адресную книгу, выберите нужного отправителя, нажмите \"Обмен OTC\" и нажмите \"Я буду получателем\".\nПродолжить?";
+"Started advertising..." = "Готов к подключению...";
+"Processing certificates..." = "Обработка сертификатов...";
+"Transmission started..." = "Передача началась...";
+"Data received" = "Данные получены";
+"ACK received-data sent successfully" = "Данные успешно отправлены";
+"Not enough data, tap at least %lu times" = "Недостаточно данных, нажмите минимум %lu раз";
+"We are about to generate 100 certificates. We need lots of data - no less than 200 taps. The sane minimum number of taps is 700. The best is 3200.\nWe'll get the rest of data from the device's built-in secure RNG." = "Мы собираемся создать 100 сертификатов. Нам нужно много данных - не менее 200 нажатий. Разумное минимальное количество - 700. Лучшее - 3200.\nМы получим остальные данные из встроенного в устройство безопасного генератора.";
+"We are about to generate a certificate. We need to collect 256 bits of random data. Please, tap the screen at least 32 times." = "Мы собираемся создать сертификат. Нам нужно собрать 256 бит случайных данных. Пожалуйста, коснитесь экрана как минимум 32 раза.";
+"Create" = "Создать";
+"For %@\nnot used" = "Для %@\nнеиспользован";
+"For %@\nused on %@" = "Для %@\nиспользован %@";
+"For %@\nused on %@\nexpires on %@" = "Для %@\nиспользован %@\nистекает %@";
+"%@\nLast use on %@" = "%@\nПоследнее использование %@";
+"Used %i of %lu" = "Использовано %i из %lu";
+"Cannot find a One-Time Certificate for the message.\nMost likely it is expired and has been deleted." = "Не найден одноразовый сертификат для сообщения.\nВероятно, он просрочен и был удален.";
+"ReadQRTip" = "Чтобы добавить сертификат с помощью QR-кода нужно:\n1. Просканировать код\n2. Ввести пароль, указанный под QR-кодом\n3. Нажать кнопку \"Сохранить\"";
+"Start" = "Начать";
+"Quick tip" = "Подсказка";
+"Edit" = "Править";
+"Edit from and to addresses for the all listed OTCs" = "Редактировать адреса отправителя и получателя для всех показанных OTC";
+"Are you sure?" = "Вы уверены?";
+"All certificates for this recipient will be permanently deleted" = "Все сертификаты для этого получателя будут удалены навсегда";
+"Delete certificate?" = "Удалить сертификат?";
+"Expire OTC now" = "Удалить OTC сейчас";
+"The certificate will be wiped out and the message will be inaccessible any more" = "Одноразовый сертификат будет удален немедленно и сообщение станет недоступно";
+"What's new?" = "Что нового?";
+"Share" = "Поделиться";
+"Save text to secure notes" = "Сохранить текст в безопасных заметках";
+"Send it" = "Отправить";
+"The sender has requested a read receipt. Would you like to send it?" = "Отправитель запросил уведомление о прочтении. Вы хотите отправить его?";
+"File saved to secure storage" = "Файл сохранен в защищенное хранилище";
+"Set a PIN-code for the message\nMutable PIN will be randomly mutated to enhance security" = "Установите ПИН-код для сообщения или нажмите \"Отправить незащищенным\" чтобы отправить его незашифрованным.";
+"Use simple PIN" = "Используйте простой PIN-код (не рекомендуется)";
+//"Use mutable PIN" = "Используйте изменяемый PIN-код";
+"Use mutable PIN" = "Отправить";
+"Send it anyway?" = "Все равно отправить?";
+"The certificate for this server is invalid" = "Сертификат для этого сервера недействителен";
+"Enter PIN" = "SenseMail";
+"Encrypt message on a server..." = "Зашифровать сообщение на сервере...";
+"HTML-Text view" = "HTML/Текст";
+"More..." = "Еще...";
+"Send unprotected" = "Отправить незащищенным";
+"The user not found" = "Этот адрес электронной почты не найден";
+"Move to spam" = "Переместить в спам";
+"Cancelled" = "Отменен";
+"Print..." = "Распечатать...";
+"Log in" = " Войти";
+"Empty Folder" = "Очистить папку";
+"Are you sure you want to remove all items from the folder?" = "Вы уверены, что хотите удалить все элементы из папки?";
+"Passwords do not match" = "Пароли не совпадают";
+"Security" = "Безопасность";
+"Appearance" = "Вид";
+"Clear all" = "Очистить все";
+"PIN, Background mode, Bio ID" = "ПИН, Фоновый режим, Био ID";
+"Sorting, Number of messages" = "Сортировка, Количество сообщений, тихие часы";
+"Delete all user data" = "Удалить все пользовательские данные";
+"General settings" = "Общие настройки";
+"Account settings" = "Настройки аккаунта";
+"Data Encryption" = "Шифрование данных";
+"PIN code is never stored and can’t be recovered if you forget it." = "PIN-код никогда не сохраняется и не может быть восстановлен, если вы забудете его.";
+"Change PIN" = "Изменить PIN";
+"Emergency PIN" = "Аварийный PIN-код";
+"The PIN will permanently delete all user data once entered. The code is not shown here, set the new one if you forgot it." = "ПИН навсегда удалит все пользовательские данные при вводе. Код здесь не показан, установите новый, если вы его забыли.";
+"Erase All Data Now" = "Стереть всё сейчас";
+"Permanently delete all user data right now" = "Удалите все пользовательские данные прямо сейчас";
+"Erase all" = "Стереть все";
+"Safe BG" = "Безопасный фоновый режим";
+"Reset the app state when going to background, so that there's no user data remains loaded.\nIMPORTANT: if it is off, you can restore the app without a PIN, unless you quit it." = "Сбросьте память при переходе в фоновый режим, чтобы пользовательские данные не оставались загруженными.\nВАЖНО: если он выключен, вы можете запустить приложение без ПИН-кода, если только вы не закрыли его кнопкой Х.";
+"Biometrics" = "Биометрия";
+"Set biometric authentication for this account only" = "Установить биометрическую аутентификацию только для этой учетной записи";
+"Background mode" = "Фоновый режим";
+"The system will schedule a mail check depending on the app usage. You cannot set the check interval." = "Система запланирует проверку почты в зависимости от использования приложения. Вы не можете установить интервал проверки. Текущий PIN-код будет сохранен в связке ключей.";
+"Messages to load" = "Сообщения для загрузки";
+"Number of messages to load from each account for one set" = "Количество сообщений, загруженных с каждой учетной записи за одну загрузку";
+"Sort emails by date within the loaded set" = "Сортировка писем по дате в загруженном наборе";
+"Date, Unread on top" = "Дата, непрочитано сверху";
+"Sort emails by date within the loaded set. Bring unread on top" = "Сортировка писем по дате в загруженном наборе. Вынести непрочитанные вверх";
+"Account, Date" = "Аккаунт, Дата";
+"Emails from one account go together, sorted by date" = "Письма с одного аккаунта объединяются, сортируются по дате";
+"Account, Date, Unread on top" = "Аккаунт, Дата, Непрочитано сверху";
+"Emails from one account go together, sorted by date, unread on top" = "Письма с одного аккаунта объединяются, сортируются по дате, непрочитанные сверху";
+"Date, entire list" = "Дата, весь список";
+"Sort emails by date withing the entire loaded list. May result in messages from a new set go up (offscreen) in the list." = "Сортировка писем по дате во всем загруженном списке. Может привести к тому, что сообщения из нового набора будут вверх (за кадром) в списке.";
+"Large font" = "Большой шрифт";
+"Set large font in the message list" = "Установить большой шрифт в списке сообщений";
+"Compression" = "Сжатие";
+"Set the compression ratio for image attachments. No compression means large file size and the best image quality. Maximum compression makes the smallest file size but the lowest quality" = "Установите коэффициент сжатия для вложений изображений. Отсутствие сжатия означает большой размер файла и лучшее качество изображения. Максимальное сжатие обеспечивает наименьший размер файла, но самое низкое качество";
+"Max compression" = "Максимальное сжатие";
+"No compression" = "Без сжатия";
+"Low compression" = "Низкая компрессия";
+"Medium compression" = "Средняя компрессия";
+"High compression" = "Высокая компрессия";
+"Sort order. This will be applied to every set of loaded messages." = "Порядок сортировки. Это будет применяться к каждому набору загруженных сообщений.";
+"Date" = "Дата";
+"%@ changed\n" = "%@ изменился\n";
+"Notifications will show the email account that is changed. Otherwise the notification won't disclose the email address, which is considered more secure." = "В уведомлениях будет показана учетная запись электронной почты, которая изменилась. В противном случае в уведомлении не будет указан адрес электронной почты, что считается более безопасным.";
+"Show account" = "Показать аккаунт";
+"Loading resources..." = "Загрузка ресурсов ...";
+
+// VPN Settings
+"Cannot connect to VPN" = "Не удается подключиться к VPN";
+"Continue without VPN?" = "Продолжить без VPN?";
+"Connecting to VPN" = "Подключение к VPN";
+"Cannot find settings" = "Не могу найти настройки";
+"Error connecting to VPN" = "Ошибка подключения к VPN";
+"Cannot connect to VPN. Please, check the settings" = "Не удается подключиться к VPN. Пожалуйста, проверьте настройки";
+"Note" = "Примечание";
+"- VPN connection is not supported in the background mode, so if you use BG mail check, disable it first unless you are OK with a SSL connection without VPN to check the number of new messages." = "VPN-соединение не поддерживается в фоновом режиме, поэтому, если вы используете проверку почты BG, сначала отключите ее, если вы не в порядке с SSL-соединением без VPN, чтобы проверить количество новых сообщений.";
+"Enable VPN" = "Включить VPN";
+"Connect to VPN before checking mail" = "Подключитесь к VPN перед проверкой почты";
+"Protocol" = "Протокол";
+"IKEv2 or IPSec are supported" = "IKEv2 или IPSec поддерживаются";
+"User name to login to the VPN Server" = "Имя пользователя для входа на VPN-сервер";
+"Required" = "Необходимо";
+"Password to login to the VPN Server" = "Пароль для входа на VPN-сервер";
+"VPN Server" = "VPN-сервер";
+"Address of the VPN Server" = "Адрес VPN-сервера";
+"Remote identifier to login to the VPN Server" = "Удаленный идентификатор для входа на VPN-сервер";
+"Local identifier to login to the VPN Server" = "Локальный идентификатор для входа на VPN-сервер";
+"Authentication method to login to the VPN Server" = "Метод аутентификации для входа на VPN-сервер";
+"Use extended authentication to authorise" = "Используйте расширенную аутентификацию для авторизации";
+"Shared secret to login to the VPN Server" = "Общий секрет для входа на VPN-сервер";
+"Try to connect to the VPN server" = "Попробуйте подключиться к VPN серверу";
+"Check connection" = "Проверьте подключение";
+"Check" = "Проверьте";
+"Connect to VPN first" = "Сначала подключитесь к VPN";
+"Settings empty" = "Настройки пустые";
+
+// Shortcuts
+"Command not selected" = "Команда не выбрана";
+"Name is empty" = "Имя пусто";
+"Display name of the shortcut" = "Отображаемое имя ярлыка";
+"Select..." = "Выбрать...";
+"Favs folder. Not every provider supports that." = "Папка Избранное. Не каждый провайдер поддерживает это.";
+"Unified Sent folder" = "Единая отправленная папка";
+"Unified Spam folder" = "Унифицированная папка спама";
+"Messages for the last week" = "Сообщения за последнюю неделю";
+"Messages for the last month" = "Сообщения за последний месяц";
+"Unread messages" = "Непрочитанные сообщения";
+"Answered messages" = "Отвеченные сообщения";
+"Large messages (>200K)" = "Большие сообщения (> 200 КБ)";
+"Flagged/Starred messages" = "Помеченные сообщения";
+"SenseMail encrypted messages" = "SenseMail зашифрованные сообщения";
+"Important messages" = "Важные сообщения";
+"Search for the string" = "Поиск текстовой строки";
+"Received on" = "Получено на дату";
+"Received before date" = "Получено до даты";
+"Received after date" = "Получено после даты";
+"Received between Date1-Date2" = "Получено между Date1-Date2";
+"Received in the month of the date, i.e. 1/12/2020 = December" = "Получено в месяце даты, т.е. 1/12/2020 = декабрь";
+"Sent to the address" = "Отправлено на адрес";
+"Received from the address" = "Получено с адреса";
+"Message size is less than" = "Размер сообщения меньше чем";
+"Message size is more than (i.e. 300K, 10M, etc)" = "Размер сообщения превышает (т.е. 300 КБ, 10 МБ и т. Д.)";
+"Unrecognized command" = "Нераспознанная команда";
+"Command type" = "Тип команды";
+"Error saving shortcuts" = "Ошибка сохранения ярлыков";
+"Enable Bar" = "Включить панель";
+"Show the shortcuts bar above the message list" = "Показать панель ярлыков над списком сообщений";
+"Shortcut List" = "Список ярлыков";
+"Connect to VPN before checking mail" = "Подключитесь к VPN перед проверкой почты";
+"Shortcut bar settings" = "Настройки панели быстрого доступа";
+"Shortcuts" = "Ярлыки";
+"For security reasons we do not show the QR-code and its password at the same time" = "В целях безопасности мы не показываем QR-код и его пароль одновременно";
+"We have detected a problem launching the app that may corrupt the appearance settings, please run it again" = "Мы обнаружили проблему с запуском приложения, которая может повредить настройки внешнего вида. Пожалуйста, запустите его снова. Перезапустить или проигнорировать и продолжить?";
