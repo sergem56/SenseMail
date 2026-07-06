@@ -1,0 +1,40 @@
+/* Class = "UILabel"; text = "Nickname:"; ObjectID = "5C7-BL-DJT"; */
+"5C7-BL-DJT.text" = "Псевдоним:";
+
+/* Class = "UILabel"; text = "PIN Lock:"; ObjectID = "6wk-dR-dBO"; */
+"6wk-dR-dBO.text" = "ПИН код:";
+
+/* Class = "UIButton"; normalTitle = "Change PIN"; ObjectID = "J7g-qG-H1j"; */
+"J7g-qG-H1j.normalTitle" = "Изменить ПИН";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "K8A-JV-eYR"; */
+"K8A-JV-eYR.text" = "Настройки";
+
+/* Class = "UILabel"; text = "Password:"; ObjectID = "Pi2-oE-AzZ"; */
+"Pi2-oE-AzZ.text" = "Пароль:";
+
+/* Class = "UILabel"; text = "SMTP Server:"; ObjectID = "RRj-l3-jwE"; */
+"RRj-l3-jwE.text" = "Сервер SMTP:";
+
+/* Class = "UILabel"; text = "IMAP Server:"; ObjectID = "UfK-Bi-XQN"; */
+"UfK-Bi-XQN.text" = "Сервер IMAP:";
+
+/* Class = "UILabel"; text = "0.6"; ObjectID = "bYa-l6-AZ0"; */
+"bYa-l6-AZ0.text" = "0.6";
+
+/* Class = "UILabel"; text = "User Name:"; ObjectID = "nAT-go-JNL"; */
+"nAT-go-JNL.text" = "Логин:";
+
+/* Class = "UILabel"; text = "JPEG Compression. Defines a compression level of attachments. The closer it to 1 the better is the quality of the image but its size is larger.  Recommended value is 0.6"; ObjectID = "pPl-gg-04O"; */
+"pPl-gg-04O.text" = "JPEG Compression. Устанавливает уровень сжатия вложений. Чем ближе к единице, тем лучше качество, но и больше размер файла.
+Рекомендуемое значение - 0.6";
+
+/* Class = "UILabel"; text = "SMTP port:"; ObjectID = "pjo-HM-HfH"; */
+"pjo-HM-HfH.text" = "Порт SMTP:";
+
+/* Class = "UILabel"; text = "465 or 587"; ObjectID = "t70-5B-PFv"; */
+"t70-5B-PFv.text" = "465 или 587";
+
+/* Class = "UILabel"; text = "PIN Lock is a code to protect user data. It is never stored and can’t be recovered if you forget it."; ObjectID = "tAz-b1-cFr"; */
+"tAz-b1-cFr.text" = "ПИН код используется для защиты данных пользователя. Он нигде не сохранятеся, поэтому восстановить его невозможно.";
+

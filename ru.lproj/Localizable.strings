@@ -1,0 +1,274 @@
+/* No comment provided by engineer. */
+"\"no\"" = "\"нет\"";
+
+/* No comment provided by engineer. */
+"Address book is empty" = "Адресная книга пуста";
+
+/* No comment provided by engineer. */
+"Address is empty" = "Адрес не заполнен";
+
+/* No comment provided by engineer. */
+"Address is invalid" = "Неверный адрес";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete image?" = "Вы действительно хотите удалить это изображение?";
+
+/* No comment provided by engineer. */
+"Attachments saved" = "Вложения сохранены";
+
+/* No comment provided by engineer. */
+"Cancel" = "Отмена";
+
+/* No comment provided by engineer. */
+"Certificate saved. However, for security reasons" = "Сертификат сохранен. Однако, по соображениям безопасности, рекомендуется удалить это письмо с сервера. Хотите удалить его сейчас?";
+
+/* No comment provided by engineer. */
+"Cleaning up..." = "Очистка...";
+
+/* No comment provided by engineer. */
+"Connecting..." = "Соединение...";
+
+/* No comment provided by engineer. */
+"Contact has been deleted from this group only" = "Контакт был удален только из группы";
+
+/* No comment provided by engineer. */
+"Deleting..." = "Удаление...";
+
+/* No comment provided by engineer. */
+"Done" = "Готово";
+
+/* No comment provided by engineer. */
+"E-mail is empty" = "Адрес не заполнен";
+
+/* No comment provided by engineer. */
+"Enter PIN" = "Введите ПИН-код";
+
+/* No comment provided by engineer. */
+"Enter PIN set to send a message TO the address" = "Введите ПИН, установленный для отправки сообщений адресату";
+
+/* No comment provided by engineer. */
+"Enter group name" = "Введите имя группы";
+
+/* No comment provided by engineer. */
+"Enter pins" = "Создайте ПИН-коды";
+
+/* No comment provided by engineer. */
+"Enter sender address" = "Введите адрес отправителя или оставьте поле пустым чтобы сбросить фильтр";
+
+/* No comment provided by engineer. */
+"Error" = "Ошибка";
+
+/* No comment provided by engineer. */
+"Error decoding certificate" = "Ошибка при распаковке сертификата, проверьте пароль к письму";
+
+/* No comment provided by engineer. */
+"Error loading message" = "Ошибка при загрузке сообщения";
+
+/* No comment provided by engineer. */
+"Error loading messages" = "Ошибка при загрузке списка сообщений";
+
+/* No comment provided by engineer. */
+"Error reading certificate" = "Ошибка чтения сертификата";
+
+/* No comment provided by engineer. */
+"Error saving certificate" = "Ошибка записи сертификата";
+
+/* No comment provided by engineer. */
+"Error saving image" = "Ошибка при сохранении изображения";
+
+/* No comment provided by engineer. */
+"Error saving note" = "Ошибка при сохранении записи";
+
+/* No comment provided by engineer. */
+"Error saving settings" = "Ошибка при сохранении настроек";
+
+/* No comment provided by engineer. */
+"Error sending message" = "Ошибка при отправке сообщения";
+
+/* No comment provided by engineer. */
+"Find messages" = "Найти сообщения";
+
+/* No comment provided by engineer. */
+"Group" = "Группа";
+
+/* No comment provided by engineer. */
+"Image saved" = "Изображение сохранено";
+
+/* No comment provided by engineer. */
+"Image saved to secure storage" = "Изображение сохранено в безопасную галерею";
+
+/* No comment provided by engineer. */
+"Image will be permanently deleted" = "Изображение будет удалено без возможности восстановления";
+
+/* No comment provided by engineer. */
+"Inbox" = "Входящие";
+
+/* No comment provided by engineer. */
+"It remains in the address book" = "Он остается в адресной книге";
+
+/* No comment provided by engineer. */
+"Item changed" = "Запись изменена";
+
+/* No comment provided by engineer. */
+"Last update: %@" = "Обновлено %@";
+
+/* No comment provided by engineer. */
+"Load messages" = "Загрузить сообщения";
+
+/* No comment provided by engineer. */
+"Load more messages" = "Загрузить еще";
+
+/* No comment provided by engineer. */
+"Loading key..." = "Загрузка ключа...";
+
+/* No comment provided by engineer. */
+"Loading..." = "Загрузка...";
+
+/* No comment provided by engineer. */
+"Me" = "Я";
+
+/* No comment provided by engineer. */
+"Message not available" = "Сообщение недоступно";
+
+/* No comment provided by engineer. */
+"NO" = "Нет";
+
+"No" = "Нет";
+
+/* No comment provided by engineer. */
+"Need pin for received messages FROM this address" = "ПИН-код для сообщений, которые вы получаете С этого адреса";
+
+/* No comment provided by engineer. */
+"Need pin for your sent messages TO this address" = "ПИН-код для сообщений, которые вы отправляете НА этот адрес";
+
+/* No comment provided by engineer. */
+"No messages" = "Сообщений нет";
+
+/* No comment provided by engineer. */
+"No more messages" = "Больше сообщений нет";
+
+/* No comment provided by engineer. */
+"Not loaded yet..." = "Еще не загружено...";
+
+/* No comment provided by engineer. */
+"Note saved" = "Запись сохранена";
+
+/* No comment provided by engineer. */
+"Nothing to add" = "Нечего добавить";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"PIN-code is never stored anywhere, so REMEMBER IT!" = "ПИН нигде не сохраняется, ЗАПОМНИТЕ ЕГО!";
+
+/* No comment provided by engineer. */
+"PINs do not match" = "Коды не совпадают";
+
+/* No comment provided by engineer. */
+"Protection is needed for the settings" = "Для настроек требуется защита";
+
+/* No comment provided by engineer. */
+"Re-enter PIN to confirm" = "Подтвердите ПИН";
+
+/* No comment provided by engineer. */
+"Remove" = "Удалить";
+
+/* No comment provided by engineer. */
+"Reset all" = "Сбросить все";
+
+/* No comment provided by engineer. */
+"Save" = "Сохранить";
+
+/* No comment provided by engineer. */
+"Save and close" = "Сохранить и закрыть";
+
+/* No comment provided by engineer. */
+"Save changes?" = "Сохранить изменения?";
+
+/* No comment provided by engineer. */
+"Save secure" = "Сохранить безопасно";
+
+/* No comment provided by engineer. */
+"Saving..." = "Сохранение...";
+
+/* No comment provided by engineer. */
+"Search messages" = "Искать сообщения";
+
+/* No comment provided by engineer. */
+"Select action" = "Выберите действие";
+
+/* No comment provided by engineer. */
+"Select folder" = "Выберите ящик";
+
+/* No comment provided by engineer. */
+"Send" = "Отправить";
+
+/* No comment provided by engineer. */
+"Sending..." = "Отправка...";
+
+/* No comment provided by engineer. */
+"Sent" = "Отправленные";
+
+/* No comment provided by engineer. */
+"Set PIN-code for the message" = "Установите ПИН-код для сообщения или введите \"нет\" чтобы отправить его незашифрованным";
+
+/* No comment provided by engineer. */
+"Settings" = "Настройки";
+
+/* No comment provided by engineer. */
+"Spam" = "Спам";
+
+/* No comment provided by engineer. */
+"Starred" = "Помеченные";
+
+/* No comment provided by engineer. */
+"Stop" = "Остановить";
+
+/* No comment provided by engineer. */
+"There is a certificate for this contact" = "Для этого контакта установлен сертификат";
+
+/* No comment provided by engineer. */
+"This contact has no certificate" = "Этот контакт не имеет сертификата";
+
+/* No comment provided by engineer. */
+"This message contains certificate" = "Это сообщение содержит сертификат";
+
+/* No comment provided by engineer. */
+"This message is password-protected" = "Это сообщение защищено паролем";
+
+/* No comment provided by engineer. */
+"Use %@ as a PIN-code to send this message instead of the certificate?" = "Использовать ’%@’ как ПИН-код для отправки сообщения вместо сертификата?";
+
+/* No comment provided by engineer. */
+"User name or password is empty" = "Имя пользователя или пароль не заполнены";
+
+/* No comment provided by engineer. */
+"View" = "Просмотреть";
+
+/* No comment provided by engineer. */
+"Warning" = "Предупреждение";
+
+/* No comment provided by engineer. */
+"Wrong pin" = "Неверный ПИН-код";
+
+/* No comment provided by engineer. */
+"YES" = "Да";
+
+"Yes" = "Да";
+
+/* No comment provided by engineer. */
+"helpFile" = "helpRu";
+
+/* No comment provided by engineer. */
+"no" = "нет";
+
+"Application PIN is time-outed" = "Пин код приложения устарел, повторите ввод";
+"Images: %i" = "Изобр.: %i";
+"Decrypting..." = "Расшифровка...";
+"You haven't added any notes yet." = "Вы еще не добавили ни одной заметки";
+"No images here" = "Сохраненных изображений нет";
+"Setting background mode on makes it possible to reverse-ingeneer the app's pin-code if an adversary gains a physical access to your device. Are you sure you want to turn it on?" = "Включение фонового режима может дать возможность восстановления пин-кода приложения, если ваше устройство попадет в руки злоумышленника. Вы уверены, что хотите включить этот режим?";
+"PrivacyPolicy" = "PrivacyPolicyRu";
+
+

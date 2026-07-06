@@ -1,0 +1,30 @@
+/* Class = "UIButton"; normalTitle = "   Re-send the certificate"; ObjectID = "2AE-fU-MZq"; */
+"2AE-fU-MZq.normalTitle" = "   Отправить сертификат заново";
+
+/* Class = "UILabel"; text = "Note:"; ObjectID = "3Oy-Ps-VgK"; */
+"3Oy-Ps-VgK.text" = "Прим.:";
+
+/* Class = "UIButton"; normalTitle = "   Write an e-mail"; ObjectID = "DKY-eO-aJH"; */
+"DKY-eO-aJH.normalTitle" = "   Написать письмо";
+
+/* Class = "UILabel"; text = "Groups:"; ObjectID = "Nk6-d5-4wr"; */
+"Nk6-d5-4wr.text" = "Группы:";
+
+/* Class = "UILabel"; text = "This contact has no certificate"; ObjectID = "PMz-lN-tdO"; */
+"PMz-lN-tdO.text" = "У этого контакта нет сертификата";
+
+/* Class = "UILabel"; text = "E-mail:"; ObjectID = "b8N-Vc-wcU"; */
+"b8N-Vc-wcU.text" = "Адрес:";
+
+/* Class = "UILabel"; text = "What would you like to do?"; ObjectID = "iYf-XV-xcS"; */
+"iYf-XV-xcS.text" = "Что вы хотите сделать?";
+
+/* Class = "UIButton"; normalTitle = "   Delete certificate"; ObjectID = "n1S-ad-lA7"; */
+"n1S-ad-lA7.normalTitle" = "   Удалить сертификат";
+
+/* Class = "UIButton"; normalTitle = "   Send a new certificate"; ObjectID = "xAo-4C-xZw"; */
+"xAo-4C-xZw.normalTitle" = "   Отправить новый сертификат";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "zCe-JP-KcX"; */
+"zCe-JP-KcX.text" = "Имя:";
+
