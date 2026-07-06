@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>How we generete a certificate</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand page-scroll" href="#page-top">Home</a-->
+                <a class="navbar-brand page-scroll" href="http://facebook.com/creepy2labs"><img src="../img/facebook.png" alt="" width="23"></a>
+                <a class="navbar-brand page-scroll" href="http://www.linkedin.com/company/creepytwo-labs-ltd-
+"><img src="../img/linkedin.png" alt="" width="24"></a>
+				<a class="navbar-brand page-scroll" href="http://google.com/+Creepytwolabs"
+   rel="publisher" target="_top" style="text-decoration:none;">
+<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:24px;height:24px;"/>
+</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+						<a class="page-scroll" href="http://creepytwolabs.com">Home</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="http://creepytwolabs.com/blog01.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    
+	
+	<section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                	<img src="../img/portfolio/5.jpg" class="img-responsive center-block" alt="">
+                    <h2 class="section-heading"><br>How we generete a certificate</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<p>To generate a certificate we require some amount of random data. There are plenty of sources from where we can get data, but the vast majority of them are not random and cannot be used for our certificate.</p><p>Moreover, none of these sources are truly random. That's a real problem faced by any cryptography service. In order to measure the randomness of the source, we use the word Entropy. Entropy is a measure of chaos or the  uncertainty of an outcome. It is inversely proportional to the predictability of a data. The more entropy is in a piece of data, the more unpredictable it is. So, 1 bit of truly random data contains 1 bit of entropy. To make our certificate we need to get 256 bits of entropy.</p><p>We have no generator available that can produce a real random stream of bits, but we can extract random bits from sources that can contain some random information. Since every human being is unique, we decided to use you personally as a random number generator. In the next step you are asked to tap on the screen. The time interval in between your taps may look constant, but if you measure those timings precisely, you'll see the difference. For example, if you measure seconds between two consecutive taps, it will always be 0 or 1 or more depending on your speed of tapping. The result is much more interesting when you measure it in Nanoseconds or in processor’s ticks.</p><p>Here are the examples of those timings:</p>
+<p><code>Time:<br>
+475b 92e0 8097<br>
+475b a422 8ba4<br>
+475b b5f1 fe98<br>
+475b c749 2267<br>
+475b d8f7 4c4b<br>
+475b e8e2 0bcd<br>
+475b fa1a f772<br>
+475c 0b7d 9446</code></p>
+<p>Even more, if you discard most of that timing value, you may consider the rest to be random to some extent. As you can see from the example above, the last 32 bits are already different, although I’ve tapped two or three times a second. We use the last 6 bits.</p>
+                	
+                	<p>Also we use last bit from X and Y position of a tap to gather more data. When we have collected the desired amount of data, we convert it to the final certificate using a slow key derivation function. Surely, this method of random data collection is not truly random but it is good enough to be used for key generation.</p>
+                	<p>- Collect entropy from taps. We collect data about tap timing, using the last 6 bits. Since we get timing data in nanoseconds there are 1.000.000.000 possible events per second. So using just 64 events out of 1 billion makes it enough random.</p>
+                	<p>- We get 1 bit of entropy from x-location of tap and 1 bit from y-location.</p><p>- So, we assume that we get 8 bits of entropy from every tap. We recommend tapping at least 32 times to get data for the key. If you need more entropy, you can tap up to 256 times, which makes it equal to 1 bit of entropy from each tap.</p><p>- We understand that this method of random number generation is not truly random and could be biased some way, so we use PBKDF2-SHA256 to get the final key.</p><p>- After collecting raw data we derive the actual key using 400.000 rounds of PBKDF2. The salt for PBKDF2 is obtained from the iOS built-in secure random number generator.</p>
+                	<p>Once the certificate is ready, you need to transfer it to your recipient. The most reliable way to do it is face-to-face. We made a QR-code representation of the certificate, so the other side can just scan it and verify it. The other option is to type-in a certificate based on its numeric presentation.</p>
+                	<p>To e-mail a certificate is an option too, but since it is insecure, we have deliberately disabled it. If you have decided to use such a powerful tool as a certificate, please find a way to exchange it securely and do not compromise the idea.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Have any questions about our products? Or do you need something special? That's great! Send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".5s"></i>
+                    <p><a href="mailto:info@creepytwolabs.com">info@creepytwolabs.com</a></p>
+                </div>
+            </div>
+            <div class="row text-center">
+       			<div class="fb-like" data-href="https://facebook.com/creepy2labs" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+       		</div>
+       		<div class="row text-center"><br>
+       			<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="10285136"></script>
+      		</div>
+            <div class="row">
+    			<div class="col-xs-12 col-sm-12 col-md-12 text-center">&copy; <script>document.write(new Date().getFullYear());</script> 
+      <a href="http://www.creepytwolabs.com" target="_blank">CreepyTwo Labs Ltd.</a> 
+      <h5><small>Developed by CreepyTwo Labs.</small>
+       			</div>
+            </div>
+            <div class="row text-center">
+       			<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=VJtSGveoKSyFBF8lVlsPxl1G5LvF6I4GPVtOlGuXqYzbS0erVAeCv5St2LEH"></script></span>
+      		</div>
+        </div>
+    </section>
+    
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+	<!--script src="js/parallax.js"></script-->
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69302527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>

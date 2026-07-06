@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SenseMail Threat Model</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand page-scroll" href="#page-top">Home</a-->
+                <a class="navbar-brand page-scroll" href="http://facebook.com/creepy2labs"><img src="../img/facebook.png" alt="" width="23"></a>
+                <a class="navbar-brand page-scroll" href="http://www.linkedin.com/company/creepytwo-labs-ltd-
+"><img src="../img/linkedin.png" alt="" width="24"></a>
+				<a class="navbar-brand page-scroll" href="http://google.com/+Creepytwolabs"
+   rel="publisher" target="_top" style="text-decoration:none;">
+<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:24px;height:24px;"/>
+</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+						<a class="page-scroll" href="http://creepytwolabs.com">Home</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="http://creepytwolabs.com/blog01.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    
+	
+	<section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                	<img src="../img/threat001.jpg" class="img-responsive center-block" alt="">
+                    <h2 class="section-heading"><br>SenseMail Threat Model</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<p>E-mail communication can hold a significant amount of personal or business related information that is usually sensitive in nature. A large number of devices and software form the network of this system, and weak links can exist at any stage. The communication system includes handheld devices, mobile software products, communication lines and server-side hardware and software. To understand the security issues holistically, we need to consider the threats at all the levels of this information system.</p>
+                	<h3>Adversary objectives and motivation</h3>
+                	<p>Every threat or adversary has an objective. Usually, there are two basic objectives for an adversary in the communication sphere. First is to simply get your mobile device, while the other is to get your data. Although we cannot control your physical devices, we protect your data. We will be protecting you from a person who wants to get your mail messages. That includes hackers, business competitors, law enforcement units, etc. We will be protecting your data from thieves. We will be protecting your data from a person who found a lost device. We will be protecting you from a person who has the capability and the motivation of getting your data. Apart from the objectives, there are several motives that may drive an adversary.</p>
+                	
+                	<p>- Getting your device without an intent to get your data (thieves, lost and found, etc.) – these adversaries generally want your device, and not the information in it. They will usually not do anything to extract your data even if it is only minimally protected. Harm level from such adversaries is low.</p>
+                	<p>- Wanting to get your data without a personal aim at you (hackers, crackers) – they want your data and will dig into it, but the possible harm level is not so high. They will usually try to get into your device or account remotely. It is important to understand that these adversaries will not invest much into getting the data, since their motivation is mainly satisfying their ego, overcoming a challenge, destroying or altering the information, and the like. This may include some basic monetary gain.</p>
+                	<p>- Wanting to get your data in order to get competitive advantages, tangible or intangible assets (to harm or violate your reputation or interests) - They are usually your business competitors and are much more motivated than the regular hackers. Such adversaries might try to get your device physically, and might hire hackers or even misuse legal tools (you may find it disturbing, but there are plenty of countries, where, for example, the police force is corrupt enough to be used for unfair business practices). They will try to extract your data and might pay a lot (but definitely not more than the potential profit) to get it. Getting your email is most likely just a part of a complex scheme. Potential harm level is extremely high.</p>
+                	<p>- Wanting to get your data just because they were told to, so as to sue or prosecute you (such as the NSA, law enforcement, government, industrial espionage) – in addition to all the above, these people will usually try to get access to your device physically, and will force you and your service provider to disclose your data. Harm level can vary from zero to totally unacceptable. These adversaries possess virtually unlimited resources to discover your data, but need a very good reason to use that power.</p>
+                <h3>System assets and vulnerabilities</h3>
+                <p>When talking of system security, it is important to understand what “exactly” is an asset and what are the vulnerabilities that could threaten the security of the system.</p>
+                <p>&emsp;1. Assets – passwords, data, and hardware including a mobile device and a server (which we do not control).</p>
+                <p>&emsp;2. Vulnerabilities:</p>
+                <p>&emsp;&emsp;a) Passwords - A password is never stored, but is typed on a device and is transmitted to the server over a SSL-protected channel. The target server needs to check the validity of the password. An adversary can spy on the device, intercept it on the way to server or hack the validation procedure on the server. He or she can trick a user into entering the password on a phishing site.</p>
+<p>&emsp;&emsp;b) Data being stored/transferred - The data that is generated on a device is sent to the server, stored there, and transmitted to the recipient. This data is vulnerable and can be extracted at every stage.</p>
+<p>&emsp;&emsp;c) Hardware access - This is the same case as accessing your data.</p>
+<h3>Threats and attacks</h3>
+<p>Numerous threats linger when we talk about data security. We have to make sure that we understand the various issues that could come up, in order to protect ourselves better. Here are some threats:</p>
+<ul style="font-family:sans-serif,Arial";>
+<li>Physical capture of a device</li>
+<li>Email server-side storage attacks, including hijacking the email account or granting access to you email account</li>
+<li>Traffic interception</li>
+<li>Various attacks on encryption</li>
+<li>Message tampering</li>
+<li>Attacks on local storage</li>
+<li>Forced password entry (if you're forced to unlock the app)</li>
+<li>Your recipient can give up his account disclosing your correspondence with him and your possible contacts</li>
+</ul>
+<h3>How can the developers compromise users?</h3>
+<p>Realistically, the developers cannot do much to compromise the users. There is no way to leak any user information, since we do not know the passwords, and we don't have servers to keep or backup any information. The only place that the information is sent to is your mail server.</p>
+<p>We do not even collect the analytics about the app usage, unlike others, in order to make 100% sure that no information is sent to anywhere except the mail server that you specify.</p>
+<p>However, we do not restrict the use of weak passwords. We aim to interfere as little as possible with the way you handle your accounts, and that includes “not” analyzing your password for the level of security. But, if you forget your password there is no way that we will be able to help you.</p>
+	<p>We guarantee that there are no backdoors or any other means to facilitate unauthorized information access. We have made our encryption module <a href="https://github.com/sensemail/Encryption">public</a> to gain reviews from industry experts.</p> 
+	<p>We have no centralized key storage/distribution system. In fact, we have no such a system at all. It's a user's responsibility to communicate the key to his or her recipient. How is this to be done? Who knows! We do not offer any tool for it, so there's nothing to compromise!</p>
+	<h3>How do we protect from these threats?</h3>
+	<ol style="font-family:sans-serif,Arial";>
+	<li>Physical capture: we encrypt everything on the device. We use extremely slow key derivation. We do not store messages on a device. We do not show messages stating that the password is incorrect. Every message can even have its own password.</li>
+	<li>Email server-side storage: we use end-to-end encryption when sending any data to the servers – we encrypt and decrypt messages on your device itself. So everything coming out from or going into your device is encrypted. If someone has gained access to your account, he would see encrypted messages with no hint for a key.</li>
+	<li>Traffic interception: it uses the same principle as that of server-side storage – everything is encrypted. We connect to the mail server via TLS security only, no plain-text connections are allowed. If your mail server doesn't support TLS on port 993, we would not be able to make a connection. If a man-in-the-middle faked the TLS keys, he would get the password to your e-mail server account that would let him read your messages. But since the messages are separately encrypted, he or she can only deface your account without any real harm!</li>
+	<li>Encryption cracking: we use “salted AES-256” for encryption in CBC-mode. We gzip the messages. We encrypt the message headers before encrypting the messages. We use HMAC to verify the message integrity. We have an option to use a pre-generated 256-bit key instead of a password. That key is stored locally, encrypted with a dedicated password. We use a slow PBKDF2-SHA256 function to derive the encryption key, for a significant level of security – it takes one whole second to derive the key on iPhone 4S, although it works much faster on a PC. The purpose of this is that it is so slow that brute-forcing a good 6-symbol password becomes a challenge.</li>
+	<li>Message tampering: we use HMAC-SHA256 to verify a message. We do it encrypt-then-MAC way.</li>
+	<li>Attacks on local storage: everything here is encrypted again. We use temporary files to store image attachments and then we delete them when you close the message and double check it on launching the app. We use a safe delete function to remove the attachments. We must admit that for the sake of efficiency and reasonable sufficiency we zero out data once, while you may find recommendations to do it 3, 7 or even 35 times. But keep in mind that to recover your deleted files, an adversary needs to first get your device physically, as remote scanning doesn’t work in this case. And the second, the latest research shows that it is unlikely to recover data after a single overwriting (see, for example Wright, Kleiman and Sundhar (2008) "Overwriting Hard Drive Data: The Great Wiping Controversy").</li>
+	<li>Forced password entry: we made it possible to enter any password and show only what was decrypted with this password – settings, address book, notes, gallery. You can make several accounts, including fake ones, the app will never complain that your password is incorrect. We simply do not notify whether or not the password is correct. Just take some time to add a fake account if you feel you need it.</li>
+	</ol>
+	<h3>What we do not protect from.</h3>
+	<p>It's obvious that a software product cannot cover all the existing threats that could come up from a variety of sources. We understand it, and want to make it clear to you that there are some threats that we cannot protect you from. It is only proper if we notify you of our shortcomings. Here are some threats that we cannot cover:</p>
+	<ol style="font-family:sans-serif,Arial";>
+	<li>We do not protect metadata. Metadata can reveal about you indirectly, but to protect it we need to set up our own servers that pose another sort of threats we most likely won't be able to cope with. You may read about Lavabit, for example.</li>
+	<li>We do not provide any anonymity. Your mail server knows who sends and receives messages and it definitely will disclose that information upon certain requests. If you need anonymity, consider using third-party software beneath our product, such as anonymous VPNs, Tor, use your own mail server or whatever else.</li>
+	<li>We do not protect you from spyware, keyloggers, etc. We have never seen or known about anyone, just anyone, who has been hurt by a keylogger on an iPhone. But we cannot ignore the possibility that it can happen in the future.</li>
+	<li>*Paranoid mode on* We do our best to ensure the highest level of security but to meet legal requirements for mass market we rely on the underlying crypto functions provided by the operating system (CCCrypt for iOS in this case). We cannot guarantee that there are no flaws in their implementation that can compromise security, but you already trust Apple by using their devices. So you know the level of security you are signing up for.</li>
+	<li>We do not protect you from application misuse. If you do not take the security seriously, we can't help you here. We give you a powerful tool, so use it wisely.</li>
+	<li>For now, we have no protection from your contacts who will give up their passwords, devices and data. We are thinking of some sort of message expiry, but we cannot be 100% sure that a message was actually deleted since mail servers are out of our control. The best you can do to limit the damage is to use a unique password for everyone on your contact list.</li>
+	<li>*Important!* We do not protect message subject. Although it is encrypted, but the encryption key is derived from the recipient’s email address, so it is insecure. This is a convenience-security tradeoff. We made so to be able to read and display message subject without asking you a password, which should be unique for every message. Well, at least unique for each recipient.</li>
+	</ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Have any questions about our products? Or do you need something special? That's great! Send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".5s"></i>
+                    <p><a href="mailto:info@creepytwolabs.com">info@creepytwolabs.com</a></p>
+                </div>
+            </div>
+            <div class="row text-center">
+       			<div class="fb-like" data-href="https://facebook.com/creepy2labs" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+       		</div>
+       		<div class="row text-center"><br>
+       			<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="10285136"></script>
+      		</div>
+            <div class="row">
+    			<div class="col-xs-12 col-sm-12 col-md-12 text-center">&copy; <script>document.write(new Date().getFullYear());</script> 
+      <a href="http://www.creepytwolabs.com" target="_blank">CreepyTwo Labs Ltd.</a> 
+      <h5><small>Developed by CreepyTwo Labs.</small>
+       			</div>
+            </div>
+            <div class="row text-center">
+       			<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=VJtSGveoKSyFBF8lVlsPxl1G5LvF6I4GPVtOlGuXqYzbS0erVAeCv5St2LEH"></script></span>
+      		</div>
+        </div>
+    </section>
+    
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+	<!--script src="js/parallax.js"></script-->
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69302527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>

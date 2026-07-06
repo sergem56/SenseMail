@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SenseMail's passwords</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand page-scroll" href="#page-top">Home</a-->
+                <a class="navbar-brand page-scroll" href="http://facebook.com/creepy2labs"><img src="../img/facebook.png" alt="" width="23"></a>
+                <a class="navbar-brand page-scroll" href="http://www.linkedin.com/company/creepytwo-labs-ltd-
+"><img src="../img/linkedin.png" alt="" width="24"></a>
+				<a class="navbar-brand page-scroll" href="http://google.com/+Creepytwolabs"
+   rel="publisher" target="_top" style="text-decoration:none;">
+<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:24px;height:24px;"/>
+</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+						<a class="page-scroll" href="http://creepytwolabs.com">Home</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="http://creepytwolabs.com/blog01.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    
+	
+	<section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                	<img src="../img/portfolio/2.jpg" class="img-responsive center-block" alt="">
+                    <h2 class="section-heading"><br>SenseMail's passwords</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                	<p><a href="https://creepytwolabs.com/blog/article03.html"> As you remember</a>, the strength of the crypto system depends largely on the complexity of the password.</p>
+<p>Let me remind you how the length of a password corresponds to cracking time:<br>
+Lets assume that a password consists of lower and upper case letters, digits and special symbols. That makes an «alphabet» be about 80 symbols. The length of a password that is easy to remember is up to 6-8 symbols. There are 80^6 to 80^8 potential passwords. Considering modern computing hardware it is quite possible to brute force such passwords, depending on a motivation to find it, of course. Generally, a password shorter than 6 symbols is not secure at all. The real problem for a cracker starts with a password longer than 10-12 symbols. <br>But a user is going to face a problem as well. It is hard to remember. Hard to remember passwords tend to become weak. Well, not the password itself, but the way a user manages them. He may write it down, use the same password for several logins or compose the password in a weak way.</p><p>If you need a good password that you can remember, take a thick dictionary that you cannot lift by one hand and select 6 words randomly, I mean randomly - not the words you like or the words that make a meaningful sentence. This is going to be safe enough. Google «Diceware» to learn more.</p>
+                	<h3>We have a better solution</h3>
+                	<p>We designed a feature that eliminates the need to memorize such a long password. SenseMail can use a certificate to encrypt a message. A certificate is a 256-bit sequence of random data. To brute force that key an adversary need to try up to 2^256 passwords, that will take him a bit more that an eternity.</p>
+                	<p>There are some issues with that approach.<br>First, you need to generate a random certificate. Where to get random data from? We made a tool to generate such data. You tap a screen and each tap gives us 8 bits of random data.<br>One may argue that these bits are truly random. Yes, we agree to a certain extent, truly random data can be obtained from your pocket nuclear reactor… you don’t have one? So, lets use other sources that are available to you. These sources need to be physical so it is impossible to repeat the same sequence. We cannot use algorithms to produce the certificate. So, we measure time between your taps. Very precisely, up to nanoseconds, so even if you think that you tap the screen with the same interval, it is not. We are aware that this type of input could be tampered with, so we print the raw data you get and if you see something strange, for example the same numbers being produced, you know that you cannot trust the resulting key.<br>You need to tap at least 32 times, although you may tap just twice (not a good idea, don't do so) or tap 500 times. The more the better, but don't be paranoid – 32 times is good, 64 is better, 256 times would definitely be an overkill.<br>After that we use a slow key derivation procedure to obtain a final certificate. Saying slow I mean that we use 444,440 rounds of PBKDF2-SHA512. That makes it easier to brute-force the resulting key than to analyze and try to find vulnerabilities in your tapping. Nobody with a common sense will attempt to brute-force a 256-bit AES key... There are plenty of other ways to find a pasword. Some of them you may not like at all, including the last resort – thermorec...hmm... cryptanalysis.</p>
+                	<p>So, we have got a certificate.</p><h3>Here appears the second issue.</h3><p>We need to send this certificate to our recipient. This is a real problem… We tried to help you and created a tool that converts the certificate to a QR-code that can be scanned by the other device. Here you are!<br>If you recipient is not in person near you, this is going to be harder. There’s a printable representation of a key that you can read by the phone, for example. But don’t ever send that code by SMS or using an email or a messenger since it is easy to recover your message. The best option is to meet in person, anyway.</p>
+                	<p>The last but not the least issue is how to keep a certificate.<br>You should remember, that the main purpose of a certificate is to keep your messages secure when they leave your device. A certificate is kept on a device, protected by a password you set. If your device was captured, a certificate could be recovered, depending on the password that protects it. This password is weaker than a certificate, but when you've sent a message an adversary have no access to your storage, so, the protection is not compromised by a weaker password. Luckily, you can (and should) have a separate certificate for every of your recipients, so an adversary needs to recover many passwords.<br>Actually, your certificate is double-protected — first, there's a password you type to launch the app, second - there's a password used to encrypt a certificate.</p>
+                	<p>Real-time boring demo is here:<br>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/GsAMmZ9c_I8" frameborder="0" allowfullscreen></iframe></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Have any questions about our products? Or do you need something special? That's great! Send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".5s"></i>
+                    <p><a href="mailto:info@creepytwolabs.com">info@creepytwolabs.com</a></p>
+                </div>
+            </div>
+            <div class="row text-center">
+       			<div class="fb-like" data-href="https://facebook.com/creepy2labs" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+       		</div>
+       		<div class="row text-center"><br>
+       			<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="10285136"></script>
+      		</div>
+            <div class="row">
+    			<div class="col-xs-12 col-sm-12 col-md-12 text-center">&copy; <script>document.write(new Date().getFullYear());</script> 
+      <a href="http://www.creepytwolabs.com" target="_blank">CreepyTwo Labs Ltd.</a> 
+      <h5><small>Developed by CreepyTwo Labs.</small>
+       			</div>
+            </div>
+            <div class="row text-center">
+       			<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=VJtSGveoKSyFBF8lVlsPxl1G5LvF6I4GPVtOlGuXqYzbS0erVAeCv5St2LEH"></script></span>
+      		</div>
+        </div>
+    </section>
+    
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+	<!--script src="js/parallax.js"></script-->
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69302527-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
