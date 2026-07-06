@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DataStorage deleteAllMessagesFromFolder:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage checkSessionsAndReconnectSyncForBox:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController viewWillAppear:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew connectIMAPSessionWithCheckAndCompletionHandler:handler:]:SessionConnectorNew.m">
+      </ContextState>
+      <ContextState
+         contextName = "__41-[MessageViewPresenter setMessage:error:]_block_invoke:MessageViewPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VPNTableViewController setUp]:VPNTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GalleryCollectionViewController collectionView:numberOfItemsInSection:]:GalleryCollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController viewDidLayoutSubviews]:SettingsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scroll.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager getFullMessageFor:PIN:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getAssets]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs getThumbnailFromURL:delegate:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController hideKeyboard]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__64-[DataStorage loadNMessagesWithFilter:forBox:filter:forSession:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[fromFilter substringToIndex:17]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SecurityTableViewController checkIfChanged]:SecurityTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].detailVC">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate gotUnseenMessages:recent:dbgMessage:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SwipeableCell panThisCell:]:SwipeableCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "__29-[DataStorage deleteMessage:]_block_invoke_3:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__30-[MessageListRouter clearList]_block_invoke:MessageListRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController checkRestore:]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__25-[GlobalRouter askForPin]_block_invoke:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter composerWillEnterForeground]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController keyboardDidHide:]:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__75+[CommonProcs showProgressWithTitle:max:inView:title:stopButton:withBlock:]_block_invoke:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "progressCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__83-[AddAttachmentViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke.246:AddAttachmentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "res.firstObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__52-[DataStorage doDeleteExpiredMessagesForFolderType:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(FolderInfo*)([[[GlobalRouter sharedManager].otherFolders objectForKey:accountName] valueForKey:key])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[DataStorage loadLastNMessages::]_block_invoke_2.283:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__64-[DataStorage loadNMessagesWithFilter:forBox:filter:forSession:]_block_invoke_2:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].totalMessages">
+            </PersistentString>
+            <PersistentString
+               value = "searchResult.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter setList:error:]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "colors.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageInteractor checkForOTC:]:ComposeMessageInteractor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[DataManager prepareMessageForAppending:pin:]_block_invoke_4:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController tableView:didSelectRowAtIndexPath:]:AddressBookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentGroup">
+            </PersistentString>
+            <PersistentString
+               value = "self.presenter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter finishedWithDetailView:]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getTopViewController]">
+            </PersistentString>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getCurrentView]">
+            </PersistentString>
+            <PersistentString
+               value = "[UIApplication sharedApplication].keyWindow">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookPresenter needSaveBook:pin:]:AddressBookPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController viewDidAppear:]:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.addressFrom.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs dateFromString:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager saveAddressBook:pin:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter alertView:didDismissWithButtonIndex:]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].pin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController checkIfChanged]:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readFullMessageFor:boxType:pin:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchInteractor doSearch]:SearchInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController enableButtons]:AddressBookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController scrollViewDidEndZooming:withView:atScale:]:MessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__27-[GlobalRouter doShowEmpty]_block_invoke.263:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager fullMessageReady:forShort:error:]:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewRouter wantMarkMessage:]:MessageViewRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate applicationDidBecomeActive:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage loadAccountWithUsername:oauth2Token:loadMessages:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager sendMessage:pin:]:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage getNameAndDoBlockWithSession:block:session:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentBoxPath">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readKeyFor:keyTo:]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__59-[ComposeMessageViewController adjustWebViewSetWidthScale:]_block_invoke_4:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewInScroll.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew loadAccount2:]:SessionConnectorNew.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController needSend]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs longFromString:]:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(long)val.intValue * 1024 * 1024 * 1024">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readNextShortMessagesForBox:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController deleteRowAt:]:AddressBookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[WindowMinimizer restoreVC:]_block_invoke.132:WindowMinimizer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager addNote:pin:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController setAttachmentStripVisible::]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "subj.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__27-[DataStorage sendMessage:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+            <PersistentString
+               value = "error.localizedFailureReason">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController tableView:cellForRowAtIndexPath:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tableView.visibleCells">
+            </PersistentString>
+            <PersistentString
+               value = "[self.tableView indexPathsForVisibleRows]">
+            </PersistentString>
+            <PersistentString
+               value = "[AppDelegate isLocked]">
+            </PersistentString>
+            <PersistentString
+               value = "cell.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.presenter.boxColors">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter needEditList]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentBox">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentBoxPath">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter doShowEmpty]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailGenerator initWithURL:delegate:]:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "CommonProcs.pv">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate applicationWillResignActive:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__51-[DataStorage readFullHeaderForMessage:completion:]_block_invoke_2:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[hdr extraHeaderValueForName:nm]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[DataStorage connectSessions:forAddress:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__61-[AppDelegate application:performFetchWithCompletionHandler:]_block_invoke:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].pin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[usePINViewController cancel:]:usePINViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[KeychainWrapper dictionaryToSecItemFormat:]:KeychainWrapper.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookPresenter setToAddress:]:AddressBookPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "groupViewController.book">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController updateFontSize]:MessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController tableView:viewForHeaderInSection:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].totalMessages">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[useOTCViewController useOTC:]:useOTCViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor gzipInflate:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[DataStorage connectSession:loadMessages:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager fullMessageReady:forShort:error:pin:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "att.data">
+            </PersistentString>
+            <PersistentString
+               value = "[messageParser plainTextBodyRenderingAndStripWhitespace:YES]">
+            </PersistentString>
+            <PersistentString
+               value = "att.filename">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Autocomplete filterItems:]:Autocomplete.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PinViewController setupBioID]:PinViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController otherFolders:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "mailcore::OperationQueue::runOperations():MCOperationQueue.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager getAddressBook:groupsOnly:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "mailcore::OperationQueue::callbackOnMainThread(mailcore::Operation*):MCOperationQueue.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter showShortcutBar]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[DataStorage readFullMessageFor:boxType:pin:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController showProgress:max:]:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppearanceTableViewController needSaveSettings]:AppearanceTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter refreshTableHeader]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].newMessagesTotal]">
+            </PersistentString>
+            <PersistentString
+               value = "messageListViewController.tableView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[DataStorage doDeleteExpiredMessages]_block_invoke_3:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NotesPresenter needAddItem:]:NotesPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage connectSession:loadMessages:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter showListOfType:]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentFilter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController viewWillDisappear:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController showInbox:]:MessageListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListInteractor requestMessagesForBox:]:ListInteractor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[DataStorage bgGetNewMessageCount]_block_invoke_3:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController viewDidLoad]:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewInScroll.subviews">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].possibleAddresses">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[DataStorage loadLastNMessages:]_block_invoke75:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__75-[DataStorage fetchFullMessageWithSession:message:boxName:pin:sessionConn:]_block_invoke_2:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].isCancelled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs copyFileToDocs:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter canClearCurrentBox]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__37-[GlobalRouter initPossibleAddresses]_block_invoke:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__64-[DataStorage loadAccountWithUsername:oauth2Token:loadMessages:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController viewDidLoad]:MessageListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__46-[MessageViewController viewDidLayoutSubviews]_block_invoke:MessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListRouter init]:MessageListRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readSettings]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager getGalleryThumbnails:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter needShowMenu]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "fvc.view.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewInteractor dataReady:error:]:MessageViewInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "__53-[DataStorage loadNMessagesWithFilter:forBox:filter:]_block_invoke_2179:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GalleryCollectionViewController alertView:didDismissWithButtonIndex:]:GalleryCollectionViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__33-[DataStorage loadLastNMessages:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage sendMessage:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FloatingToolbar addToolbarToView:]:FloatingToolbar.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage startOAuth2:loadMessages:message:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[auth canAuthorize]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor makeKey:roundsToGo:]:Encryptor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSData dataWithBytes:&amp;retBytes+8 length:32]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DocsViewController viewWillDisappear:]:DocsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager toggleStarForMessage:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getListRouter].dataStore">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[DataStorage getBoxNameFor:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NotesEditViewController needSaveItem]:NotesEditViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readAddressBook]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter needShowAttachment:atIndex:showSaveButton:]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewInteractor requestFullMessageFor:PIN:]:MessageViewInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DocsViewController needSaveDocSecure]:DocsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.items[self.currentPreviewItemIndex]">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PinViewController viewDidLoad]:PinViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage getNameAndDoBlock:block:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager dataReady:error:forSettings:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentFilter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__51-[DataStorage checkSessionsAndReconnectSyncForBox:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EditShortcutTableViewController textFieldDidChange:]:EditShortcutTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__27-[GlobalRouter doShowEmpty]_block_invoke.225:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[UserInfoDataManager getSettings:]_block_invoke:UserInfoDataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__20-[GlobalRouter init]_block_invoke:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppDelegate isLocked]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[SettingsViewController needSaveSettings]_block_invoke:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageInfoInteractor presentViewInNavController:messageInfo:]:MessageInfoInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage reconnectAllSessions]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter askForPin]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter getFilterString]:ListPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddViewController keyboardWillShow:]:AddViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__36+[CommonProcs fullImageFromPHAsset:]_block_invoke_3:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CertExchangePresenter wantCloseCert:]:CertExchangePresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[viewController getCertString]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddAttachmentViewController closeView]:AddAttachmentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.assets[((NSIndexPath*)ip).row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewPresenter setReadFlagForFullMessage]:MessageViewPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "messageViewController.currentMessage.flags">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessagePresenter setAttachments:]:ComposeMessagePresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__36-[DataStorage toggleStarForMessage:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager clearSessions]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage auth:finishedRefreshWithFetcher:error:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "auth.userEmail">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew connectSMTPSessionWithCheckAndCompletionHandler:handler:]:SessionConnectorNew.m">
+      </ContextState>
+      <ContextState
+         contextName = "__54-[DataStorage connectSession:loadMessages:forAddress:]_block_invoke_2:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__64-[SelectFolderViewController tableView:didSelectRowAtIndexPath:]_block_invoke:SelectFolderViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage connectSessions:forAddress:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].pin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter clearList]:ListPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HelpViewController saveFile]:HelpViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__52-[DataStorage doDeleteExpiredMessagesForFolderType:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController numberOfSectionsInTableView:]:AddressBookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ThumbnailGenerator webView:didFinishNavigation:]:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[CommonProcs screenshot:self]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListRouter listReceivedCallback:error:]:MessageListRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter addPossibleAddressFromShortMessage:]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].possibleAddresses">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager getPinForMessage:pin:pinTo:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSString stringWithUTF8String:[cert bytes]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MCOMailProvidersManager init]:MCOMailProvidersManager.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSBundle bundleForClass:[self class]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__31-[ListPresenter sortListbyDate]_block_invoke:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[obj1 longValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39-[DataStorage getNameAndDoBlock:block:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imapSession.username">
+            </PersistentString>
+            <PersistentString
+               value = "folder.description">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController gatherSettings]:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddAttachmentPresenter needShowGroups:]:AddAttachmentPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController addShortcutButtonWithTitle:command:]:MessageListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController textField:shouldChangeCharactersInRange:replacementString:]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor processHeaders2::]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "__29-[DataStorage connectSession]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter initialPush]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "restore.allTargets.allObjects">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage checkSessionForBox:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter getNavController]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookInteractor getBook:groupsOnly:]:AddressBookInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController setupMessage:forward:]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager writeURLPathData:pin:]:UserInfoDataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "data.absoluteString">
+            </PersistentString>
+            <PersistentString
+               value = "[UIImage imageWithData:[NSData dataWithContentsOfURL:data]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readShortMessagesForBox:next:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentAccount">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew cancellAllOps]:SessionConnectorNew.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FoldersTableViewController tableView:cellForRowAtIndexPath:]:FoldersTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[cell getFrame]">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+            <PersistentString
+               value = "[items allKeys]">
+            </PersistentString>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager].otherFolders objectForKey:key]">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].otherFolders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__75-[DataStorage fetchFullMessageWithSession:message:boxName:pin:sessionConn:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentFetchingMessage.messageID">
+            </PersistentString>
+            <PersistentString
+               value = "parser.header.messageID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[DataStorage connectSessions:forAddress:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SecurityTableViewController tableView:cellForRowAtIndexPath:]:SecurityTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__46-[DataStorage sendMessageWithSession:message:]_block_invoke:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController actionSheet:clickedButtonAtIndex:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew connectNewIMAPSession:]:SessionConnectorNew.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager getSettings:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "__41-[WelcomeContentViewController nextStep:]_block_invoke:WelcomeContentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentingViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter pin]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppDelegate isLocked]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FoldersTableViewController tableView:didSelectRowAtIndexPath:]:FoldersTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[WindowMinimizer restoreVC:]_block_invoke.149:WindowMinimizer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "toRestore">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage loadWithAuth:settings:loadMessages:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController tableView:didSelectRowAtIndexPath:]:SearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WelcomeContentViewController getPin]:WelcomeContentViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController needPINOnly]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Settings2ViewController setMailSettings:]:Settings2ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[SettingsEntity authTypeTitles]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readGalleryThumbnails]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchInteractor searchStringChanged:]:SearchInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage startOAuth2:loadMessages:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor doUnAONT:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "__30-[GlobalRouter connectVPNSync]_block_invoke_2:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sett">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__27-[GlobalRouter doShowEmpty]_block_invoke.229:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__34-[DataStorage loadLastNMessages::]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[DataStorage getAllFolderNamesForSession:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].otherFolders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController tableView:didSelectRowAtIndexPath:]:MessageListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__34-[DataStorage loadLastNMessages::]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getListRouter].manager.nAccountsToWait">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[AppDelegate applicationDidBecomeActive:]_block_invoke_2:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController setupAttachmentIcons]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__43-[DataStorage getAllFolderNamesForSession:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController viewWillAppear:]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__34-[SettingsPresenter showSettings:]_block_invoke:SettingsPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "mach_msg_trap:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "expr ((UIView *)0x15e35d010).backgroundColor = [UIColor redColor]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39-[ComposeMessagePresenter checkForOTC:]_block_invoke:ComposeMessagePresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EditShortcutTableViewController customFolderPressed:]:EditShortcutTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::-[MCOIMAPSession username]():MCOIMAPSession.mm">
+      </ContextState>
+      <ContextState
+         contextName = "__58-[GlobalRouter needShowAttachment:atIndex:showSaveButton:]_block_invoke_2:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "exportSession.outputURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs getStringFromKeychain:service:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "__31-[ListPresenter setList:error:]_block_invoke:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController cellDidOpen:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.tableView indexPathForCell:cell]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs fullImageFromPHAsset:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager readNewMessagesCountForFolder:address:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__55-[ComposeMessageViewController gatherMessageWithBlock:]_block_invoke:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter deleteSelected]:ListPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSMutableString(Wipe) dealloc]:NSMutableString+Wipe.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSLog( @&quot;%@&quot;,self)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GalleryCollectionViewController numberOfSectionsInCollectionView:]:GalleryCollectionViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bgLabel.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[WindowMinimizer minimizeWindow:animated:]:WindowMinimizer.m">
+      </ContextState>
+      <ContextState
+         contextName = "__37-[GlobalRouter initPossibleAddresses]_block_invoke_2:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "email.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsPresenter needDeleteSetting:]:SettingsPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__58-[SessionConnectorNew authWithAutoCodeExchange:mailScope:]_block_invoke_2:SessionConnectorNew.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnectorNew IMAPReady:hash:]:SessionConnectorNew.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].otherFolders">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor addHMAC:]:Encryptor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strlen(cData)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__52-[OneTimeCertInteractor presentViewInNavController:]_block_invoke:OneTimeCertInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NotesEditViewController setCurrentItem:]:NotesEditViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readNewMessagesCount]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readShortMessagesForBoxWithFilter:filter:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSLog(@&quot;ACC %@&quot;,[GlobalRouter sharedManager].currentAccount)">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentAccount">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].accountsNames">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewPresenter setMessage:error:]:MessageViewPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[message.messageBody mco_flattenHTML]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditShortcutTableViewController tableView:cellForRowAtIndexPath:]:EditShortcutTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "nameField.text">
+            </PersistentString>
+            <PersistentString
+               value = "customFolder">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewPresenter askWhereToPutItem:]:MessageViewPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage saveCerts:]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController setupMessage]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor checkHMAC:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs saveToKeychainAlways:account:service:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor makeHeaderSalt:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController enableAdding:]:AddressBookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsPager pageViewController:didFinishAnimating:previousViewControllers:transitionCompleted:]:SettingsPager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "((SettingsViewController*)(self.pageController.presentedViewController)).settings.userName">
+            </PersistentString>
+            <PersistentString
+               value = "self.pageController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage checkSessionForAddress:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SwipeableCell buttonClicked:]:SwipeableCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager sendPlainMessage:]:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "__37-[DataStorage setReadFlagForMessage:]_block_invoke_3:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController viewDidAppear:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController cellDidClose:]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[(NSIndexPath*)(temp[0]) row]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage readShortMessagesForBox:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Settings2ViewController gatherSettings]:Settings2ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__58-[DataStorage getNameAndDoBlockWithSession:block:session:]_block_invoke:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedFailureReason">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController keyboardWasShown:]:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.messageText.selectedRange">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate clearForBG]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[AppDelegate isLocked]">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__54-[ComposeMessageInteractor requestSendMessageFor:PIN:]_block_invoke:ComposeMessageInteractor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FoldersTableViewController updateFolderList]:FoldersTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs getColorValues]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController adjustWebView]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.textWK.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.scroll.contentSize">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.scroll.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.viewInScroll.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SelectFolderViewController tableView:cellForRowAtIndexPath:]:SelectFolderViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].otherFolders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage deleteMessage:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewPresenter wantMoveMessage:]:MessageViewPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewInteractor markMessageAsRead:]:MessageViewInteractor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(uint)~0x10">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__46-[DataStorage readFullMessageFor:boxType:pin:]_block_invoke_3:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__52-[MessageViewController adjustWebViewSetWidthScale:]_block_invoke_2:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[UIScreen mainScreen] bounds].size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager fullParsedMessageReady:forShort:error:pin:]:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter requestCreateFolder:]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__51-[DataStorage checkSessionsAndReconnectSyncForBox:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Settings2Interactor saveSettings::]:Settings2Interactor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VPNTableViewController needSaveSettings]:VPNTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter connectVPNSync]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter cancelQ]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController gatherMessage]:ComposeMessageViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController updateMessageView]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.attScroll.frame">
+            </PersistentString>
+            <PersistentString
+               value = "[self view]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__29-[WindowMinimizer restoreVC:]_block_invoke.150:WindowMinimizer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController fromTapped:]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewInScroll.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.textWK.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DocsViewController previewController:previewItemAtIndex:]:DocsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__48-[MessageListRouter listReceivedCallback:error:]_block_invoke:MessageListRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController tableView:numberOfRowsInSection:]:AddressBookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage loadLastNMessages::]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter addButton:]:GlobalRouter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBarController.tabBar.items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController tableView:commitEditingStyle:forRowAtIndexPath:]:AddressBookViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.book">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewRouter markAsRead]:MessageViewRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__58-[SessionConnectorNew authWithAutoCodeExchange:mailScope:]_block_invoke:SessionConnectorNew.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController viewDidLoad]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.text.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListRouter showListInNavController:forBox:]:MessageListRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageListViewController getBoxName]:MessageListViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter needShowAttachment:]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__45-[DataStorage loadLastNMessages::forSession:]_block_invoke_2:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].totalMessages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsPresenter needSaveSettings::]:SettingsPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsPresenter showSettings:]:SettingsPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage closeAllSessionsSync:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DetailViewController viewWillTransitionToSize:withTransitionCoordinator:]:DetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.splitViewController.displayMode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__27-[GlobalRouter doShowEmpty]_block_invoke.200:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager getAddressBook:]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "__64-[DataStorage loadNMessagesWithFilter:forBox:filter:forSession:]_block_invoke_2.205:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookViewController filterNames:forSearchText:]:AddressBookViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__46-[DataStorage readFullMessageFor:boxType:pin:]_block_invoke_4:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].isCancelled">
+            </PersistentString>
+            <PersistentString
+               value = "[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter checkMail]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentBox">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__44+[CommonProcs getThumbnailFromURL:delegate:]_block_invoke.821:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CertExchangeViewController needSaveCert]:CertExchangeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__52-[DataStorage doDeleteExpiredMessagesForFolderType:]_block_invoke_3:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSDate date]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[SessionConnectorNew startOAuth2:scope:]_block_invoke:SessionConnectorNew.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressBookPresenter filterGroupAndShow:]:AddressBookPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__30-[GlobalRouter connectVPNSync]_block_invoke:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsViewController needSaveSettings]:SettingsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor AES256EncryptWithKey:salt:data:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager fullParsedMessageReady:forShort:error:pin:preAttachments:]:DataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage bgGetNewMessageCount]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ComposeMessageViewController useMutablePIN]:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.message.mutationNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs showAttachmentsIcons:scroll:]:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentMessage.attachments.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CertExchangeViewController viewDidLoad]:CertExchangeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readNextCertForAddress:from:]:UserInfoDataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[enc decryptFromBase64:[cert valueForKey:@&quot;dateExpired&quot;]]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SessionConnector connectIMAPSessionWithCompletionHandler:]:SessionConnector.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor processHeaders2:]:Encryptor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ret.bytes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SelectFolderViewController tableView:didSelectRowAtIndexPath:]:SelectFolderViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter shortcutSelected:]:ListPresenter.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor doAONT:]:Encryptor.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rKey.bytes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter updateList]:ListPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListPresenter updateItemsFlags:]:ListPresenter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ShortcutsTableViewController tableView:commitEditingStyle:forRowAtIndexPath:]:ShortcutsTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[WindowMinimizer restoreVC:]:WindowMinimizer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] getTopViewController] ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingsPager pageViewController:willTransitionToViewControllers:]:SettingsPager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSNotFound">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PinViewController ok:]:PinViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage deleteExpired]:UserInfoDataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSDate date]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage writeAddressBook:]:UserInfoDataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AddViewController updateItem]:AddViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__75-[DataStorage fetchFullMessageWithSession:message:boxName:pin:sessionConn:]_block_invoke.678:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[GlobalRouter sharedManager] isCancelled]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage sendMessageWithSession:message:]:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataStorage readKeyFor:keyTo:forDate:]:UserInfoDataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "forDate.description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Encryptor applyCoder:decoding:]:Encryptor.m">
+      </ContextState>
+      <ContextState
+         contextName = "__38-[AddViewController keyboardWillShow:]_block_invoke:AddViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__34-[DataStorage loadLastNMessages::]_block_invoke.382:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "__42-[VPNTableViewController needSaveSettings]_block_invoke:VPNTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalRouter getEncoderForPin:]:GlobalRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewController textHtmlView:]:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.textWK.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.scroll.contentSize">
+            </PersistentString>
+            <PersistentString
+               value = "self.viewInScroll.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.scroll.frame.size">
+            </PersistentString>
+            <PersistentString
+               value = "self.textWK.scrollView.contentSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager dataReady:error:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "!(error == nil || [error isEqualToString:@&quot;&quot;])">
+            </PersistentString>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].currentBoxPath">
+            </PersistentString>
+            <PersistentString
+               value = "toAddr.mailbox">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs screenshot:]:CommonProcs.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "theView.layer">
+            </PersistentString>
+            <PersistentString
+               value = "theView.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UserInfoDataManager saveSettings::]:UserInfoDataManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage loadLastNMessages::forSession:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataStorage connectSession:loadMessages:forAddress:]:DataStorage.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__53-[DataStorage loadNMessagesWithFilter:forBox:filter:]_block_invoke_2:DataStorage.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageViewRouter showMessageInNavController:message:]:MessageViewRouter.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[CommonProcs labelTapped:]:CommonProcs.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Settings2ViewController setCurrentSettings]:Settings2ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate applicationWillEnterForeground:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate applicationDidEnterBackground:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[GlobalRouter sharedManager].pin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__43-[ComposeMessageViewController needPINOnly]_block_invoke:ComposeMessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DataManager getImageFromAssetRep:]:DataManager.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[assetRepresentation metadata]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[MessageViewController adjustWebView]_block_invoke_2:MessageViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.frame">
+            </PersistentString>
+            <PersistentString
+               value = "viewInScrollWidthConstraint.constant">
+            </PersistentString>
+            <PersistentString
+               value = "[[UIScreen mainScreen] bounds]">
+            </PersistentString>
+            <PersistentString
+               value = "self.textWK.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__40-[ComposeMessageViewController useNoPIN]_block_invoke:ComposeMessageViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

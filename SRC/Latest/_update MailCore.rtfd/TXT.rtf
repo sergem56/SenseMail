@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red27\green31\blue34;
+\red255\green255\blue255;\red21\green23\blue26;\red244\green246\blue249;}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c100000;\cssrgb\c14118\c16078\c18039;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c10588\c12157\c13725\c4706;\cssrgb\c96471\c97255\c98039;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww21660\viewh13580\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 git clone https://github.com/MailCore/MailCore2.git\
+\
+goto scripts folder and run ./get-ios.sh\
+\
+replace MailCore2 folder\
+\
+\
+\
+\uc0\u1054 \u1096 \u1080 \u1073 \u1082 \u1072  \u1085 \u1077  \u1085 \u1072 \u1081 \u1076 \u1077 \u1085  .h\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Yes I had tried that but the run script in Xcode was overwriting them again and trying to rebuild dependencies. For the time being, I updated the build script as follows:\cb1 \
+\cb5 Script location:\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs23\fsmilli11900 \cf4 \cb6 mailcore2/scripts/include.sh/build-dep.sh
+\f1\fs28 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 Changes below:\cb1 \
+\cb5 Lines 
+\f2\b 16
+\f1\b0 , 
+\f2\b 171
+\f1\b0 , 
+\f2\b 318
+\f1\b0 : Replace\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs23\fsmilli11900 \cf4 \cb7 version="`defaults read "$versions_path" "$name" 2>/dev/null`"\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf4 \cb5 with\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs23\fsmilli11900 \cf4 \cb7 version="`/usr/libexec/PlistBuddy -c \\"print :"$name"\\" "$versions_path"  2>/dev/null`"\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf4 \cb5 Lines 
+\f2\b 311
+\f1\b0 : Replace\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs23\fsmilli11900 \cf4 \cb7 installed_version="`defaults read "$installed_versions_path" "$name" 2>/dev/null`"\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf4 \cb5 with\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs23\fsmilli11900 \cf4 \cb7 installed_version="`/usr/libexec/PlistBuddy -c \\"print :"$name"\\" "$installed_versions_path"  2>/dev/null`"\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Снимок экрана 2020-05-29 в 14.26.38.png \width17520 \height11320 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}�}}

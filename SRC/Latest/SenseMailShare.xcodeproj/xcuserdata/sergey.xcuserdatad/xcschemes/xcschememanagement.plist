@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SenseMail Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SenseMail Lite.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>SenseMail.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SenseMailShare Full.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SenseMailShare Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SenseMailShare.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A53BD6231BAC48140083D618</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A583D4E31A83693500622CE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A583D4FF1A83693500622CE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A58944DF1E28F3C10064F042</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5CECE471B971F8D003A7629</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5D116C21C64BA7E004D3924</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5D116DD1C64BA7F004D3924</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5D116E81C64BA7F004D3924</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5D116F91C64BAB4004D3924</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5E162E623B0C51A00AE9BEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

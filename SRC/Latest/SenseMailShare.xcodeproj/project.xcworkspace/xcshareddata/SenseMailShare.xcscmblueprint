@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++2C2D757",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++5D3464E" : 0,
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++B16ACCF" : 0,
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++2C2D757" : 0,
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++C5AC32C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1709831B-1BF5-4CD7-BF1F-E73A32BC3210",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++5D3464E" : "SenseMailShare\/MailCore2\/",
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++B16ACCF" : "SenseMailShare\/MailCore2\/",
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++2C2D757" : "SenseMailShare\/",
+    "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++C5AC32C" : "SenseMailShare\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SenseMailShare",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SenseMailShare.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mobdevstudio\/senseshare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++2C2D757"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/mobdevstudio\/senseshare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++5D3464E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mobdevstudio\/senseshare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++B16ACCF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mobdevstudio\/senseshare.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F890B16BEB76478AC3D4F56588CC0990A1236C1+++C5AC32C"
+    }
+  ]
+}
